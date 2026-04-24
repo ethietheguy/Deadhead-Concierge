@@ -1,0 +1,117 @@
+I'm building a Grateful Dead show recommender app called "Deadhead." The concept: a user types how they're feeling (stressed, euphoric, melancholy, restless, contemplative, etc.) and gets one perfect Dead show to listen to, with context on why it fits that mood.
+
+To build this, I need you to do a comprehensive research crawl across the Grateful Dead community and build a structured dataset mapping shows to moods, vibes, and feelings. This is the foundation of the entire app, so depth and specificity matter more than speed.
+
+---
+
+## Sources to crawl
+
+Search deeply across all of these:
+
+- **Reddit**: r/gratefuldead, r/grateful_dead, r/deadandcompany, r/jambands. Search for threads like "what show should I listen to when...", "best show for [mood]", "most [adjective] show", recommendation threads, "what's your go-to show when...", "underrated shows", "shows that changed your life", "best show for a newcomer", "darkest Dead show", "most blissful show", etc.
+- **Archive.org**: Reviews, ratings, and listener comments on Grateful Dead recordings. Pay attention to shows with high review counts and passionate written reviews that describe the vibe or emotional quality of the performance.
+- **Dead.net forums**: Community discussions about show quality, era comparisons, mood-based recommendations.
+- **Headyversion.com**: Top-rated versions of individual songs, which shows come up repeatedly as having the definitive version of key songs.
+- **Setlists.net / setlist.fm**: Setlist data for context on what was played and how sets were structured.
+- **Grateful Dead blogs and fan sites**: Any well-regarded blogs, podcasts, or fan resources that review or rank shows (e.g., Lost Live Dead, Grateful Dead Guide, The Golden Road, Listen to the River, etc.)
+- **Any other Dead community sources** you find that contain substantive show-level discussion.
+
+---
+
+## What to capture for each show
+
+For every show you document, collect as much of the following as possible:
+
+1. **Date and venue** (e.g., 5/8/77 — Barton Hall, Cornell University, Ithaca, NY)
+2. **Mood/vibe tags** — multiple tags per show. Use descriptive emotional and energetic language. Examples: mellow, psychedelic, high-energy, dark, joyful, introspective, dancey, transcendent, blissful, chaotic, tight, loose, exploratory, gentle, fierce, cosmic, funky, haunting, euphoric, meditative, raw, polished, emotional, uplifting, heavy, spacey, playful, intense, bittersweet, triumphant.
+3. **Key songs and jams** — what specific performances make this show special? Not just the setlist, but which songs were transcendent and why. (e.g., "The Dark Star > St. Stephen transition is widely considered one of the most intense passages in Dead history")
+4. **What the community says** — direct quotes or close paraphrases from real community discussions. What do actual Deadheads say about this show? How do they describe the experience of listening to it?
+5. **Era and context** — where does this show fall in the Dead's evolution? Use eras roughly like:
+   - Early psychedelic (1966–1969)
+   - Workingman's / acoustic (1970–1971)
+   - Europe '72 / jazz explorations (1972–1974)
+   - Hiatus and comeback (1975–1976)
+   - '77 polished peak (1977)
+   - Disco Dead / Shakedown era (1978–1979)
+   - Early '80s (1980–1983)
+   - Mid '80s (1984–1987)
+   - Late '80s revival / Brent era (1988–1990)
+   - Final years (1991–1995)
+6. **Audio quality** — note the best available source. Is there a pristine SBD (soundboard)? A solid AUD (audience recording)? A Betty Board? An official release? Rate roughly: excellent / good / fair / rough.
+7. **Audience level** — is this a show for newcomers, intermediate listeners, or deep heads? Some shows are perfect entry points; others require context to appreciate.
+8. **Recommendation patterns** — how and when do people recommend this show? Is it the default answer for a certain mood? Is it a sleeper pick? Is it controversial?
+
+---
+
+## Specific research angles
+
+Beyond just finding "best shows," I need you to investigate these specific dimensions:
+
+### Mood-based patterns
+Search for how Deadheads talk about matching shows to feelings. Look for threads and discussions where people explicitly connect emotional states to specific shows. What shows do people recommend when someone is:
+- Going through a breakup or loss
+- Celebrating something
+- Feeling anxious or overwhelmed and needing to calm down
+- Wanting to feel connected to something bigger
+- In a dark or heavy headspace
+- Wanting to dance and feel pure joy
+- Looking for something meditative or spiritual
+- Wanting raw, aggressive energy
+- Feeling nostalgic or reflective
+- Trying psychedelics for the first time (this comes up a lot in Dead communities)
+- Road tripping or traveling
+- Working or studying and wanting background vibes
+
+### Newcomer vs. deep head recommendations
+There's a well-known difference between the shows Deadheads recommend to newcomers and the shows they personally love most. Document both sides of this. What are the "gateway" shows? What are the shows people graduate to? What shows do longtime heads say "you won't get this until you've listened to 50 other shows first"?
+
+### Sleeper shows
+Actively search for threads about underrated, overlooked, or "sleeper" shows — the ones that aren't 5/8/77 or 8/27/72 but get passionate, specific recommendations from knowledgeable fans. These are gold for the app because they let me serve surprising recommendations rather than the same 20 shows everyone already knows.
+
+### Song-specific mood mapping
+Some songs carry inherent moods regardless of the show. Document which songs are most associated with which feelings (e.g., "Brokedown Palace" = bittersweet/reflective, "Shakedown Street" = funky/dancey, "Dark Star" = cosmic/exploratory). Then note which specific performances of those songs are considered the best for that mood.
+
+### Era vibes
+Document the general mood/character of each era so I can use era as a secondary filter. What does early '70s Dead feel like vs. late '80s Dead? What are the tradeoffs?
+
+---
+
+## Output format
+
+Structure your output as a dataset I can feed into an app. Use this format:
+
+### For each show, create an entry like:
+
+**Date:** 1977-05-08
+**Venue:** Barton Hall, Cornell University, Ithaca, NY
+**Era:** '77 polished peak
+**Mood tags:** [transcendent, joyful, polished, euphoric, uplifting, dancey]
+**Energy level:** High (on a scale of: Very Low / Low / Medium / High / Very High)
+**Audience level:** Newcomer-friendly
+**Audio quality:** Excellent (Betty Board, officially released)
+**Key moments:**
+- Scarlet Begonias > Fire on the Mountain: "One of the most locked-in Scarlet > Fires ever played. The transition is seamless and the groove is relentless."
+- Morning Dew: "Widely considered the definitive version. Jerry's guitar work builds to an emotional peak that is almost unbearable in its beauty."
+- St. Stephen: "The return of St. Stephen after years of absence. The crowd energy is palpable."
+**Community consensus:** "The most famous Dead show for a reason. Often the first show recommended to newcomers. Some longtime heads think it's overrated compared to '72-'74 material, but almost everyone agrees it's a masterclass in tight, joyful playing."
+**Best for someone feeling:** Wanting to feel pure joy and connection. Celebrating something. Needing a reminder that life is beautiful.
+**Sources:** [list the specific Reddit threads, archive.org pages, or other sources where you found this information]
+
+---
+
+### Also create summary tables:
+
+1. **Mood-to-show mapping table**: For each mood/feeling, list the top 3-5 shows most associated with it, ranked by community consensus strength.
+2. **Era summary table**: For each era, list the general vibe, top 3 representative shows, and what kind of listener it appeals to.
+3. **Song mood table**: For the 30 most iconic Dead songs, list the primary mood associations and the top-rated version of each.
+
+---
+
+## Important notes
+
+- **Prioritize community consensus over personal opinion.** I want to know what Deadheads collectively say, not what one reviewer thinks. A show that gets mentioned across multiple threads and platforms is more valuable than one that one person wrote a long review about.
+- **Include dissenting views.** If a show is controversial (some love it, some think it's overrated), note that. That's useful data.
+- **Quantity matters.** I'd rather have 100+ shows with solid mood mapping than 20 shows with perfect detail. Cast a wide net. The app needs enough variety to give different recommendations to different moods without repeating.
+- **Be specific about what makes performances special.** "Great show" is useless. "The Playin' in the Band in the second set dissolves into a 20-minute space jam that is equal parts terrifying and beautiful" is useful.
+- **Cite your sources.** For each show, note where you found the key information — which Reddit thread, which archive.org review, which blog post. I may want to go back to these sources later.
+- **Don't just stick to the consensus picks.** The obvious shows (Cornell '77, Veneta '72, Barton Hall) will be in every list. I need those, but I also need the deep cuts — the 1973 Tuesday night show that three passionate Redditors swear is the best Dead they've ever heard.
