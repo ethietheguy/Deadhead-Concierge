@@ -3,6 +3,7 @@ export type Era =
   | "early-70s"      // 1970–1971
   | "europe-72"      // 1972
   | "wall-of-sound"  // 1973–1974
+  | "hiatus"         // 1975 — only four shows, all Bay Area
   | "77-peak"        // 1976–1978
   | "late-70s"       // 1979–1980
   | "80s"            // 1981–1990
