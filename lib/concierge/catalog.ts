@@ -4,7 +4,7 @@ import type { ConciergeShow } from "./types";
  * Curated show catalog for the Dead Concierge.
  *
  * Every show here is hand-curated with rich editorial content
- * (headline, whyThisShow, listenFor, context, funFact, tryNext).
+ * (headline, whyThisShow, listenFor, context, funFact).
  * Quality over quantity — better to have 25 shows that tell a
  * real story than 200 thin entries.
  *
@@ -44,10 +44,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "May 1977 is widely considered the Dead's peak month. They were touring the Northeast, every show was fire, and Cornell was the crown jewel. The tape circulated for decades as the most-traded bootleg in history before getting an official release in 2017.",
     funFact: "For years, Deadheads debated whether the legendary tape was actually from Cornell or a different show. DNA-style audio analysis finally confirmed: it's real.",
-    tryNext: {
-      showId: "gd-1977-05-09",
-      hook: "The night after Cornell — equally blazing, less famous",
-    },
   },
 
   // ── 2. Veneta '72 — sunshine daydream ─────────────────────────
@@ -80,10 +76,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The band played this benefit for Chuck Kesey's Springfield Creamery (yes, Ken Kesey's brother). They'd just returned from Europe and were at a creative peak. The whole show was filmed for the Sunshine Daydream movie, which didn't get officially released until 2013.",
     funFact: "The temperature hit 107 degrees that day. You can hear the heat in the music — everything shimmers.",
-    tryNext: {
-      showId: "gd-1977-05-08",
-      hook: "Cornell '77 — peak Dead energy, pristine sound",
-    },
   },
 
   // ── 3. Europe '72 — the Lyceum ────────────────────────────────
@@ -115,10 +107,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "This was the final night of the Dead's legendary 1972 European tour — 22 shows across England, France, Germany, Denmark, and the Netherlands. Pigpen was still in the band, and you can hear his blues influence throughout. The tour was expensive and nearly bankrupted them, but it produced some of the greatest music they ever made.",
     funFact: "The Europe '72 triple LP became the Dead's best-selling album. Most of it was pulled from this single show.",
-    tryNext: {
-      showId: "gd-1972-08-27",
-      hook: "Veneta '72 — same era, but wilder and more psychedelic",
-    },
   },
 
   // ── 4. Branford Marsalis show — jazzy late-era peak ───────────
@@ -150,10 +138,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "By 1990, the Dead were deep into their late period — huge crowds, uneven nights, Jerry's health declining. Then Branford Marsalis showed up. Mickey Hart had invited him, and the band responded by playing like it was 1974. This was the only Dark Star played all year. This show converted more new Deadheads than almost any other late-era recording.",
     funFact: "Branford later said he'd never played with a band that listened like the Dead. High praise from a jazz legend.",
-    tryNext: {
-      showId: "gd-1972-05-26",
-      hook: "Europe '72 Lyceum — equally legendary, totally different energy",
-    },
   },
 
   // ── 5. 10/9/89 Hampton — the comeback ─────────────────────────
@@ -187,10 +171,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "In 1986, Jerry Garcia fell into a diabetic coma and nearly died. The band regrouped, but by 1989 the magic had been inconsistent. Then came Hampton. The setlist reads like a greatest hits of deep cuts — songs they hadn't played in years, pulled out with fire and purpose. Deadheads call this 'Formerly the Warlocks' because the shows were advertised under that name to keep the venue intimate.",
     funFact: "The shows were billed as 'Formerly the Warlocks' — the band's original name — to keep the crowd size manageable. It didn't work.",
-    tryNext: {
-      showId: "gd-1990-03-29",
-      hook: "Branford Marsalis show — the other late-era miracle",
-    },
   },
 
   // ── 6. Closing of Winterland — New Year's '78 ─────────────────
@@ -225,10 +205,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Winterland was the Dead's home venue — they'd played there dozens of times. When Bill Graham announced its closing, the Dead were the obvious choice for the final show. Graham went all out: Breakfast was served at dawn (Blues Brothers and the New Riders opened). The show was broadcast live on FM radio and later released as a concert film.",
     funFact: "Bill Graham descended from the rafters on a giant joint at midnight. The Blues Brothers opened. Breakfast burritos were served at dawn.",
-    tryNext: {
-      showId: "gd-1977-05-08",
-      hook: "Cornell '77 — same era, tighter and more focused",
-    },
   },
 
   // ── 7. 2/13/70 — Dark Star into St. Stephen ──────────────────
@@ -257,10 +233,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "February 1970 was the height of the Dead's psychedelic exploration. They were regulars at the Fillmore East, and Bill Graham gave them the space to stretch out. This Dark Star became the template for everything that followed — the Live/Dead album was built from performances just like this one. This is the sound of a band with no safety net.",
     funFact: "This show was part of a legendary Fillmore East run with the Allman Brothers. Two of the greatest jam bands in history, under one roof.",
-    tryNext: {
-      showId: "gd-1972-08-27",
-      hook: "Veneta '72 — equally cosmic, but in the sunshine",
-    },
   },
 
   // ── 8. Red Rocks '78 — the mellow road trip show ──────────────
@@ -294,10 +266,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Red Rocks and the Dead became synonymous over the years, but this was where it started. The natural amphitheater carved into the Colorado mountains provided acoustics that made every note ring. The band was in a relaxed, confident phase — not showing off, just playing.",
     funFact: "Red Rocks has a strict noise curfew. The Dead, predictably, blew past it.",
-    tryNext: {
-      showId: "gd-1990-03-29",
-      hook: "Branford Marsalis show — mellow and jazzy, but in a totally different way",
-    },
   },
 
   // ── 9. Jerry's last show — emotional weight ───────────────────
@@ -331,10 +299,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "By July 1995, Jerry Garcia was in poor health — overweight, struggling with addiction, his playing uneven. The band's final tour was a mix of brilliant moments and painful ones. Soldier Field was the last of three Chicago shows. One month later, on August 9, 1995, Jerry died in his sleep at a rehab facility. He was 53.",
     funFact: "The final song the Grateful Dead ever played was Box of Rain — a Phil Lesh song about his dying father. Nobody planned it that way.",
-    tryNext: {
-      showId: "gd-1989-10-09",
-      hook: "Hampton '89 — the triumphant comeback that makes the ending hurt more",
-    },
   },
 
   // ── 10. Barton Hall '77 cousin — the accessible rocker ────────
@@ -368,10 +332,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "This is the night after Cornell, same May '77 Northeast tour. The band was deep in one of the greatest runs in rock history — every show that month is worth hearing. Buffalo often gets overlooked because of Cornell's legend, but it might be the more adventurous show of the two.",
     funFact: "May 1977 produced so many classic shows that Deadheads simply call it 'the run.' Every night was magic.",
-    tryNext: {
-      showId: "gd-1978-12-31",
-      hook: "Closing of Winterland — same era, maximum celebration",
-    },
   },
 
   // ── 11. 2/27/69 Fillmore West — the Live/Dead template ────────
@@ -401,10 +361,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Early 1969 was the Dead at their most exploratory — still playing ballrooms, not yet rock stars, pushing the boundaries of what a rock band could be. Warner Bros finally agreed to release a live record because no studio album had captured what the band actually did. The resulting Live/Dead became one of the first true live albums — a single performance, presented whole.",
     funFact: "Live/Dead essentially invented the modern live album. Before it, live records were usually compilations. The Dead said: no, this is what we do — one night, start to finish.",
-    tryNext: {
-      showId: "gd-1970-02-13",
-      hook: "A year later at Fillmore East — same searching, tighter focus",
-    },
   },
 
   // ── 12. 5/2/70 Harpur College — three shows in one night ──────
@@ -437,10 +393,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Spring 1970 was a transitional peak. Workingman's Dead would come out in June, American Beauty in November. The band was honoring its folk roots and its rock future simultaneously, playing acoustic and electric sets on the same night. Harpur captured both halves in a single performance.",
     funFact: "Jerry Garcia literally played three different sets that night — acoustic Dead, pedal steel with the New Riders, and electric Dead. One guitarist, three bands, one evening.",
-    tryNext: {
-      showId: "gd-1971-04-29",
-      hook: "A year later — Pigpen's final fire at Fillmore East",
-    },
   },
 
   // ── 13. 4/29/71 Fillmore East — Pigpen's last peak ────────────
@@ -472,10 +424,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The Fillmore East closed in June 1971, and the Dead played a farewell run in April. Pigpen's liver was already failing from years of drinking — he had months, not years, left on stage. The Skull & Roses LP came out later that year and introduced millions of new fans to the Dead. Songs debuted around this run: Wharf Rat, Bertha, Playing in the Band.",
     funFact: "Several songs on the Skull & Roses LP were recorded from this Fillmore East run. The album became the Dead's first certified gold record.",
-    tryNext: {
-      showId: "gd-1972-04-08",
-      hook: "A year later — Europe '72 opens, and the post-Pigpen chapter begins",
-    },
   },
 
   // ── 14. 4/8/72 Wembley — Europe '72 begins ────────────────────
@@ -509,10 +457,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The Europe '72 tour was the Dead's international statement — 22 dates across England, France, Germany, Denmark, and the Netherlands. They brought families, crew, a mobile recording unit, and recorded every show. The resulting triple album became the Dead's best-selling record and converted a generation of European fans. Wembley was the opening salvo.",
     funFact: "The Dead brought an entourage of roughly 40 people to Europe. The tour lost money but produced immortal music.",
-    tryNext: {
-      showId: "gd-1972-05-26",
-      hook: "The same tour's final night at the Lyceum",
-    },
   },
 
   // ── 15. 6/10/73 RFK — Dead + Allman Brothers ─────────────────
@@ -545,10 +489,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "1973 was peak Keith-era Dead — jazzy, spacious, Jerry's playing never more lyrical. They were big enough to headline stadiums but had lost none of their adventurousness. The Allman Brothers co-headline was the Dead's first major shared tour with another act. Duane Allman had died in '71; his band was still mourning. You can hear the musicians supporting each other.",
     funFact: "This was the largest crowd the Dead had ever played for to date. Seven weeks later, Watkins Glen would be ten times bigger.",
-    tryNext: {
-      showId: "gd-1973-07-28",
-      hook: "Watkins Glen — same bill, six times the crowd",
-    },
   },
 
   // ── 16. 7/28/73 Watkins Glen — largest concert ever ──────────
@@ -581,10 +521,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The festival was a one-day event that became a three-day occupation. So many people came that the New York State Thruway was closed. The Dead, the Allmans, and The Band each played full sets, then jammed together. The whole thing was held together by dumb luck and good weather. It became the model for — and warning against — every mega-festival that followed.",
     funFact: "Official attendance estimate: 600,000. Unofficial counts run higher. Either way, it's still the largest rock concert ever held in the United States.",
-    tryNext: {
-      showId: "gd-1973-11-11",
-      hook: "Same year, indoor — the band tighter and jazzier",
-    },
   },
 
   // ── 17. 11/11/73 Winterland — jazzy Keith-era peak ───────────
@@ -618,10 +554,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "By late '73, the Dead had become a different band than the psychedelic warriors of 1970 — musicians first, entertainers second. Keith Godchaux brought jazz vocabulary into their playing. The songs from Wake of the Flood (released October '73) sat next to old warhorses. A mature band at its peak.",
     funFact: "Dick Latvala, who selected the archival Dick's Picks series, considered the fall '73 tour one of his all-time favorites. Tape-trading heads treasure it for the sheer consistency.",
-    tryNext: {
-      showId: "gd-1974-06-23",
-      hook: "The next year — bigger sound system, same deep listening",
-    },
   },
 
   // ── 18. 6/23/74 Miami — Wall of Sound ────────────────────────
@@ -655,10 +587,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The Wall of Sound tour nearly broke the band — five trucks to haul, a crew of fifteen, costs that outran revenue. By fall '74 they announced a hiatus. This run has an all-hands-on-deck energy: everyone knew it couldn't last, so they poured everything into it. When you hear '74 Dead, you're hearing a band that knew the clock was ticking.",
     funFact: "The Wall of Sound could be heard clearly a mile away from the venue. In smaller rooms, it was physically disorienting.",
-    tryNext: {
-      showId: "gd-1974-10-18",
-      hook: "Four months later — the Dead say goodbye for a while",
-    },
   },
 
   // ── 19. 10/18/74 Winterland — pre-hiatus farewell ────────────
@@ -692,10 +620,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The Dead announced in 1974 that they were taking a hiatus — the Wall of Sound was bankrupting them, touring was exhausting, Jerry wanted time for other projects. This Winterland run was the send-off. The band didn't tour again until June 1976. It was the longest pause in the Dead's entire career — these shows are the last word from the '70-'74 era.",
     funFact: "The Grateful Dead Movie was filmed across these five nights and took four years to edit. Jerry Garcia directed it himself.",
-    tryNext: {
-      showId: "gd-1976-06-14",
-      hook: "After 18 months off the road — the return",
-    },
   },
 
   // ── 20. 6/14/76 Beacon Theatre — post-hiatus return ──────────
@@ -729,10 +653,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "1976 was a reset. The Dead came back with new material (Help > Slip > Frank, The Music Never Stopped, Samson and Delilah) and a new approach — smaller venues, cleaner sound, less chemistry. The Beacon runs in June were their first East Coast shows in almost two years, and the reception was emotional. Heads had feared they might never tour again.",
     funFact: "The 1976 tour is sometimes called the 'Theater Tour' — the band deliberately downsized after the mega-circus of '74. It was also the first full tour without the Wall of Sound.",
-    tryNext: {
-      showId: "gd-1977-05-08",
-      hook: "A year later — the band hits full flight at Cornell",
-    },
   },
 
   // ── 21. 10/29/77 DeKalb — fall '77 fire ──────────────────────
@@ -767,10 +687,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Fall 1977 caught the band on the back half of their peak year. They'd released Terrapin Station in July, toured with the new songs all summer, and by October played them like they'd been doing it forever. Less famous than May but equally fierce — Deadheads who dig deeper almost universally love the fall tour.",
     funFact: "The Dead played 82 shows in 1977. That's roughly one show every four days. Hard to imagine any modern band keeping that pace.",
-    tryNext: {
-      showId: "gd-1980-05-07",
-      hook: "Three years later — return to Cornell",
-    },
   },
 
   // ── 22. 5/7/80 Barton Hall — return to Cornell ───────────────
@@ -805,10 +721,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Keith and Donna Godchaux left the band in early 1979; Brent Mydland joined. The acoustic-electric tours of 1980 were the Dead's 15th anniversary celebration. They played old songs they'd abandoned — Cassidy, Loser, acoustic Ripple. The tour produced both the Reckoning (acoustic) and Dead Set (electric) live albums.",
     funFact: "The 15th anniversary tour was the only time the Dead regularly played full acoustic sets in their later years. Seeing Ripple and Dark Hollow played unplugged was a rare treat.",
-    tryNext: {
-      showId: "gd-1981-03-10",
-      hook: "A year later — early Brent-era at MSG",
-    },
   },
 
   // ── 23. 3/10/81 MSG — early Brent punch ──────────────────────
@@ -842,10 +754,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The Dead had released Go to Heaven in 1980 — the first album with Brent. The sound was sleeker, more '80s. Critics were skeptical. But live, the songs worked. MSG was becoming a regular Dead venue, and the New York runs became events. This show is the band finding its early-'80s voice.",
     funFact: "Brent Mydland had played in Bob Weir's solo band before joining the Dead. He was the youngest member by nearly a decade.",
-    tryNext: {
-      showId: "gd-1984-10-12",
-      hook: "Three years deeper into the '80s — a small-venue sleeper",
-    },
   },
 
   // ── 24. 10/12/84 Augusta — mid-'80s hidden gem ───────────────
@@ -880,10 +788,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "The mid-'80s Dead were strange beasts — arena popularity was still a couple of years away (Touch of Grey broke them to MTV in 1987), but they'd outgrown theaters. Jerry's health was starting to slide. Brent was solidifying as the emotional center. The band was inconsistent night-to-night, but when everything clicked — like this — they were still capable of real magic.",
     funFact: "Maine became one of the band's quiet favorite stops — Bob Weir had roots in the region, and the crowds there skewed toward old-school heads, not arena casuals.",
-    tryNext: {
-      showId: "gd-1985-06-24",
-      hook: "Next summer — Brent-era peak at Riverbend",
-    },
   },
 
   // ── 25. 6/24/85 Riverbend — peak Brent era ───────────────────
@@ -921,10 +825,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "1985 was the Dead's 20th anniversary year. They were playing arenas and amphitheaters, Jerry was still mostly healthy, Brent had fully integrated. Summer tour had an easy confidence. Two years later, Touch of Grey and In the Dark would turn them into household names. This show catches the band still in its pre-megastar moment, comfortable and playing for themselves.",
     funFact: "In the Dark, the 1987 album that produced Touch of Grey, was recorded live on stage at the Marin Civic with no audience — the band wanted the live feel. It worked: the only Dead album to go platinum.",
-    tryNext: {
-      showId: "gd-1989-07-17",
-      hook: "Four years later at Alpine Valley — the next level",
-    },
   },
 
   // ── 26. 7/17/89 Alpine Valley — Brent-era outdoor peak ───────
@@ -960,10 +860,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "1989 was the Dead's second big year after Touch of Grey broke them to mainstream MTV audiences. Suddenly they were playing stadiums to kids who'd never heard Dark Star. Alpine Valley, with its intimate tiered lawn, was a safe harbor — a place the lifers still called home. Brent was at his peak, three months before the Hampton 'Formerly the Warlocks' comeback.",
     funFact: "Alpine Valley became such a ritual that the July run became known simply as 'Alpine' — heads planned summer around it.",
-    tryNext: {
-      showId: "gd-1989-10-09",
-      hook: "Three months later at Hampton — the comeback",
-    },
   },
 
   // ── 27. 6/17/91 Giants Stadium — late-era stadium run ────────
@@ -998,10 +894,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Brent Mydland died in July 1990 from a drug overdose. The band brought in Vince Welnick (and briefly Bruce Hornsby as a regular guest) to fill the void — a different sound, less raw than Brent's. By summer 1991, Vince had mostly settled in. Crowds were massive. The band was exhausted. Jerry's health worsening. But moments like this still happened.",
     funFact: "Bruce Hornsby played as a regular guest with the Dead for over 100 shows between 1990-1992. His piano gave the band a jazzy second-keyboard voice for one of its most transitional periods.",
-    tryNext: {
-      showId: "gd-1991-09-10",
-      hook: "Three months later — Branford Marsalis at MSG",
-    },
   },
 
   // ── 28. 9/10/91 MSG — Branford Marsalis (second time) ────────
@@ -1035,10 +927,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Mickey Hart had brought Branford Marsalis into the Dead's orbit — they'd met on a cultural exchange, and Branford was a fan. He sat in with the Dead only a handful of times; this was one of the deepest. The band was exhausted and Jerry's playing was uneven by fall '91, but nights like this proved the ceiling was still there.",
     funFact: "Branford Marsalis's brother Wynton became the face of mainstream jazz. Branford was always the more adventurous Marsalis — which is why the Dead connection made sense.",
-    tryNext: {
-      showId: "gd-1993-09-21",
-      hook: "Two years later — Vince-era proof of life",
-    },
   },
 
   // ── 29. 9/21/93 MSG — Vince-era late-fire ────────────────────
@@ -1073,10 +961,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "Vince Welnick joined in 1990 after Brent's death, and he was a divisive figure — less soulful than Brent, his vocals uneven. But he brought a rock-solid keyboardist's support and patience. By 1993 the band had developed a workable late-era identity around him. Jerry would die less than two years later. These are the quiet valuable moments.",
     funFact: "Vince Welnick had been keyboardist for The Tubes (of 'She's a Beauty' fame) before joining the Dead. He thought the Dead gig was temporary. It turned out to be the last five years of the band.",
-    tryNext: {
-      showId: "gd-1995-07-09",
-      hook: "Two years later — the final show",
-    },
   },
 
   // ── 30. 8/24/68 Shrine — primal Anthem-era ───────────────────
@@ -1107,10 +991,6 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "In 1968 the Dead had just added Mickey Hart as a second drummer, were writing Anthem of the Sun in the studio with avant-garde composer Tom Constanten, and were the house band of the San Francisco psychedelic scene. Bill Graham was booking them regularly on both coasts. They'd only just decided they were a real rock band, not just an Acid Test ballroom crew.",
     funFact: "The Dead played the Shrine Auditorium multiple times in 1968 and 1969 — it was one of their key LA venues in the primal era.",
-    tryNext: {
-      showId: "gd-1969-02-27",
-      hook: "Six months later — the Live/Dead template emerges",
-    },
   },
 ];
 

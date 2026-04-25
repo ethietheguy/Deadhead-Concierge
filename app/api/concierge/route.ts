@@ -15,7 +15,7 @@ type RequestBody = {
 
 // Compact catalog representation we send to Claude. Trimmed down to the
 // fields the model actually needs to *pick* a show — full editorial copy
-// (listenFor, context, funFact, tryNext, full setlist) stays on the server
+// (listenFor, context, funFact, full setlist) stays on the server
 // and gets joined back in after the model responds.
 function compactCatalog() {
   return CATALOG.map((s) => ({

@@ -3,7 +3,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { StealYourFace } from "@/components/StealYourFace";
 import { getRecommendation } from "@/lib/concierge/engine";
-import { findConciergeShow } from "@/lib/concierge/catalog";
 import { CHIP_KEYWORDS } from "@/lib/concierge/keywords";
 import type { ConciergeShow } from "@/lib/concierge/types";
 
@@ -52,8 +51,6 @@ function RecommendationCard({
   show: ConciergeShow;
   onTryAnother: () => void;
 }) {
-  const tryNextShow = show.tryNext ? findConciergeShow(show.tryNext.showId) : null;
-
   return (
     <div className="animate-fadeIn">
       {/* Header */}
@@ -126,21 +123,6 @@ function RecommendationCard({
         </svg>
         Listen on Archive.org
       </a>
-
-      {/* Try next */}
-      {show.tryNext && tryNextShow && (
-        <div className="border border-cream-dark rounded-lg p-4 mb-6">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted mb-2 font-medium">
-            If you dig this, try next
-          </p>
-          <p className="text-navy font-semibold">
-            {formatShowDate(tryNextShow.date)} — {tryNextShow.venue}
-          </p>
-          <p className="text-sm text-warmblack/70 mt-1 italic">
-            &ldquo;{show.tryNext.hook}&rdquo;
-          </p>
-        </div>
-      )}
 
       {/* Try another */}
       <button

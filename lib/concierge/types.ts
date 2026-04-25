@@ -45,8 +45,4 @@ export type ConciergeShow = {
   listenFor: string;
   context: string;
   funFact?: string;
-  tryNext?: {
-    showId: string;
-    hook: string;
-  };
 };
