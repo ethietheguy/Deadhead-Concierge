@@ -114,9 +114,9 @@ function RecommendationCard({
         </section>
       )}
 
-      {/* Listen link */}
+      {/* Listen link — resolves the show date to the top IA recording at click time */}
       <a
-        href={show.archiveUrl}
+        href={`/api/archive/${show.date}`}
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center gap-2 w-full py-4 rounded-lg bg-terracotta text-cream font-medium hover:bg-terracotta-dark transition-colors text-lg mb-6"
