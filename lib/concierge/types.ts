@@ -23,6 +23,26 @@ export type AudioQuality = "pristine" | "good" | "fair" | "rough";
 export type Significance = "legendary" | "classic" | "deep-cut" | "hidden-gem";
 export type ListenerLevel = "newcomer" | "exploring" | "head";
 
+// A verbatim attributed quote pulled from a community source (Archive.org review,
+// r/gratefuldead thread, etc.). Used for the "From the community" UI surface.
+// Quote text must be byte-for-byte verbatim from the named source — the verifier
+// (scripts/verify-citations.ts, in development) checks substring presence.
+export type CommunityVoice = {
+  quote: string;
+  attribution: string;       // e.g. "JasW" or "shipofthesun, on the Box of Rain encore"
+  source: string;            // e.g. "Archive.org review", "r/gratefuldead"
+};
+
+// Headyversion community-vote ranking for one song from this show's setlist.
+// Empty array means the show has no notable Heady placements (also a real signal).
+export type HeadyversionRank = {
+  song: string;
+  rank: number;
+  votes: number;
+  topVersionDate?: string;   // e.g. "Feb. 5, 1978" — verbatim from Headyversion
+  topVersionVotes?: number;
+};
+
 export type ConciergeShow = {
   id: string;
   date: string;
@@ -40,10 +60,18 @@ export type ConciergeShow = {
   significance: Significance;
   bestFor: ListenerLevel[];
 
-  // Editorial content
+  // Official-release info, e.g. ["Dick's Picks Vol 26"] or ["May 1977: Get Shown the Light", "Cornell 5/8/77"].
+  // Empty/undefined = unreleased (also a community signal — heads sometimes seek those out).
+  releasedAs?: string[];
+
+  // Editorial content (curator voice, no inline citations)
   headline: string;
   whyThisShow: string;
   listenFor: string;
   context: string;
   funFact?: string;
+
+  // Community voices + Headyversion ranks (the open-source proof surface)
+  communityVoices?: CommunityVoice[];
+  headyversionRanks?: HeadyversionRank[];
 };

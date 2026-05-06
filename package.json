@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "build-ranking": "tsx scripts/build-show-ranking.ts",
-    "setlist": "tsx scripts/fetch-setlist.ts"
+    "setlist": "tsx scripts/fetch-setlist.ts",
+    "research": "tsx scripts/research-show.ts",
+    "synthesize": "tsx --env-file=.env.local scripts/synthesize-show.ts",
+    "verify": "tsx scripts/verify-citations.ts",
+    "pipeline": "tsx scripts/run-pipeline.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.1",

@@ -14,7 +14,10 @@ import type { ConciergeShow } from "./types";
  * material for writing future editorial, but is not imported here.
  */
 export const CATALOG: ConciergeShow[] = [
-  // ── 1. Cornell '77 — the GOAT ────────────────────────────────
+  // ── 1. Cornell '77 — the tape that became the front door ─────
+  // Synthesized 2026-04-26 from Archive.org reviews + Jerrybase + Headyversion
+  // + r/gratefuldead. Editorial = curator voice (no inline citations);
+  // community voices + Heady ranks live in their own rendered section.
   {
     id: "gd-1977-05-08",
     date: "1977-05-08",
@@ -25,7 +28,7 @@ export const CATALOG: ConciergeShow[] = [
       "New Minglewood Blues", "Loser", "El Paso", "They Love Each Other",
       "Jack Straw", "Deal", "Lazy Lightning", "Supplication",
       "Brown-Eyed Women", "Mama Tried", "Row Jimmy",
-      "Dancing in the Street", "Scarlet Begonias", "Fire on the Mountain",
+      "Dancin' In The Streets", "Scarlet Begonias", "Fire on the Mountain",
       "Estimated Prophet", "St. Stephen", "Not Fade Away",
       "St. Stephen (reprise)", "Morning Dew", "One More Saturday Night",
     ],
@@ -36,14 +39,43 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["newcomer", "exploring", "head"],
-    headline: "The show that defined what the Grateful Dead could be.",
+    releasedAs: ["May 1977: Get Shown the Light", "Cornell 5/8/77"],
+    headline: "The tape that became the front door.",
     whyThisShow:
-      "If you only ever listen to one Dead show, this is it. Every song lands. The band is locked in from the first note, and by the time Scarlet > Fire hits in the second set, they're playing on a level that shouldn't be possible. This isn't nostalgia — it's genuinely one of the greatest live performances ever recorded.",
+      `Cornell is less a final answer than a shared language. It's the show that became famous before ` +
+      `it was officially released — passed around for forty years until even the argument over whether ` +
+      `it's actually overrated became part of the lore. The pitch is that it's approachable without ` +
+      `becoming tame: the jams breathe, but the songs stay readable. One of the easiest doors into ` +
+      `the band, and one most people end up walking back through.`,
     listenFor:
-      "The Scarlet Begonias > Fire on the Mountain transition — it's seamless and builds like a wave. Morning Dew in the encore is devastating — Jerry's voice cracks with emotion and the whole room holds its breath. The Barton Hall acoustics give everything a warm, intimate quality despite the energy.",
+      `Start with Scarlet Begonias > Fire on the Mountain — the obvious centerpiece, and for good reason. ` +
+      `Phil's bass gives the opening jam its footing, and the whole twenty-five minutes unfolds with the ` +
+      `patience that makes '77 feel so welcoming. Dancin' in the Streets is the first-set sleeper: ` +
+      `springy, funky, tighter than a song that loose has any right to be. The late sequence — St. Stephen ` +
+      `> Not Fade Away > St. Stephen > Morning Dew — is where the night gathers its weight. Cornell isn't ` +
+      `every-version-the-best — heads will argue about that forever. It just feels unusually legible: ` +
+      `the songs, the room, the myth, and the invitation all at once.`,
     context:
-      "May 1977 is widely considered the Dead's peak month. They were touring the Northeast, every show was fire, and Cornell was the crown jewel. The tape circulated for decades as the most-traded bootleg in history before getting an official release in 2017.",
-    funFact: "For years, Deadheads debated whether the legendary tape was actually from Cornell or a different show. DNA-style audio analysis finally confirmed: it's real.",
+      `Spring 1977, college tour, Barton Hall. The tape circulated through the trader network for forty ` +
+      `years before the band finally put it out — first in May 1977: Get Shown the Light (2017), then as ` +
+      `the standalone Cornell 5/8/77. By the time it was official, it was already canon.`,
+    funFact:
+      `It was Mother's Day. Somehow a Cornell field house became one of the most argued-over rooms in ` +
+      `Dead listening history.`,
+    communityVoices: [
+      { quote: "the night was pure magic", attribution: "charlierat, who was at the show", source: "Archive.org review" },
+      { quote: "I just don't see the sustained energy that others see", attribution: "RiPHRaPH", source: "Archive.org review" },
+      { quote: "25 minutes of pure orgasmic paradise", attribution: "GoodOlGratefulDead, on Scarlet > Fire", source: "Archive.org review" },
+      { quote: "Dancing in the streets is hands down, THE BEST version the Dead have ever pulled off", attribution: "chinacatsunflower420, on Dancin' In The Streets", source: "Archive.org review" },
+      { quote: "Because everyone had killer tapes already.", attribution: "toiletsnakeATX, on why Cornell wasn't released until 2017", source: "r/gratefuldead" },
+    ],
+    headyversionRanks: [
+      { song: "Scarlet Begonias > Fire On The Mountain", rank: 1, votes: 660, topVersionDate: "May 8, 1977", topVersionVotes: 660 },
+      { song: "Morning Dew", rank: 1, votes: 249, topVersionDate: "May 8, 1977", topVersionVotes: 249 },
+      { song: "Dancin' In The Streets", rank: 1, votes: 153, topVersionDate: "May 8, 1977", topVersionVotes: 153 },
+      { song: "Jack Straw", rank: 4, votes: 105, topVersionDate: "Jan. 11, 1979", topVersionVotes: 162 },
+      { song: "St. Stephen", rank: 3, votes: 66, topVersionDate: "Jan. 22, 1978", topVersionVotes: 131 },
+    ],
   },
 
   // ── 2. Veneta '72 — sunshine daydream ─────────────────────────
@@ -1900,6 +1932,249 @@ export const CATALOG: ConciergeShow[] = [
     context:
       "October 1, 1994 — opening night of a six-show Boston Garden run, the band's last visit to that legendary arena. The Garden had hosted Dead shows since the early '70s; it would close for events on 9/28/95, less than a year later, and be demolished in 1998. Jerry's health was visibly declining — but on the right nights, late-era Jerry could still find the line. Two competing SBD sources circulate; the Ashley/Bertha seed is the consensus better recording per the Archive comments.",
     funFact: "Boston Garden closed for events on 9/28/95 — the same year Jerry died — and the FleetCenter (now TD Garden) opened next door just two days later. The old Garden was demolished in 1998. The Dead had played the building dozens of times across two and a half decades.",
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // Calibration entries (synthesized 2026-04-26 under the new
+  // tuned synthesizer prompt). All community-voice quotes verified
+  // verbatim against Archive.org / r/gratefuldead source data.
+  // See scratch/all-five-synthesis.md for source documentation.
+  // ─────────────────────────────────────────────────────────────
+
+  // ── Electric Theater 4/26/69 — primal-era deep cut ────────────
+  {
+    id: "gd-1969-04-26",
+    date: "1969-04-26",
+    venue: "Electric Theater",
+    city: "Chicago",
+    state: "IL",
+    setlist: [
+      "Dupree's Diamond Blues", "Mountains Of The Moon", "China Cat Sunflower",
+      "Doin' That Rag", "Hurts Me Too", "Hard To Handle",
+      "Cryptical Envelopment", "Drums", "The Other One", "The Eleven",
+      "The Other One", "I Know It's A Sin", "Morning Dew",
+      "Sitting On Top Of The World", "Minglewood Blues",
+      "Silver Threads And Golden Needles", "It's All Over Now Baby Blue",
+      "Saint Stephen", "Turn On Your Lovelight",
+      "Viola Lee Blues", "Feedback", "What's Become Of The Baby",
+      "Feedback", "And We Bid You Good Night",
+    ],
+    archiveUrl: "https://archive.org/details/gd69-04-26.sbd.yerys.71.sbeok.shnf",
+    era: "primal",
+    moods: ["psychedelic", "late-night", "dark"],
+    styles: ["jam", "experimental", "blues"],
+    audioQuality: "good",
+    significance: "deep-cut",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dick's Picks Vol 26"],
+    headline: "One month after Live/Dead, with the weird part left off the record.",
+    whyThisShow:
+      `April '69, just one month after the band recorded most of Live/Dead at the Fillmore West. ` +
+      `It's the Live/Dead band in another room, working from the same early-psychedelic vocabulary ` +
+      `but with a messier local legend attached. The show became Dick's Picks 26, and heads have been ` +
+      `complaining about it ever since: the famous weird encore — Viola Lee > Feedback > "What's Become ` +
+      `of the Baby" piped in from the studio recording > Bid You Goodnight — got cut from the official ` +
+      `release. Going back to the full tape on Archive is part of the appeal.`,
+    listenFor:
+      `Mountains of the Moon is the surprise. Gentle, sung-through, the kind of song the band only played ` +
+      `in the Tom-Constanten era — and the community ranks this version among the best they ever did. ` +
+      `The Cryptical > Other One > Eleven > Other One > It's a Sin sequence is the long-form engine ` +
+      `the early band built nights around. Viola Lee Blues at the encore is sloppy in places but builds ` +
+      `toward the band-and-PA experiment that follows: a studio loop of "What's Become of the Baby" piped ` +
+      `through the room while the band plays feedback over it. The Hard to Handle hasn't grown its '71 ` +
+      `swagger yet — it's still in its infancy.`,
+    context:
+      `Spring 1969, the seven-piece Pigpen-and-Tom-Constanten lineup at Bill Graham's Chicago outpost. ` +
+      `Archive lists the venue as the Electric Theater; Jerrybase lists it as the Kinetic Playground — ` +
+      `same room, mid-rename. Released in 2002 as Dick's Picks Volume 26, but with the encore cut. ` +
+      `For this one, the full Archive tape matters, because the official release leaves out the part ` +
+      `people argue about most.`,
+    funFact:
+      `Dick Latvala picked this show for Dick's Picks 26. Almost twenty years later, fans were still ` +
+      `on the Archive page asking why he wasn't allowed to include the encore.`,
+    communityVoices: [
+      { quote: "Just a month after the lads run at the Fillmore that became the bulk of Live Dead", attribution: "Darrylizer", source: "Archive.org review" },
+      { quote: `The playing on "Mountains" is sensitive and lyrical, Jerry's vocals filled with passion`, attribution: "palealien", source: "Archive.org review" },
+      { quote: "the most avant-garde thing I've ever heard the band do", attribution: "Mark C., on the encore", source: "Archive.org review" },
+      { quote: "What becomes of the baby is played over the PA while the band go nuts", attribution: "JohnOO", source: "Archive.org review" },
+      { quote: "I think it's a crime that this encore was left off the official release", attribution: "Ianuaditis, on the cut Viola Lee > Feedback > What's Become of the Baby encore", source: "Archive.org review" },
+    ],
+    headyversionRanks: [
+      { song: "Mountains Of The Moon", rank: 3, votes: 39, topVersionDate: "Feb. 22, 1969", topVersionVotes: 48 },
+      { song: "Viola Lee Blues", rank: 5, votes: 29, topVersionDate: "May 2, 1970", topVersionVotes: 110 },
+    ],
+  },
+
+  // ── Portland 5/19/74 — wall-of-sound + Mind Left Body Jam ────
+  {
+    id: "gd-1974-05-19",
+    date: "1974-05-19",
+    venue: "Portland Memorial Coliseum",
+    city: "Portland",
+    state: "OR",
+    setlist: [
+      "Mississippi Half-Step", "Mexicali Blues", "Big Railroad Blues",
+      "Black Throated Wind", "Scarlet Begonias", "Beat It On Down The Line",
+      "Tennessee Jed", "Me And Bobby McGee", "Sugaree", "Jack Straw",
+      "It Must Have Been The Roses", "El Paso", "Loose Lucy", "Money Money",
+      "China Cat Sunflower", "I Know You Rider",
+      "Promised Land", "Bertha", "Greatest Story Ever Told", "Ship Of Fools",
+      "Weather Report Suite Prelude", "Weather Report Suite Part 1", "Let It Grow",
+      "Wharf Rat", "Big River", "Peggy-O", "Truckin'", "Mind Left Body Jam",
+      "Not Fade Away", "Goin' Down The Road Feelin' Bad", "One More Saturday Night",
+      "U.S. Blues",
+    ],
+    archiveUrl: "https://archive.org/details/gd74-05-19.sbd.clugston.6957.sbeok.shnf",
+    era: "wall-of-sound",
+    moods: ["psychedelic", "high-energy", "joyful", "road-trip"],
+    styles: ["jam", "rock", "experimental"],
+    audioQuality: "pristine",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Pacific Northwest '73-'74: The Complete Recordings"],
+    headline: "A Wall of Sound night where Truckin' finds the Mind Left Body Jam.",
+    whyThisShow:
+      `Spring '74, Portland, deep into the wall-of-sound era. The whole Pacific Northwest run eventually ` +
+      `became a box set, and this is one of the nights people keep separating from the pack: a long, ` +
+      `jazzy first set with a China > Rider some heads call the archetype, then a second set that builds ` +
+      `through Truckin' into one of the famous Mind Left Body Jams — the kind of passage that turns up ` +
+      `in "this is when I finally got it" conversations.`,
+    listenFor:
+      `The China Cat > I Know You Rider in the first set is what reviewers single out — patient, jazzy, ` +
+      `and clean in a very '74 way. The second-set anchor is the Truckin' jam, which doesn't end where ` +
+      `you expect it to: it slides into the Mind Left Body Jam, a few minutes of bandwide interplay ` +
+      `that gets discussed with unusual reverence even by heads who aren't usually chasing named jams. ` +
+      `Weather Report Suite into Let It Grow is the other quiet highlight. The whole show runs almost ` +
+      `three hours — pace yourself.`,
+    context:
+      `May 1974, the Pacific Northwest swing of the wall-of-sound era. Released decades later as part of ` +
+      `the Pacific Northwest '73-'74: The Complete Recordings box set — the only official place to find this ` +
+      `tape outside the trader network.`,
+    funFact:
+      `One Reddit user described the Mind Left Body Jam from this night as the first big Dead jam he ever ` +
+      `really "got" — a useful clue for how to hear this show.`,
+    communityVoices: [
+      { quote: "i'm convinced that of all the pre-hiatus versions of china>rider i've heard (the ones with the ujb or feeling groovy jam) this is THE archetype", attribution: "clementinescaboose", source: "Archive.org review" },
+      { quote: `For me, this is The Jam. This was the first big jam I ever really “got,” and once I did, it was a real before-and-after moment.`, attribution: "splitopenandjerk, on the Mind Left Body Jam", source: "r/gratefuldead" },
+      { quote: "Totally went from Bitches Brew to Buddy Holly without missing a beat.  Love it.", attribution: "dontshakethetree, on the Truckin' jam", source: "r/gratefuldead" },
+      { quote: "That is a deeply psychedelic show, and worth all the flipping on vinyl.", attribution: "dondeestasbueno", source: "r/gratefuldead" },
+      { quote: "This show, is the reason why I keep listening to the Dead !!!!!!!!!", attribution: "Garrick III", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── The Omni 3/28/89 — late-Brent deep cut, Box of Rain encore ─
+  {
+    id: "gd-1989-03-28",
+    date: "1989-03-28",
+    venue: "The Omni",
+    city: "Atlanta",
+    state: "GA",
+    setlist: [
+      "Let The Good Times Roll", "Franklin's Tower", "Feel Like A Stranger",
+      "Stagger Lee", "Stuck Inside Of Mobile With The Memphis Blues Again",
+      "Ramble On Rose", "Let It Grow", "Don't Ease Me In",
+      "Samson And Delilah", "Ship Of Fools", "Playing In The Band",
+      "Foolish Heart", "Drums", "Space", "Gimme Some Lovin'",
+      "Wharf Rat", "Throwing Stones", "Not Fade Away",
+      "Box Of Rain",
+    ],
+    archiveUrl: "https://archive.org/details/gd1989-03-28.sbd.walker-scotton.miller.81529.sbeok.flac16",
+    era: "80s",
+    moods: ["high-energy", "joyful", "road-trip"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "deep-cut",
+    bestFor: ["exploring", "head"],
+    releasedAs: [],
+    headline: "Atlanta '89, loose in the right places, with Phil closing the door.",
+    whyThisShow:
+      `Atlanta, spring '89 — not iconic, just a well-played Brent-era night that came out on a Charlie ` +
+      `Miller soundboard and became one of those boards people keep quietly recommending. The first set ` +
+      `moves quickly, and the second set feels more connected than the song list suggests, with the ` +
+      `kind of Playing in the Band into Foolish Heart segue the late-Brent band did better than they ` +
+      `get credit for. Not a show people recommend first; the kind they keep returning to anyway.`,
+    listenFor:
+      `The first set gets moving immediately. Let the Good Times Roll straight into Franklin's Tower ` +
+      `opens the night, and the band keeps the energy up through Stagger Lee, Brent leaning into ` +
+      `Stuck Inside of Mobile, and Let It Grow. The second-set core is Playing in the Band into ` +
+      `Foolish Heart — heads describe the energy in Foolish as fierce, and one Reddit comment about ` +
+      `seeing pastel-colored flowers go up at the start of Playing is the kind of in-the-room memory ` +
+      `that gets attached to this version. Throwing Stones > Not Fade Away does what that pairing ` +
+      `usually does in this era: sends the room out loud. And Box of Rain as the encore is the lullaby ` +
+      `send-off: slow, simple, no flourish.`,
+    context:
+      `Spring 1989, the Brent-era six-piece, recorded by Charlie Miller — whose name shows up across the ` +
+      `Archive reviews as part of why heads love this tape. Brent had a little over a year left with the ` +
+      `band. The Spring '89 tour ran shows like this across the southeast, and Atlanta is one of the ` +
+      `better-circulated boards from that swing.`,
+    funFact:
+      `Box of Rain was still an uncommon encore after its return — this was only the tenth — which is ` +
+      `part of why this one sticks in people's notes.`,
+    communityVoices: [
+      { quote: `Tripped on way too much liquid… saw a bunch of huge pastel-colored tissue paper flowers pop up all around the stage at the beginning of Playing.`, attribution: "anonymous, on Playing in the Band", source: "r/gratefuldead" },
+      { quote: "done just perfectly as a lullaby to send us on our way", attribution: "shipofthesun, on the Box of Rain encore", source: "Archive.org review" },
+      { quote: "The energy in foolish is way up there - fierce!", attribution: "Schumster, on Foolish Heart", source: "Archive.org review" },
+      { quote: "The feeling inside that night was a Spring Tour vibe for sure. Fresh. Optimistic.", attribution: "superfoodman", source: "Archive.org review" },
+      { quote: "The flow of music this night was as good as it gets.", attribution: "dogleg", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── Albany 3/27/93 — Vince era, Days Between debut, 30 Trips ──
+  {
+    id: "gd-1993-03-27",
+    date: "1993-03-27",
+    venue: "Knickerbocker Arena",
+    city: "Albany",
+    state: "NY",
+    setlist: [
+      "Hell In A Bucket", "Bertha", "The Same Thing", "Peggy-O",
+      "Queen Jane Approximately", "Broken Arrow", "Loose Lucy", "Cassidy",
+      "Casey Jones",
+      "Eyes Of The World", "Estimated Prophet", "Comes A Time", "Corrina",
+      "Drums", "Space", "The Wheel", "All Along The Watchtower",
+      "The Days Between", "One More Saturday Night",
+      "I Fought The Law",
+    ],
+    archiveUrl: "https://archive.org/details/gd93-03-27.sbd.nawrocki.31956.sbeok.shnf",
+    era: "final-years",
+    moods: ["mellow", "emotional", "introspective"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "deep-cut",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["30 Trips Around the Sun"],
+    headline: "A late-era Albany show that makes the counterargument.",
+    whyThisShow:
+      `Spring '93, the Vince Welnick era, the late chapter of the band's life. A recurring argument ` +
+      `around 1993 is that the year is better than its reputation, and this Albany night is one of the ` +
+      `shows people point to as evidence. A rare Comes A Time mid-second-set, an early version of Days ` +
+      `Between, and a band that's still finding moments two years before the end. Not a show you'd start ` +
+      `with — but if you've been told the early '90s aren't worth your time, this is one of the better ` +
+      `counterarguments.`,
+    listenFor:
+      `The first set has more to chew on than a lot of late-period first sets: a Bertha that reviewers ` +
+      `single out for Jerry's long solo, plus a Loose Lucy and a Casey Jones that attendees still ` +
+      `single out among the late versions. The second set's anchor is Eyes Of The World into Estimated ` +
+      `Prophet, then Comes A Time — a song the band only played a handful of times in '93. The Days ` +
+      `Between near the end is one of the early performances of a song that never made it to a studio ` +
+      `album, and reviewers single this version out. The encore is I Fought The Law, a Vince-era addition.`,
+    context:
+      `March 1993, Vince Welnick's third year on keys, deep into the Knickerbocker Arena run that the ` +
+      `band did most springs. Released on the 30 Trips Around the Sun box set — the band's 50th-anniversary ` +
+      `compilation that pulled one show per year from 1965 to 1995. This was their pick for 1993.`,
+    funFact:
+      `The review-page argument around this show is basically the larger 1993 argument in miniature: ` +
+      `some heads hear decline, others hear a year still capable of real lift.`,
+    communityVoices: [
+      { quote: "This one melted me.  And still does.", attribution: "LevitatingYogi, on Comes A Time", source: "Archive.org review" },
+      { quote: "It was times like this in 1992-93 that would restore my faith in the band and renew my appreciation for them.", attribution: "AceHigh4", source: "Archive.org review" },
+      { quote: "1993 has got to be the most underrated year of the Grateful Dead.", attribution: "JamminJerome", source: "Archive.org review" },
+      { quote: "This version of Days Between makes up for the fact it never made it onto an album.  My favorite version that I've actually heard.", attribution: "WNEC_Chip", source: "Archive.org review" },
+      { quote: "Can't say that about many post Brent shows..", attribution: "Eforce21, on this being a show he keeps going back to", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 ];
 

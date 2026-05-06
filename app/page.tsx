@@ -68,6 +68,11 @@ function RecommendationCard({
           {show.state ? `, ${show.state}` : ""}
         </p>
         <p className="text-sm text-muted mt-1">Grateful Dead</p>
+        {show.releasedAs && show.releasedAs.length > 0 && (
+          <p className="text-xs text-muted mt-2 italic">
+            Officially released on {show.releasedAs.join(" and ")}
+          </p>
+        )}
       </div>
 
       {/* Headline */}
@@ -110,6 +115,56 @@ function RecommendationCard({
           </p>
         </section>
       )}
+
+      {/* From the community — voices + Headyversion ranks */}
+      {(show.communityVoices?.length || show.headyversionRanks?.length) ? (
+        <section className="mb-10 border-t border-navy/10 pt-8">
+          <h3 className="text-xs uppercase tracking-[0.2em] text-terracotta font-semibold mb-4">
+            From the community
+          </h3>
+
+          {show.headyversionRanks && show.headyversionRanks.length > 0 && (
+            <div className="mb-6">
+              <p className="text-xs uppercase tracking-wide text-muted mb-2 font-medium">
+                Headyversion ranks
+              </p>
+              <ul className="space-y-1">
+                {show.headyversionRanks.map((r, i) => (
+                  <li key={i} className="text-sm text-warmblack/75 leading-snug">
+                    <span className="text-navy font-medium">#{r.rank}</span>{" "}
+                    {r.song}
+                    <span className="text-muted">
+                      {" "}
+                      — {r.votes} votes
+                      {r.rank > 1 && r.topVersionDate
+                        ? `; #1 is ${r.topVersionDate} at ${r.topVersionVotes}`
+                        : ""}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {show.communityVoices && show.communityVoices.length > 0 && (
+            <div>
+              <p className="text-xs uppercase tracking-wide text-muted mb-3 font-medium">
+                What heads said
+              </p>
+              <ul className="space-y-3">
+                {show.communityVoices.map((v, i) => (
+                  <li key={i} className="text-sm leading-relaxed">
+                    <span className="text-warmblack/85">&ldquo;{v.quote}&rdquo;</span>
+                    <span className="text-muted block mt-0.5 text-xs">
+                      — {v.attribution} · {v.source}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+      ) : null}
 
       {/* Listen link — resolves the show date to the top IA recording at click time */}
       <a
