@@ -100,14 +100,44 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "A benefit concert in an Oregon field that became a psychedelic masterpiece.",
+    releasedAs: ["Sunshine Daydream"],
+    headline: "Jerry's Fender Strat in the Oregon heat.",
     whyThisShow:
-      "This is the Dead at their most free. An outdoor benefit show on a scorching August day in rural Oregon — no pressure, no corporate stage, just the band and a field full of freaks. The music is loose, exploratory, and radiates pure joy. If you want to understand what the Dead were really about, start here.",
+      `This is one of the broadly loved shows from the post-Europe '72 stretch, and reviewers keep ` +
+      `returning to the setting as much as the music — a free outdoor concert on what xonix describes ` +
+      `as "an absolutely schorching day, children playing everywhere, running up onto the stage in front ` +
+      `of the band". The same reviewer calls it "the show that got me, and many many others, into the ` +
+      `Dead". The Dark Star is the most-cited performance — Tie-Dyed Tom calls it "so jazzy (almost ` +
+      `Dave Brubeckish) and integrated", and xonix names it their favorite Dark Star excluding 1969. ` +
+      `The community treats the recording as a known quantity — one reviewer points to "30 Thousand ` +
+      `plus downloads" as the simplest measure of its standing.`,
     listenFor:
-      "Dark Star is the centerpiece — over 30 minutes of the band dissolving into pure sound and reassembling. The Playing in the Band is equally cosmic. But don't sleep on Bird Song — Jerry's guitar tone in the Oregon sun is otherworldly. He's Gone hits different when you realize it was written about their manager who'd just ripped them off.",
+      `The Dark Star is the most-talked-about performance — xonix describes its arc as "starting of ` +
+      `really relazed and low key and building to a chaotic yet somehow ordered climax". Tie-Dyed Tom ` +
+      `clocks the Playing in the Band "topping out at 17 minutes". The same reviewer flags Bird Song ` +
+      `as "played beautifully" and describes a synesthesia moment around He's Gone — "I always feel ` +
+      `like I can taste the color blue when I hear it". xonix specifically credits Jerry's Fender Strat ` +
+      `for the tone, noting it "complements the country & western style songs in the setlist so damn ` +
+      `well". Worth knowing going in: the SBD source captures the between-song banter, which Tie-Dyed ` +
+      `Tom calls "hysterical".`,
     context:
-      "The band played this benefit for Chuck Kesey's Springfield Creamery (yes, Ken Kesey's brother). They'd just returned from Europe and were at a creative peak. The whole show was filmed for the Sunshine Daydream movie, which didn't get officially released until 2013.",
-    funFact: "The temperature hit 107 degrees that day. You can hear the heat in the music — everything shimmers.",
+      `This is the late-summer benefit show in Veneta, Oregon, recorded a few months after the band's ` +
+      `return from the spring 1972 European tour. The recording in circulation is a soundboard ` +
+      `(identifier: gd72-08-27.sbd.orf.3328.sbeok.shnf), which is what most community reviews on ` +
+      `Archive evaluate. The show was filmed and later released as the Sunshine Daydream documentary; ` +
+      `the audio circulated independently for decades before that. dreatimeland frames its appeal ` +
+      `partly through the West Coast scene's connection to the room — "Veneta was like a family reunion".`,
+    funFact:
+      `xonix's memory of the day stuck on a single image — "everyone relaxing having fun eating ` +
+      `icecream, dacin naked".`,
+    communityVoices: [
+      { quote: "The Dark Star performed on this show while not my favourite ever (that would have to go to Live/Dead), is my favourite excluding 1969.", attribution: "xonix, on Dark Star", source: "Archive.org review" },
+      { quote: "Dark Star is so jazzy (almost Dave Brubeckish) and integrated. I have to say it is one of my favorite versions too.", attribution: "Tie-Dyed Tom, on Dark Star", source: "Archive.org review" },
+      { quote: "Veneta was like a family reunion.", attribution: "dreatimeland, on the room", source: "Archive.org review" },
+      { quote: "They set us on fire for sure on this day", attribution: "sailler", source: "Archive.org review" },
+      { quote: "30 Thousand plus downloads says it all...", attribution: "oh_uh_um_ah", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 3. Europe '72 — the Lyceum ────────────────────────────────
@@ -131,14 +161,46 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["newcomer", "exploring", "head"],
-    headline: "The final night of Europe '72 — the show that became the album.",
+    releasedAs: ["Europe '72: The Complete Recordings"],
+    headline: "Pigpen's last real night, Lyceum, London, May '72.",
     whyThisShow:
-      "The Europe '72 album is how millions of people first heard the Dead, and most of that album came from this night. The Lyceum show captures the band at their most accessible and joyful — every song is a gem, the energy is celebratory, and the sound quality is immaculate. It's a party from start to finish.",
+      `This is the final night of the Europe '72 tour, and the community broadly treats it as a ` +
+      `canonical send-off. One reviewer describes it as "Three and a half hours of pure perfection ` +
+      `as they were presenting it at the time". The show carries extra weight as Pigpen's effective ` +
+      `farewell: "This last night of London is really the Swan Song for Ron". One listener offers a ` +
+      `minority view, placing it behind Düsseldorf, Rotterdam, and Frankfurt on the tour, but the ` +
+      `broad community position is that the closing sequence alone justifies the show's standing. ` +
+      `One reviewer notes the first set is the stronger half: "1st set is better than the 2nd, to my ears".`,
     listenFor:
-      "Truckin' opens with a swagger that sets the tone for the whole night. The China Cat > Rider is pure bliss — the transition is one of the smoothest they ever played. Dark Star in the second set goes deep without getting lost. And Morning Dew (not on the original album but on the complete release) is a gut punch.",
+      `The second-set suite is what listeners keep coming back to — a Truckin' that dissolves into ` +
+      `The Other One, reprised twice, framing Morning Dew. One reviewer calls the post-Truckin' ` +
+      `transition "seamless" and notes "it's difficult to discern where Truckin' ends and The Other ` +
+      `One begins, Jerry and Keith are locked in so tightly". The Morning Dew itself is the most ` +
+      `cited moment in the reviews; one listener reports the solos "hit you in some way emotionally" ` +
+      `and describes the version as "so amazingly powerful". In the first set, one reviewer singles ` +
+      `out Playing in the Band as "a great, exploratory PITB" with a jam that "takes off as Jerry ` +
+      `weaves his way through the song". Also worth your attention: a brief Pigpen-and-Keith duet ` +
+      `near the end of the second Other One reprise that one listener calls "simply beautiful".`,
     context:
-      "This was the final night of the Dead's legendary 1972 European tour — 22 shows across England, France, Germany, Denmark, and the Netherlands. Pigpen was still in the band, and you can hear his blues influence throughout. The tour was expensive and nearly bankrupted them, but it produced some of the greatest music they ever made.",
-    funFact: "The Europe '72 triple LP became the Dead's best-selling album. Most of it was pulled from this single show.",
+      `This is the last night of the May 1972 European run, played at the Lyceum Theatre in London. ` +
+      `The recording circulates as a soundboard (identifier: gd72-05-26.sbd.hollister.12758.sbeok.shnf) ` +
+      `and has never received an official standalone release, though the Europe '72 box set brought ` +
+      `a version of this performance to wider ears. One reviewer notes that the box set "really ` +
+      `brings the full color of this incredible recording and performance to light". The soundboard ` +
+      `mix draws consistent praise for its balance: "Man, those esoteric bass lines of Phil's are as ` +
+      `prominent as the vocals".`,
+    funFact:
+      `One reviewer recalls that before 'Me and My Uncle,' Billy Kreutzmann apparently didn't want ` +
+      `to play it and had to be overruled: "prior to this we get a minor revolt by Billy, he apparently ` +
+      `didn't want to play it! He was overruled".`,
+    communityVoices: [
+      { quote: "This is the last show where Pigpen is really a participatory member of the band. His next show would be his last, and he would not sing (or play really) at that show.", attribution: "Dylan M, on Pigpen's role", source: "Archive.org review" },
+      { quote: `The following ten minute post-verse "Prelude" to Morning Dew is one of the most compelling passages that the band has ever played.`, attribution: "Cliff Hucker, on the Other One/Morning Dew sequence", source: "Archive.org review" },
+      { quote: "This version of MD has made me cry, quite literally. This is no doubt the BEST version of this song EVER.", attribution: "MorninDew, on Morning Dew", source: "Archive.org review" },
+      { quote: "Not as good as Dusseldorf 4/24, Rotterdam 5/11, or the most underrated show of the tour Frankfurt 4/26.", attribution: "Jimi @ Holy Grail Studios", source: "Archive.org review" },
+      { quote: "The playing is consistently tight, nuanced and trippy. The second set meat sequence actually suffers from slowness at a few points, but the set is strong.", attribution: "kochman, on the overall performance", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 4. Branford Marsalis show — jazzy late-era peak ───────────
@@ -162,14 +224,42 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "The night Branford Marsalis walked onstage and everything changed.",
+    releasedAs: ["Wake Up to Find Out: Nassau Coliseum, Uniondale, NY 3/29/1990"],
+    headline: "Branford on saxophone, all night long.",
     whyThisShow:
-      "This is the show that proves the late-era Dead could still reach the mountaintop. When Branford Marsalis sits in on saxophone, the band transforms — suddenly they're playing jazz, they're playing with a telepathy that had been rare in recent years. If you want something sophisticated and deeply musical, this is your show.",
+      `This is the show people remember from the spring 1990 Nassau run — the one where Branford ` +
+      `Marsalis sat in for nearly the whole night. TheBrownAcid puts the show's standing plainly: ` +
+      `"This is by far the best show I ever saw", crediting the change to Branford, who "brought the ` +
+      `band up to another level". reesey anchors on the Eyes of the World — they call it "the damn ` +
+      `'Eyes'" that "set the whole thing off and put it in stone". Worth flagging the dissent in ` +
+      `this sample: TheBrownAcid hears Jerry as "the most reserved" voice in the mix, reading him as ` +
+      `making space for Branford rather than burning the show himself.`,
     listenFor:
-      "Eyes of the World is the highlight — 20+ minutes of the band and Branford locked in a musical conversation that feels like pure telepathy. Dark Star is rare for 1990 and absolutely dripping with texture. Jerry's tone all night is crystalline. You'll hear the moment Branford enters — the band's energy shifts like someone opened a window.",
+      `reesey holds up the Eyes of the World as the show's center of gravity, calling it "the epitome ` +
+      `of that WHOLE notion and emotion. everyone in sync. feeling it together". Earlier in the set, ` +
+      `Branford's first appearance was on Bird Song — reesey describes "the tastiest little birdsong ` +
+      `ever" and a backstage moment where they spotted his sax warming up before the band knew the ` +
+      `guest was coming. Dark Star draws notice for Jerry's MIDI work — JourneyHome notes Jerry was ` +
+      `"playing with his toys that night", and reesey mentions the "futuristic horn midi effect" ` +
+      `Branford coaxed him to flick on. TheBrownAcid frames the overall sound as "more jazzy than ` +
+      `usual", with Brent's "jangly keyboards" sitting cleanly in that texture.`,
     context:
-      "By 1990, the Dead were deep into their late period — huge crowds, uneven nights, Jerry's health declining. Then Branford Marsalis showed up. Mickey Hart had invited him, and the band responded by playing like it was 1974. This was the only Dark Star played all year. This show converted more new Deadheads than almost any other late-era recording.",
-    funFact: "Branford later said he'd never played with a band that listened like the Dead. High praise from a jazz legend.",
+      `This is one night of the four-show Nassau Coliseum stand in late March 1990. The recording on ` +
+      `Archive is a soundboard (identifier: gd90-03-29.sbd.nawrocki.3389.sbeok.shnf). TheBrownAcid ` +
+      `notes a separate official release of this performance and prefers it to this SBD: "the Wake ` +
+      `Up To Find Out recording is spectacular". Branford Marsalis was the guest; Mickey Hart had ` +
+      `brought him in, and he played most of the night.`,
+    funFact:
+      `Scobard recalls one bandstand moment: "Jerry kind of bungles a line in Dark Star and Weir got ` +
+      `pissed and sat down on a case throughout the remainder of the song".`,
+    communityVoices: [
+      { quote: "to me it was the damn 'Eyes'. it set the whole thing off and put it in stone.", attribution: "reesey, on Eyes of the World", source: "Archive.org review" },
+      { quote: "He just doesn't burn it up like he could.", attribution: "TheBrownAcid, on Jerry", source: "Archive.org review" },
+      { quote: "The second set was ATOMIC!", attribution: "Scobard", source: "Archive.org review" },
+      { quote: "Branford just kept that whole New Orleans vibe going", attribution: "JourneyHome, on Branford", source: "Archive.org review" },
+      { quote: "This was one of THOSE shows. Start downloading one before you finish this. Not just b/c of Branford, but that helped for sure.", attribution: "Deadhead225", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 5. 10/9/89 Hampton — the comeback ─────────────────────────
@@ -385,14 +475,50 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "The Dark Star that became the textbook definition of psychedelic rock.",
+    releasedAs: ["Live/Dead (Dark Star, St. Stephen, The Eleven)"],
+    headline: "The Live/Dead Dark Star, Thursday night at the Fillmore.",
     whyThisShow:
-      "This is the primal template. The Live/Dead album — the record that taught the world what a Dead show sounded like — was largely built from the February and March 1969 Fillmore West run, and this night is the core of it. Long Dark Star, St. Stephen rising out of the mist, Lovelight lasting forever. Not easy listening. Essential listening.",
+      `This is the night the Dark Star on Live/Dead was captured, and the community consistently ` +
+      `treats that recording as the benchmark against which all other versions are measured. One ` +
+      `reviewer called it "THE quintesssential dark star", noting that "in 1969 almost all versions ` +
+      `were fiery, psychadelic and purposeful" and that "in this era Dark Star was an event all unto ` +
+      `itself". Another described it as "basically the measuring stick of all others" and the entry ` +
+      `point through which many fans first heard what the Dead could do improvisationally. Worth ` +
+      `noting: at least one reviewer, ranking across the four Fillmore nights that week, places this ` +
+      `show third overall even while calling its Dark Star the best of the run.`,
     listenFor:
-      "The 23-minute Dark Star is the centerpiece — Jerry's guitar tone liquid, Phil playing melody lines beneath it all, the band moving as one organism. St. Stephen > The Eleven is a rush of psychedelic rock that paved the way for everything from Phish to post-rock. Pigpen's Lovelight turns the whole place into a revival.",
+      `The transition out of Mountains of the Moon into Dark Star is a specific moment reviewers ` +
+      `keep returning to — one called it "a beautiful transition from Mountains on the Moon" that ` +
+      `sets up everything that follows. Within the Dark Star itself, one listener pointed to "Jerry ` +
+      `ripping off soaring leads then mixing them up with mind bending psychadelic blasts" while ` +
+      `"Phil is throwing down the thunder which must be rattling the insides of everyone present". ` +
+      `The St. Stephen is also flagged specifically — one reviewer who attended both the Thursday ` +
+      `and Sunday shows that week described the combined Dark Star and St. Stephen as having "flawless ` +
+      `thematic motifs with counterpoint lines and rhythms". One reviewer also singles out this ` +
+      `show's "far better TOO section" compared to the 3/2 night, even while preferring 3/2 overall ` +
+      `for its Cryptical Reprise.`,
     context:
-      "Early 1969 was the Dead at their most exploratory — still playing ballrooms, not yet rock stars, pushing the boundaries of what a rock band could be. Warner Bros finally agreed to release a live record because no studio album had captured what the band actually did. The resulting Live/Dead became one of the first true live albums — a single performance, presented whole.",
-    funFact: "Live/Dead essentially invented the modern live album. Before it, live records were usually compilations. The Dead said: no, this is what we do — one night, start to finish.",
+      `This is one of four consecutive Fillmore West shows in late February and early March 1969, ` +
+      `with Pentangle on the same bill at least for the Thursday night. The Dark Star, St. Stephen, ` +
+      `and The Eleven from this recording were officially released on Live/Dead (1969), which is ` +
+      `why the tape circulates in the community as a known quantity even though the full show ` +
+      `remains unreleased. The best available recording is a 16-track soundboard (identifier: ` +
+      `gd69-02-27.sbd.16track.kaplan.6315.sbeok.shnf), putting the sound quality well above most ` +
+      `1969 sources. At least one attendee who was present for both the 2/27 and 3/2 shows noted ` +
+      `that "the Dead played the best I ever saw them that weekend".`,
+    funFact:
+      `One reviewer who was at the show remembers being so taken with Bob Weir's playing that it ` +
+      `directly led to buying his first guitar, recalling that he was "lured into buying my first ` +
+      `ax from watching these guys back then..especially Weir...whose fluid right hand did nice ` +
+      `rhythmic fills".`,
+    communityVoices: [
+      { quote: "this version of Dark Star, which appears on Live Dead, coming out of a beautiful transition from Mountains on the Moon is THE quintesssential dark star", attribution: "Kola67, on Dark Star", source: "Archive.org review" },
+      { quote: "the Live/Dead DS contained here is basically the measuring stick of all others. for many people, it was their first window into the improvisational possibilities of the greatest band on earth", attribution: "clementinescaboose, on Dark Star", source: "Archive.org review" },
+      { quote: "flawless thematic motifs with counterpoint lines and rhythms...they even sang close to the proper harmonies", attribution: "jimtuht, on Dark Star and St. Stephen", source: "Archive.org review" },
+      { quote: "music that can make one sob for joy", attribution: "WandrnShaman, on mood", source: "Archive.org review" },
+      { quote: "This Dark Star truely is a cosmic voyage. You are sent spinning through Saturn's rings and past the outer plants; dodging meteors and hitching rides on comets till you are left floating in the endless void", attribution: "xonix, on Dark Star", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 12. 5/2/70 Harpur College — three shows in one night ──────
