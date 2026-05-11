@@ -555,14 +555,47 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "classic",
     bestFor: ["newcomer", "exploring"],
-    headline: "The night after Cornell — and some Deadheads think this one's even better.",
+    releasedAs: [],
+    headline: "Buffalo the night after Cornell — don't skip it.",
     whyThisShow:
-      "If Cornell is the show everyone knows, Buffalo is the insider's pick. Help > Slip > Frank opens with one of the greatest three-song sequences in Dead history. The whole show has an easy confidence — the band knows they're on fire and they're enjoying it. Less pressure than Cornell, more swagger. A perfect road trip show.",
+      `Buffalo May 9 is the night after Cornell, and the community argument has always been ` +
+      `whether it gets unfairly buried in its famous neighbor's shadow. One listener who was at ` +
+      `both shows put it plainly: "I liked Buffalo more than Cornell". The first set is the ` +
+      `center of gravity here — the Help>Slip>Franklin's draws particular attention, with one ` +
+      `reviewer calling it "perhaps the best version of Help>Slip>Franklin's of the year". The ` +
+      `recording itself is a clean soundboard, and one reviewer noted that "the balance and ` +
+      `separation are just perfect". There is a mild note of caution: one listener felt "this ` +
+      `second set has its moments but isn't at the same level as the first overall", so the show ` +
+      `rewards front-loading your attention.`,
     listenFor:
-      "Help on the Way > Slipknot! > Franklin's Tower is the centerpiece — three songs that flow into each other like movements of a symphony, building from intricate to explosive to joyful. Eyes of the World in the second set is liquid gold. Stella Blue is heartbreak in slow motion. And Uncle John's Band to close is pure communal warmth.",
+      `Start at the top: the opening Help>Slipknot!>Franklin's Tower is the thing reviewers keep ` +
+      `coming back to, with one calling Jerry's vocals and guitar work on Franklin's Tower ` +
+      `"magnificent". In the second set, Estimated Prophet into The Other One is described as ` +
+      `"almost like going from a lude to dosing in a hurry". One reviewer also singles out how ` +
+      `loud and present Phil is throughout, noting that "after '77 the rhythm section would rarely ` +
+      `ever be this driving again". The Uncle John's Band encore is flagged as the right close ` +
+      `for this specific night — one reviewer called it "a fitting send-off to a brilliant ` +
+      `three-night run".`,
     context:
-      "This is the night after Cornell, same May '77 Northeast tour. The band was deep in one of the greatest runs in rock history — every show that month is worth hearing. Buffalo often gets overlooked because of Cornell's legend, but it might be the more adventurous show of the two.",
-    funFact: "May 1977 produced so many classic shows that Deadheads simply call it 'the run.' Every night was magic.",
+      `This is the third night of a three-show run: Passaic May 7, Cornell May 8, Buffalo May 9. ` +
+      `The recording circulates as a soundboard (identifier: gd77-05-09.sbd.connor.8304.sbeok.shnf) ` +
+      `and has never received an official release, which makes it a community-sustained tape with ` +
+      `140 reviews on Archive.org. One reviewer noted that at this moment in the band's life, ` +
+      `things with Keith and Donna were on the downslope and Jerry had recently been introduced ` +
+      `to substances that would later weigh on him — context that makes the quality of this run ` +
+      `feel more remarkable in retrospect.`,
+    funFact:
+      `One reviewer was at both Cornell and Buffalo as a teenager, drove up from Cleveland ` +
+      `without a license, and described the Estimated Prophet as "Phil taking me inside out and ` +
+      `sideways" — then had to grab the wheel on the highway ride home when the driver nodded off.`,
+    communityVoices: [
+      { quote: "every note was purposeful", attribution: "zzzboxofrainzzz, on the show overall", source: "Archive.org review" },
+      { quote: "Certainly my favorite Help Slip Franklins. Pair this set with the previous night's second and wow!", attribution: "gvtmule, on the first set", source: "Archive.org review" },
+      { quote: "Unlike Cornell where I'll sometimes skip a tune to get to a highlight, I have never skipped a tune when streaming 5/9/77.", attribution: "zzzboxofrainzzz, comparing Buffalo to Cornell", source: "Archive.org review" },
+      { quote: `absolutely perfect beautiful "SUBLIME" 1st set!`, attribution: "c-freedom, on the first set", source: "Archive.org review" },
+      { quote: "Estimated Prophet Phil taking me inside out and sideways, Bobby straight ahead.", attribution: "mrnaturally, on Estimated Prophet", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 11. 2/27/69 Fillmore West — the Live/Dead template ────────
@@ -749,14 +782,46 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
-    headline: "Europe '72 opens — the first night of the legendary tour.",
+    releasedAs: [],
+    headline: "Wembley, April '72: the Dark Star they keep arguing about.",
     whyThisShow:
-      "The Dead landed in England, set up at Wembley, and unleashed the first night of the most documented tour in rock history. Fresh, confident, the band in peak form with Keith Godchaux newly installed on piano and Pigpen still in the lineup. If the Lyceum show is the victory lap, this one is the starting gun.",
+      `This is the second night of the Europe '72 tour at Wembley Empire Pool, and the community ` +
+      `returns to it again and again for one reason above all: the Dark Star. One reviewer called ` +
+      `it the "Single Best Dark Star Ever Bar None", and another described it as "one of the most ` +
+      `driven, intense Dark Stars out there". The Dark Star flows into Sugar Magnolia and then ` +
+      `Caution, and one listener described the whole run as "A+ meat sequence". The Playing in ` +
+      `the Band earlier in the show is no afterthought either — one reviewer flagged it as ` +
+      `"simply RAGING" and "a Jerry/Phil smorgasbourg". The soundboard recording holds up well; ` +
+      `one listener found it "the most pleasant to listen to from an audiophile standpoint" among ` +
+      `dozens of Archive downloads.`,
     listenFor:
-      "China Cat Sunflower > I Know You Rider is perfect pop-songwriting Dead — the harmonies lock, the energy bounces. Playing in the Band is loose and exploratory. Pigpen's Good Lovin' is one of his last great vocal turns. Tennessee Jed, Jack Straw, Sugaree — the Workingman's/Beauty-era country-rock Dead at full strength.",
+      `Start with the Dark Star and don't skip it — one reviewer clocked the "coming blast off" ` +
+      `starting just before the 18-minute mark, followed by what they called "a very interesting, ` +
+      `almost circus like Pigpen buried in the background". Around the 28-minute mark the jam ` +
+      `"strongly hints at the song they will eventually go into" before Bobby locks into Sugar ` +
+      `Magnolia. The Playing in the Band is worth a close listen earlier in the set — one ` +
+      `reviewer noted the band "never stop creating throughout the life of this Playin". The ` +
+      `Good Lovin' is also called out, with one reviewer noting "this ten minute version keeps ` +
+      `things moving along nicely" and flagging a "Great Jer/Bob/Phil blast around 3 minutes in".`,
     context:
-      "The Europe '72 tour was the Dead's international statement — 22 dates across England, France, Germany, Denmark, and the Netherlands. They brought families, crew, a mobile recording unit, and recorded every show. The resulting triple album became the Dead's best-selling record and converted a generation of European fans. Wembley was the opening salvo.",
-    funFact: "The Dead brought an entourage of roughly 40 people to Europe. The tour lost money but produced immortal music.",
+      `This is the second show of the Europe '72 tour, recorded via soundboard at the Wembley ` +
+      `Empire Pool in London on April 8, 1972. The archive identifier ` +
+      `gd72-04-08.sbd.giles-jeffm.2534.sbeok.shnf confirms a soundboard source. The tour produced ` +
+      `the landmark Europe '72 double album, and one reviewer noted this recording "reminds me of ` +
+      `the sound found on Europe '72" and appears to "share the same sonic footprint". The show ` +
+      `remains officially unreleased as a standalone; one reviewer ranked April 8th among the ` +
+      `best stops on the full tour.`,
+    funFact:
+      `One reviewer used this Dark Star specifically to convert a fence-sitting friend, reporting ` +
+      `that "after about 15 minutes of this Dark Star, he was totally feeling it".`,
+    communityVoices: [
+      { quote: "Single Best Dark Star Ever Bar None", attribution: "gphishmon", source: "Archive.org review" },
+      { quote: "one of the most driven, intense Dark Stars out there, it will always be in my tops! Billy drives the intensity and much as Jerry, and it doesn't let go.", attribution: "kochman, on the Dark Star", source: "Archive.org review" },
+      { quote: "The Playin In The Band from this show is simply RAGING! This one is a Jerry/Phil smorgasbourg.", attribution: "bootleg43, on Playing in the Band", source: "Archive.org review" },
+      { quote: "this is the tour where Bob Weir's rhythm guitar becomes god-like.", attribution: "Darrylizer, on the Europe '72 tour", source: "Archive.org review" },
+      { quote: "I find this the most pleasant to listen to from an audiophile standpoint, really an excellent taping job and hghly recommended.", attribution: "Chadbang, on recording quality", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 15. 6/10/73 RFK — Dead + Allman Brothers ─────────────────
@@ -781,14 +846,48 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
-    headline: "The Dead and the Allman Brothers, together on one stage, for hours.",
+    releasedAs: [],
+    headline: "RFK in the summer heat, Phil wired to the sky.",
     whyThisShow:
-      "This is what happens when two of the greatest jam bands in history share a stage. Both bands played full sets, then played together — Jerry, Bob, Dickey Betts, Butch Trucks all locked in. Outdoor, massive, sprawling, joyful. If you want to understand what 1973 actually felt like at the peak of the jam-band era, this is the show.",
+      `This is a classic 1973 wall-of-sound show at an enormous outdoor venue, with a soundboard ` +
+      `recording that one listener rated five stars across "the mix, recording, performance & ` +
+      `transfer". One reviewer called it "a great representation of this year" and noted the ` +
+      `band's ability to "transition so fluidly from rock riffs to jazz grooves to spacey, ` +
+      `surrealist jams". The Eyes of the World drew particular attention — one listener found it ` +
+      `"very jazzy and upbeat with crisp keys providing the perfect background for Jerry to play ` +
+      `to" and noted the keys were "so prominent it's almost approaching ragtime". The show is ` +
+      `unreleased officially, which makes this clean soundboard the community's primary window ` +
+      `into the night.`,
     listenFor:
-      "The encore sequence is where the bands combine — Not Fade Away → Goin' Down the Road Feeling Bad with the Allmans all over it, guitars trading lines, the groove doubled. The main Dead set has a gorgeous Eyes of the World (still brand new), a mellow Row Jimmy, and a Truckin' that rolls for days.",
+      `Phil's bass work is a recurring reference point throughout the reviews — one listener ` +
+      `described how "Phil's bass slaps me in the face at the 10 minute mark" in He's Gone. The ` +
+      `Playing in the Band carries extra weight given the venue: one attendee recalled that Phil ` +
+      `"played with the stadium echo during Playing in the Band" using speakers stacked "about ` +
+      `70 yards from the stage". The closing NFA > Goin' Down the Road > NFA sequence earned ` +
+      `specific praise as something to savor. One reviewer also flagged an unexplained recurring ` +
+      `sound — "sounds almost like a slapstick or even fireworks" — that pops up throughout the ` +
+      `recording.`,
     context:
-      "1973 was peak Keith-era Dead — jazzy, spacious, Jerry's playing never more lyrical. They were big enough to headline stadiums but had lost none of their adventurousness. The Allman Brothers co-headline was the Dead's first major shared tour with another act. Duane Allman had died in '71; his band was still mourning. You can hear the musicians supporting each other.",
-    funFact: "This was the largest crowd the Dead had ever played for to date. Seven weeks later, Watkins Glen would be ten times bigger.",
+      `June 10, 1973 was the second of two consecutive Dead shows at RFK Stadium in Washington, ` +
+      `DC — the Archive also holds June 9 from the same run. This is the wall-of-sound era, when ` +
+      `Phil Lesh's bass rig was famously wired to massive speaker stacks positioned deep in the ` +
+      `venue. The recording is a soundboard (identifier: gd73-06-10.sbd.hollister.174.sbeok.shnf) ` +
+      `and has never received an official release, making the Archive tape the community's ` +
+      `standard source. One reviewer noted that the Allman Brothers were at the show and joined ` +
+      `for a third set, calling that portion "a classic".`,
+    funFact:
+      `One attendee recalled that after Deadheads entered RFK, "some of them opened the other ` +
+      `gates" so the venue ran out of food — and when he and his future wife tried to leave, a ` +
+      `rent-a-cop on a scooter spooked them so badly they "thought that they had decided to keep ` +
+      `us all here for observation or something".`,
+    communityVoices: [
+      { quote: "Eyes is very jazzy and upbeat with crisp keys providing the perfect background for Jerry to play to. The keys are so prominent it's almost approaching ragtime.", attribution: "enjoy every (dead) sandwich, on Eyes of the World", source: "Archive.org review" },
+      { quote: "Phil had his guitar wired each string to four huge stacks of speakers about 70 yards from the stage. He played with the stadium echo during Playing in the Band and I haven't been the same since.", attribution: "Sweetmd3, on Playing in the Band", source: "Archive.org review" },
+      { quote: "Super 73' Soundboard! 5 stars for the mix, recording, performance & transfer.", attribution: "oh_uh_um_ah", source: "Archive.org review" },
+      { quote: "i feel safe secured and whole for my land is a national park", attribution: "hunabkupakal", source: "Archive.org review" },
+      { quote: "SHARE...SHARE...SHARE....that's what this is about...it's not about your hate for someone that is helping people enjoy life.", attribution: "back_from_the_DEAD", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 16. 7/28/73 Watkins Glen — largest concert ever ──────────
@@ -1256,14 +1355,45 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "Branford Marsalis, again — the late-era Dark Star they weren't supposed to have.",
+    releasedAs: [],
+    headline: "Eight on stage at the Garden, Dark Star returns.",
     whyThisShow:
-      "The other Branford show. The 3/29/90 Nassau performance gets the headlines, but this one — MSG, September '91, Branford back on saxophone — might be the deeper, stranger, more jazz-informed take. The Dark Star here is searching, textural, conversational. The band and Branford dance around each other for a long time. Required listening if you loved Nassau.",
+      `This is the third and final night of Branford Marsalis's run with the Dead at MSG in ` +
+      `September 1991, and it landed a Dark Star — the first many attendees had seen in years. ` +
+      `One listener went so far as to call it one of the top ten Grateful Dead concerts of all ` +
+      `time. Another ranked it as the best post Keith and Donna show. That said, at least one ` +
+      `attendee who was there and had skin in the game — his Dark Star quest ending that very ` +
+      `night — still considered it the lesser of the three Branford shows. The canonical read is ` +
+      `that something genuinely rare happened; the minority view is that the two earlier nights ` +
+      `set a bar this one didn't quite clear.`,
     listenFor:
-      "Dark Star is the whole thing — patient, abstract, real chamber jazz. Branford on soprano sax is gorgeous. Eyes of the World has a delicacy that's rare in late-era Dead. The whole second set flows like a suite, songs bleeding into each other without hard cuts. The band was listening.",
+      `The space jam inside Dark Star, after verse two, draws particular attention: one reviewer ` +
+      `described Jerry and Branford trading horn sounds as one of the three best improvisational ` +
+      `moments he witnessed across fourteen years of seeing the Dead. The Slipknot! drew ` +
+      `comparisons to Miles Davis's Bitches Brew era, with Garcia, Hornsby, and Marsalis all ` +
+      `contributing. Jerry's vocal on High Time was singled out for a quality that only comes ` +
+      `from two decades with a song. Be aware that Vince has some stumbles and the eight-musician ` +
+      `lineup can sound cluttered at points.`,
     context:
-      "Mickey Hart had brought Branford Marsalis into the Dead's orbit — they'd met on a cultural exchange, and Branford was a fan. He sat in with the Dead only a handful of times; this was one of the deepest. The band was exhausted and Jerry's playing was uneven by fall '91, but nights like this proved the ceiling was still there.",
-    funFact: "Branford Marsalis's brother Wynton became the face of mainstream jazz. Branford was always the more adventurous Marsalis — which is why the Dead connection made sense.",
+      `September 1991 was a three-night run at Madison Square Garden with both Branford Marsalis ` +
+      `on saxophone and Bruce Hornsby on piano sitting in, putting eight musicians on the stage. ` +
+      `The best circulating recording is a soundboard (identifier: gd91-09-10.sbd.sacks.511.sbeok.shnf) ` +
+      `and one listener called the sound quality an A+. The show remains officially unreleased, ` +
+      `which has kept it circulating as a community tape rather than a commercial product. The ` +
+      `setlist includes Dark Star, its first appearance for many in the room, alongside a full ` +
+      `second set that runs through The Other One, Wharf Rat, and Not Fade Away.`,
+    funFact:
+      `One attendee had a birthday cake smuggled into the Garden, and when the candles were lit ` +
+      `during setbreak, he heard what seemed like the majority of the people in MSG singing and ` +
+      `cheering for him.`,
+    communityVoices: [
+      { quote: "On this particular night, they were the best band in the entire world playing at that moment in time. There is no question about it.", attribution: "zleary", source: "Archive.org review" },
+      { quote: "my quest for The Holy Grail (Dark Star) ended that night and with Branford no less. That doesn't change the facts. I knew it that night.", attribution: "The TRUE Bucky, on Dark Star", source: "Archive.org review" },
+      { quote: "Jerry, Bruce and Branford contribute to an acid drenched and quite jazzy version of Slipknot, shades of Bitches Brew era Miles Davis.", attribution: "JoeShoe, on Slipknot!", source: "Archive.org review" },
+      { quote: "it was one of the best post brent shows i have ever been to", attribution: "feellikeastranger", source: "Archive.org review" },
+      { quote: "already the Garden is shrinking from a 18k seat venue to a tight downtown club", attribution: "Solo Head", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 29. 9/21/93 MSG — Vince-era late-fire ────────────────────
@@ -1961,14 +2091,48 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "deep-cut",
     bestFor: ["head"],
-    headline: "Dick Latvala's pick for one of the best shows of late '72. A Bird Song that levitates.",
+    releasedAs: [],
+    headline: "Wichita in November, Keith dark inside The Other One.",
     whyThisShow:
-      "Dick Latvala — the Dead's archivist who shaped the entire Dick's Picks series — singled this show out as 'one of the best shows of this period.' The Bird Song is widely cited as the best version of all of 1972. The Truckin' > The Other One > Brokedown sequence has 'sizzling other-worldly jamming' with Bobby and Jerry trading wah-wah leads. A 'Heady Tribute to a Truly Forgotten Show,' as one reviewer titled their writeup.",
+      `This is a November 1972 deep-cut from a run that one reviewer called "the most solid run ` +
+      `imho" of the entire fall, placing it alongside the Cleveland show from late October. The ` +
+      `He's Gone here is a particular draw — one listener called it the best they could think of, ` +
+      `with an outstanding post-song jam. The Truckin' into Other One sequence gives Keith ` +
+      `Godchaux room to operate, and one reviewer noted that around twelve minutes in he takes ` +
+      `over for a dark solo before Jerry scales up behind him. One reviewer summarized the ` +
+      `overall performance as the playing in the first set being "virtually flawless, on a ` +
+      `technical level". There is a cut in Jack Straw — painfully noted given the song's Wichita ` +
+      `lyric — but the rest of the tape is intact and sounds excellent.`,
     listenFor:
-      "Bird Song is the highlight — exploratory, every section just right. The Truckin' > Other One > Bobby McGee > Other One > Brokedown sandwich is the second-set destination. Sugar Magnolia rocks the close. The whole show has the post-Europe '72 confidence — the band knew what they had become.",
+      `The He's Gone is the anchor: one reviewer described a post-song thematic jam starting ` +
+      `around ten minutes where Garcia makes every second count before the band drops into ` +
+      `Truckin'. The Other One that follows is where Keith really takes the wheel, going dark ` +
+      `and exploratory with what one listener called "great jazz piano work by Keith". Bird Song ` +
+      `is flagged as a highlight, with one reviewer placing it "right up there with Veneta ` +
+      `8-27-72". The soundboard transfer is clean enough that both guitars come through clearly ` +
+      `throughout. There is a real cut in Jack Straw, which one reviewer called "heart breaking" ` +
+      `given the song's obvious resonance in Wichita.`,
     context:
-      "Late November 1972, deep in the Heartland on a tour swing that almost no one talks about. Wichita's Century II was a mid-sized civic auditorium. The crowd was small. The band played like they meant it anyway. The Warner SBD source has noise reduction; purists prefer the Lai 1185 source for cleaner highs. Charlie Miller has transferred a Latvala-source SBD that's the best available.",
-    funFact: "Wichita was a regular stop on Dead tours of the early '70s — they played Century II Convention Hall multiple times. The room had a spinning rotunda design that produced odd acoustic reflections. The band loved playing there; tapers cursed it.",
+      `November 17, 1972, Century II Convention Hall, Wichita, Kansas — deep into the fall ` +
+      `domestic tour that followed the Europe '72 run. The recording is a soundboard (identifier: ` +
+      `gd1972-11-17.sbd.lai.1185.shnf), transferred by Mike Lai, whose work one reviewer credited ` +
+      `for bringing "this recording to full appreciation value". The show has never received an ` +
+      `official release. One reviewer noted at the time of their write-up that they had just ` +
+      `pre-ordered it as Dave's Picks Vol. 11, suggesting it was under consideration at that ` +
+      `moment. The setlist is missing a Playing in the Band, which one reviewer flagged as ` +
+      `unusual for the era.`,
+    funFact:
+      `The only known recording of Jack Straw played in Wichita — the city named in the song — ` +
+      `has a massive cut right through it, leaving one reviewer to wonder if "there's another ` +
+      `Wichita somewhere in the sky and the Jack Straw is played/recorded to perfection".`,
+    communityVoices: [
+      { quote: "Can't think of a better He's Gone with an outstanding jam.", attribution: "HeadlightOnANorthboundTrain, on He's Gone", source: "Archive.org review" },
+      { quote: "ain't it ironic that the only ever Jack Straw from Wichita (or maybe there are more and I just ain't looked hard enough?) in Wichita is cut/flawed/f*cked!!!!!", attribution: "Tidewater four ten O nine, on Jack Straw", source: "Archive.org review" },
+      { quote: "an very exploratory Other One featuring some great jazz piano work by Keith", attribution: "Pangolin22, on The Other One", source: "Archive.org review" },
+      { quote: "Keith in particular is killing it during the jams. So great to hear him as a key melodic inventor of that nights music.", attribution: "Dylan M, on Keith Godchaux", source: "Archive.org review" },
+      { quote: "Around 12 minutes in Keith takes over for a nice, dark solo, and then Jerry scales up behind him about a minute later. Keith wasn't ready to just turn it over and they have a nice moment.", attribution: "kochman, on The Other One", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 46. 9/16/78 Egypt — Pyramids and pedal steel ───────────

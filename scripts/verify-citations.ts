@@ -118,7 +118,12 @@ function verify(
   synthesis: SynthesisOutput,
   brief: ResearchBrief,
 ): Failure[] {
-  const reviewBodies = brief.reviews.map((r) => r.body);
+  // Match against both review titles AND bodies — reviewers sometimes condense
+  // their strongest claim into the title (e.g. "Single Best Dark Star Ever Bar
+  // None"), and that's a legitimate verbatim quote from them.
+  const reviewBodies = brief.reviews.flatMap((r) =>
+    r.title && r.title.trim() !== "" ? [r.title, r.body] : [r.body],
+  );
   const failures: Failure[] = [];
 
   const fields: Array<{ key: keyof SynthesisOutput; label: string }> = [
