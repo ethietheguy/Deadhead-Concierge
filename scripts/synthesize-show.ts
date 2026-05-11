@@ -434,7 +434,14 @@ async function synthesizeWithRetry(
     const rawText = extractText(response);
     let parsed: SynthesisOutput;
     try {
-      parsed = JSON.parse(stripFences(rawText)) as SynthesisOutput;
+      // The model sometimes emits invalid JSON escape sequences inside string
+      // values — most commonly `\'` (escaped apostrophe), which JSON forbids
+      // (only \", \\, \/, \n, \r, \t, \b, \f, \uXXXX are legal). We strip
+      // those before parsing. The negative-lookbehind ensures we don't munge
+      // a legitimate `\\` + `'` sequence (literal backslash followed by an
+      // apostrophe inside a string).
+      const cleaned = stripFences(rawText).replace(/(?<!\\)\\'/g, "'");
+      parsed = JSON.parse(cleaned) as SynthesisOutput;
     } catch (err) {
       // Most common cause: unescaped double quotes inside a string value
       // (e.g. context: "...released as "May 1977: Get Shown the Light"."

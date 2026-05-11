@@ -285,14 +285,48 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "The Dead rise from the ashes. Dark Star returns after four years of silence.",
+    releasedAs: [],
+    headline: "Hampton, October '89, Warlocks on the ticket, Dark Star in the air.",
     whyThisShow:
-      "This is the comeback show. After years of decline and Jerry's near-death from a diabetic coma, the Dead walked onstage at Hampton and played like their lives depended on it — because in a way, they did. When Dark Star appeared in the setlist for the first time in four years, the crowd lost their minds. This is triumph in its purest form.",
+      `This is the second of two stealth Hampton shows billed under the Warlocks name — the one ` +
+      `where the band pulled out Dark Star for the first time in years and closed with Attics of My ` +
+      `Life, unreleased on a major label even now. One reviewer called it "as good as the late-80s ` +
+      `gets," placing it alongside only a handful of other shows from this period. The second set's ` +
+      `Help > Slipknot! > Franklin's Tower opener was followed by a Playing in the Band that one ` +
+      `listener described as "funky and amazing, the Uncle John's perfect with sweet harmonies ` +
+      `slipping quickly into psychedelic scary jamming back into the Playin reprise". One fair ` +
+      `caveat from a long-tenured head: the tape alone may not fully convey what the room held, ` +
+      `since "The Air was Crackling with Energy that I swear you will never experience again in Rock and Roll".`,
     listenFor:
-      "The opening Help > Slip > Frank is a statement — 'we're back.' But the real moment is when the first notes of Dark Star emerge from the Space jam. The crowd reaction is thunderous. Listen for the Attics of My Life that follows — incredibly rare and heartbreakingly beautiful. The whole second set is the Dead reclaiming their legacy.",
+      `The Dark Star is the obvious anchor — one attendee spent years chasing subsequent Dark Stars ` +
+      `on the east coast and credited the energy at this show with turning him into "some kind of ` +
+      `Dark Star magnet". One reviewer who had the Live Dead version deeply ingrained noticed Garcia ` +
+      `playing a riff "he played during many Dark Stars from the past, in particular, the one from ` +
+      `Live Dead" before the song broke open at the 10:35 mark. The encore Attics of My Life was ` +
+      `the breakout many in the crowd had anticipated after word spread that the band had been ` +
+      `soundchecking it out west. One reviewer called it "such a gorgeous, meaningful song, ` +
+      `Hunter/Garcia at their poetic, melodic best" and felt "the boys nailed it tonight".`,
     context:
-      "In 1986, Jerry Garcia fell into a diabetic coma and nearly died. The band regrouped, but by 1989 the magic had been inconsistent. Then came Hampton. The setlist reads like a greatest hits of deep cuts — songs they hadn't played in years, pulled out with fire and purpose. Deadheads call this 'Formerly the Warlocks' because the shows were advertised under that name to keep the venue intimate.",
-    funFact: "The shows were billed as 'Formerly the Warlocks' — the band's original name — to keep the crowd size manageable. It didn't work.",
+      `These two October 1989 Hampton Coliseum shows were billed as Warlocks performances — a ` +
+      `deliberate low-key announcement that nonetheless spread rapidly through the Deadhead network. ` +
+      `Tickets were lime green with The Warlocks in gold foil lettering, sold through mail order and, ` +
+      `as at least one attendee discovered, out of the back seat of a police car in the parking lot. ` +
+      `The best circulating tape is a soundboard (gd89-10-09.sbd.serafin.7721.sbeok.shnf) and the ` +
+      `show remains officially unreleased, which has kept community discussion anchored on this ` +
+      `Archive source for decades. The Attics of My Life had not been performed in over 17 years, a ` +
+      `gap one reviewer noted "should be as significant as Dark Star".`,
+    funFact:
+      `One first-timer, then fifteen years old, spent most of the show looking up at the ceiling ` +
+      `until a girl named Elizabeth from Tappahannock kept tapping his arm and saying "they're up ` +
+      `there, on stage, not in the rafters".`,
+    communityVoices: [
+      { quote: "I have seen the Band 500 times and this was the best Combined audience band experienced I have ever had.", attribution: "entourage1", source: "Archive.org review" },
+      { quote: "When the opening notes rang out, I was peaking. My friend and I just jumped in unison, while holding each other, for several minutes.", attribution: "superfoodman, on Dark Star", source: "Archive.org review" },
+      { quote: `afterwards, people were hugging each other and crying tears of joy. On the way out, the phones were packed with people - I remember one guy saying "Dark Star, man, Dark Star! I can't believe this just happened!"`, attribution: "piggriver", source: "Archive.org review" },
+      { quote: "if you are seeking 10-9-89 with any question in your mind, well then, it may not have been for you in the first place.", attribution: "mid-maine", source: "Archive.org review" },
+      { quote: `those lime green beauties with the "Warlocks" in gold embossed lettering were a joy to behold`, attribution: "Project J.A.M., on the tickets", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 6. Closing of Winterland — New Year's '78 ─────────────────
@@ -319,14 +353,51 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["newcomer", "exploring", "head"],
-    headline: "New Year's Eve '78 — the last waltz at Winterland, and the Dead threw everything they had at it.",
+    releasedAs: ["The Closing of Winterland (DVD)"],
+    headline: "New Year's Eve 1978, Winterland's last night.",
     whyThisShow:
-      "This is the ultimate party show. The closing of Winterland — Bill Graham's legendary venue — and the Dead played for over four hours, through midnight, until breakfast was served at dawn. If you want a show that captures the energy and communal joy of being at a Dead concert, this is the one.",
+      `This is the final night at Winterland Arena, the Dead's longtime San Francisco home, and the ` +
+      `band played four-plus hours to close it out. The midnight opening is itself an event — one ` +
+      `reviewer called the Sugar Magnolia into Scarlet>Fire sequence "truly gobsmacking," singling ` +
+      `out the transition licks into Fire on the Mountain as something that shows "within two minutes ` +
+      `what made Jerry's guitar playing historically notable". The real weight lands in the third ` +
+      `set, a sustained sequence that one reviewer called "47 min aural ecstasy" covering Dark Star, ` +
+      `The Other One, Wharf Rat, St. Stephen, and Good Lovin'. One reviewer, watching the DVD, noted ` +
+      `Jerry "focused and intense... his whole body swaying, totally into it" during what they called ` +
+      `"perhaps the all-time Wharf Rat". No significant dissent appears across the reviewed ` +
+      `community; this one reads as broadly canonical.`,
     listenFor:
-      "The Dark Star > Other One > Wharf Rat > St. Stephen sequence in the third set is a journey — nearly an hour of the band at their most exploratory. But honestly, the whole night builds. Scarlet > Fire early on is fiery, Casey Jones gets the place rocking, and by the time midnight hits, the energy is electric. The sound quality is impeccable — this was professionally filmed and recorded.",
+      `The Scarlet>Fire transition is the first thing to lock onto — specifically the moment where ` +
+      `Jerry's guitar leads into Fire on the Mountain, which one reviewer felt was the clearest ` +
+      `possible demonstration of what made his playing distinctive. In the second set, the Terrapin ` +
+      `Station stands out as an outlier in feel — one listener described it as "one of THE most ` +
+      `faithful, tenderest renderings" they'd ever heard, "not bombastic, but gentle, and heartfelt". ` +
+      `The third set requires patience getting there, but the Dark Star into The Other One handoff ` +
+      `is specifically worth tracking — one reviewer warned that "the transition from Dark Star into ` +
+      `The Other One is so smooth, you could easily miss it". Also worth noting: one reviewer ` +
+      `flagged the Miracle jam as unusually bluesy and natural, crediting the presence of a harp ` +
+      `player, and wondered "why they so rarely did this bluesy kind of jam out of Miracle in the 80's".`,
     context:
-      "Winterland was the Dead's home venue — they'd played there dozens of times. When Bill Graham announced its closing, the Dead were the obvious choice for the final show. Graham went all out: Breakfast was served at dawn (Blues Brothers and the New Riders opened). The show was broadcast live on FM radio and later released as a concert film.",
-    funFact: "Bill Graham descended from the rafters on a giant joint at midnight. The Blues Brothers opened. Breakfast burritos were served at dawn.",
+      `Winterland Arena closed its doors permanently this night; the Dead were the final act on the ` +
+      `final night of the venue's run, a fact that charged the occasion. The available recording is ` +
+      `a soundboard (identifier: gd78-12-31.sbd.ashley.1667.sbeok.shnf), which captures the full ` +
+      `four-set evening in clean fidelity. The show has never received an official audio release, ` +
+      `though a DVD of the New Year's broadcast has circulated widely in the community — several ` +
+      `reviewers reference watching or re-watching that DVD rather than the audio tape alone. The ` +
+      `era tag is 77-peak, situating this at the tail end of what many consider the band's ` +
+      `strongest sustained stretch.`,
+    funFact:
+      `One reviewer recalled owning a dubbed bootleg where all of the Scarlet>Fire jam was ` +
+      `accidentally cut, so the tape jumped from Donna's vocalizing straight to the coda — meaning ` +
+      `they didn't know the full sequence existed until seeing the DVD years later.`,
+    communityVoices: [
+      { quote: "The transition from Dark Star into The Other One is so smooth, you could easily miss it.", attribution: "gphishmon, on the third set", source: "Archive.org review" },
+      { quote: "If you actually survive Terrapin-Playing and make it through the 47 min aural ecstasy of Dark Star-Other One-Dark Star-Wharf Rat-St. Stephen-Good Lovin', then you can lay yourself down and die a peaceful death.", attribution: "DJPeebs, on the third set", source: "Archive.org review" },
+      { quote: `Jerry during Scarlet/Fire was on FIRE, but we had one of those moments where Jerry looks at me cause I am pointing at him with two arms and I say to myself, "Jerry knows I am frying" and he just smiles.`, attribution: "sfdead, on Scarlet/Fire", source: "Archive.org review" },
+      { quote: "It flows into Terrapin... one of THE most faithful, tenderest renderings of it I've ever heard. Not bombastic, but gentle, and heartfelt", attribution: "skwimite, on Terrapin Station", source: "Archive.org review" },
+      { quote: "2 weeks ago I had never listened to the DEAD and only knew Casey Jones and Truckin. I picked up the DVD for this show at my local library and have been changed forever.", attribution: "iamsean", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 7. 2/13/70 — Dark Star into St. Stephen ──────────────────
@@ -413,14 +484,52 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "The last show. You can hear the ending in every note.",
+    releasedAs: [],
+    headline: "Soldier Field, July 9th — the last night.",
     whyThisShow:
-      "This isn't the best Dead show. It might be the most important. Jerry Garcia's final performance — a month before his death — is haunted by a weight that's impossible to ignore once you know what comes next. So Many Roads, with Jerry visibly emotional, is one of the most devastating moments in live music. This is a show about endings, and it's unforgettable.",
+      `This is the last Grateful Dead show ever played, and the community treats it as such — for ` +
+      `better and worse. One reviewer is direct that the overall performance quality doesn't hold ` +
+      `up, writing "I have to agree with the majority of you that have reviewed this show. It sucked", ` +
+      `while another argues that assigning a good/bad value judgment "based on the musicianship of ` +
+      `the band/and or setlist or sound of the recording is completely idiotic". The weight the ` +
+      `community places on this tape has everything to do with what it is: the close of a thirty-year ` +
+      `run, Jerry's last night on a stage. One witness described watching Jerry as "absolutely dying ` +
+      `in front of our eyes" while also noting "the one thing he never denied us was his soul". The ` +
+      `double encore of Black Muddy River into Box of Rain, unrepeated anywhere else in the catalog, ` +
+      `gives the night a shape that feels like a goodbye.`,
     listenFor:
-      "So Many Roads is the moment. Jerry breaks down during the performance — his voice cracking, the lyrics suddenly prophetic. Box of Rain closes the show, Phil Lesh singing a song about mortality that neither he nor anyone else knew would be the last song the Grateful Dead ever played. Black Muddy River in the encore is Jerry at his most raw. Listen with the context. It changes everything.",
+      `So Many Roads is the emotional center of the second set — one listener called it "the most ` +
+      `powerful soul experience I ever witnessed from Jerry (in my 69 shows)". Black Muddy River in ` +
+      `the encore is the moment most reviewers circle back to; one describes how the way his voice ` +
+      `catches delivering the line about the last bolt of sunshine "serves as a reminder as to just ` +
+      `how shallow most of music has become today". Unbroken Chain — rare enough that one attendee ` +
+      `noted "rumors about Unbroken Chain were everywhere, and they panned out to be true" — comes ` +
+      `out of Space and is described as "pretty well played" by one witness. One listener singles ` +
+      `out the Corrina-into-Drums transition as "prob the best jam of 1995". Box of Rain closing the ` +
+      `night gets special mention from one attendee who felt Phil "pushed so hard" in a way he ` +
+      `hadn't heard in other versions.`,
     context:
-      "By July 1995, Jerry Garcia was in poor health — overweight, struggling with addiction, his playing uneven. The band's final tour was a mix of brilliant moments and painful ones. Soldier Field was the last of three Chicago shows. One month later, on August 9, 1995, Jerry died in his sleep at a rehab facility. He was 53.",
-    funFact: "The final song the Grateful Dead ever played was Box of Rain — a Phil Lesh song about his dying father. Nobody planned it that way.",
+      `July 9, 1995 at Soldier Field, Chicago was the final night of the summer 1995 tour and the ` +
+      `last concert the Grateful Dead ever performed. Jerry Garcia died thirty-seven days later, on ` +
+      `August 9, 1995. The show has never received an official release, which the community reads ` +
+      `as a notable absence given its historical position. The best-circulating recording is a ` +
+      `soundboard (identifier: gd95-07-09.sbd.7233.sbeok.shnf), and it has drawn over 360 reviews on ` +
+      `Archive.org — a volume that reflects the weight of the date more than any single performance. ` +
+      `One attendee who had toured the full summer described the arc from Deer Creek to St. Louis ` +
+      `to Chicago as "this whole disaster tour" before concluding it was "the Dead's best show of 1995".`,
+    funFact:
+      `One attendee, locked out with no ticket amid a crowd of people in the same spot, figured that ` +
+      `anyone crossing the stadium bridges on foot still had their tickets in hand — and scored Row ` +
+      `K at face value, describing the moment as running "off like Charlie n the Choc factory" ` +
+      `having found the golden ticket.`,
+    communityVoices: [
+      { quote: "So Many Roads was one of those moments, in fact the most powerful soul experience I ever witnessed from Jerry (in my 69 shows).", attribution: "santacruzer, on So Many Roads", source: "Archive.org review" },
+      { quote: "Black Muddy River. Jerry's rendering of this tune makes me forget the sloppy guitar work and spotty vocals.", attribution: "jerrysongs, on Black Muddy River", source: "Archive.org review" },
+      { quote: "to simply assign a good/bad value judgement to this show based on the musicianship of the band/and or setlist or sound of the recording is completely idiotic.", attribution: "samerca", source: "Archive.org review" },
+      { quote: "It's a little hard to listen to the lyrical mistakes, but the places that they go otherwise, well, that's deserving.", attribution: "pinetop", source: "Archive.org review" },
+      { quote: "Phil's double encore w Box of Rain!!! Come on! I dont think he ever did that song better, and I have heard many versions!!!", attribution: "17whenitoured, on Box of Rain", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 10. Barton Hall '77 cousin — the accessible rocker ────────
@@ -1317,14 +1426,46 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["newcomer", "exploring", "head"],
-    headline: "150,000 people in a New Jersey field. Released as Dick's Picks 15 for a reason.",
+    releasedAs: ["Dick's Picks Vol. 15"],
+    headline: "150,000 people, one scorching day at the drag strip.",
     whyThisShow:
-      "This was the largest-ever indoor or outdoor Dead audience to that point — 150,000 people on a hot Saturday at a stock-car track in central Jersey. The band rose to it. The Mississippi Half-Step is a perennial top-three candidate, the Not Fade Away clocks in over twenty minutes of pure groove, and the whole show has the loose, swaggering quality of a band aware they're playing a moment of history. Released as Dick's Picks Vol. 15 — Dick himself thought this was the show.",
+      `Englishtown on September 3, 1977 drew an estimated 107,000 to 150,000 people to a dirt field ` +
+      `at Old Bridge Raceway Park in blistering late-summer heat, and the Dead delivered a show ` +
+      `that has been in heavy circulation ever since. One longtime listener framed it as a bridge ` +
+      `show: "This is the bridge between that time and the often overlooked 78-79 Dead". A ` +
+      `dissenting voice worth knowing about is Mind Wondrin, who argues the show has earned an ` +
+      `"overrated" tag more than any other, crediting its reputation partly to how widely it ` +
+      `circulated as an early tape for many fans. That said, it was broadcast on powerhouse WNEW-FM ` +
+      `NYC that Labor Day weekend, putting it directly in the ears of a huge regional audience. ` +
+      `The show remains unreleased as a standalone title, though Dick's Picks 15 draws from it and ` +
+      `covers most of the show with some edits.`,
     listenFor:
-      "Mississippi Half-Step opens the show and 'really swings.' The He's Gone > Not Fade Away in the second set is twenty-plus minutes of grinding groove — Jerry going 'down and dirty for days.' Estimated > Eyes is canonical late-'77. Terrapin Station as the second-set closer (before the encore) is operatic. The full Dick's Picks 15 mastering reveals every Phil bomb.",
+      `Mississippi Half-Step is a consistent highlight; one reviewer ranked it among their top ` +
+      `three Half-Steps of all of 1977. Eyes of the World is worth the wait in the second set, ` +
+      `even if the Estimated before it is wobbly. The NFA runs just over twenty minutes and one ` +
+      `listener described Jerry going "down and dirty" for days. Mind Wondrin flags He's Gone as ` +
+      `having flubs but notes the jam into NFA is the show's best moment. The SBD source ` +
+      `circulating as unk_276 is the soundboard, though FM tapes also still circulate and a ` +
+      `remastered SBD exists.`,
     context:
-      "Late summer 1977, the band was a year past their hiatus and at full creative power. Englishtown was the only show they played that weekend, and the Northeast had been planning for months. People hitchhiked, drove from Boston, took buses from Philly. The audience tape captures the crowd noise as much as the music. Jerry famously waved his hat over his head from the stage — the only time anyone could remember him doing that.",
-    funFact: "Roughly 107,000 paid tickets — and likely 150,000 bodies once the gate-crashers got in — make Englishtown one of the largest single-headliner Dead shows ever. The post-show traffic shut down central New Jersey for hours; some tapers report not getting out of the lot until after sunrise.",
+      `This was the first show in three months after the summer tour was cancelled when Mickey ` +
+      `Hart was injured rolling his Porsche, making it a one-off booking before the fall tour. It ` +
+      `was also the first gig where Keith only brought electric-based keys, and Jerry was playing ` +
+      `his Travis Bean TB500 modded with two outputs. Donna had surgery during the summer and ` +
+      `only decided at the last minute to appear for some songs. The best circulating soundboard ` +
+      `is archived at gd77-09-03.sbd.unk.276.sbefixed.shnf; the show has never received a ` +
+      `standalone official release.`,
+    funFact:
+      `John Scher hired stevedores to bring hundreds of shipping containers and encircle the ` +
+      `entire area end-to-end so there were no gatecrashers.`,
+    communityVoices: [
+      { quote: "FUCK BARTON HALL for once and all - nobody listening can tell why the crescendoss are the key to Barton's adulation", attribution: "jamesnix", source: "Archive.org review" },
+      { quote: "The Half Step really swings here- one of my top 3 for '77 (and all time, really). The NFA clocks in at just over 20 minutes. Talk about grindin' it...down and dirty Jerry goes on for days here.", attribution: "PFflyerkid, on Mississippi Half-Step and NFA", source: "Archive.org review" },
+      { quote: "This has always made my list of the five overrated shows. Like the others, not because it's not good, but because it's not, overall, a top ten of all time (or the year).", attribution: "Mind Wondrin", source: "Archive.org review" },
+      { quote: "9/3/77 is not over nor under rated. It deserves to be ranked alongside other huge festivals played (Watkins Glen) not put up against small intimate venues (Cornell)", attribution: "RiPHRaPH", source: "Archive.org review" },
+      { quote: "by sunset when the DEAD hit their stride I was just peaking and just remember the chorus of Trucking going on and on for like eternity!!!!!", attribution: "uncle the 11", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 36. 6/28/74 Boston Garden — the Mind Left Body Jam is born ──
@@ -2299,6 +2440,142 @@ export const CATALOG: ConciergeShow[] = [
       { quote: "1993 has got to be the most underrated year of the Grateful Dead.", attribution: "JamminJerome", source: "Archive.org review" },
       { quote: "This version of Days Between makes up for the fact it never made it onto an album.  My favorite version that I've actually heard.", attribution: "WNEC_Chip", source: "Archive.org review" },
       { quote: "Can't say that about many post Brent shows..", attribution: "Eforce21, on this being a show he keeps going back to", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── Cape Cod 10/27/79 — stub, awaiting pipeline merge ─────────────
+  {
+    id: "gd-1979-10-27",
+    date: "1979-10-27",
+    venue: "Cape Cod Coliseum",
+    city: "South Yarmouth",
+    state: "MA",
+    setlist: [
+      "Jack Straw",
+      "Candyman",
+      "Me And My Uncle > Big River",
+      "Brown Eyed Women",
+      "Easy To Love You",
+      "Minglewood Blues",
+      "Stagger Lee",
+      "Lost Sailor > Saint Of Circumstance > Deal",
+      "Dancin' In The Streets > Franklin's Tower",
+      "He's Gone > Caution > The Other One > Drums > Not Fade Away > Black Peter > Around And Around",
+      "One More Saturday Night",
+    ],
+    archiveUrl: "https://archive.org/details/gd79-10-27.sbd.clugston.13980.sbeok.shnf",
+    era: "late-70s",
+    moods: ["high-energy", "joyful", "road-trip"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "deep-cut",
+    bestFor: ["exploring", "head"],
+    releasedAs: [],
+    headline: "Cape Cod, fall '79: that second set.",
+    whyThisShow:
+      `This is a deep-cut beloved for one extraordinary second set at a small Cape Cod arena in ` +
+      `the fall of 1979, about six months into Brent Mydland's tenure. One veteran who had attended ` +
+      `over 230 shows called it the best set he ever witnessed, noting that "the whole band had ` +
+      `gelled very nicely and there was an energy to this fall that surpassed anything from the ` +
+      `subsequent years". The venue was an intimate bandbox, and one attendee recalled that it got ` +
+      `so hot inside that "when we left the arena the steam poured out of the doors for a half ` +
+      `hour to the heavens". The first set is solid and energetic — one reviewer noted that "every ` +
+      `song is played with incredible energy and precision" — but the community consensus is that ` +
+      `the second set is the real reason to pull this tape. It circulates as a soundboard recording, ` +
+      `and one reviewer flagged that "the sound is excellent".`,
+    listenFor:
+      `The Dancin' In The Streets > Franklin's Tower is the undisputed centerpiece, clocking in at ` +
+      `over thirty minutes, and multiple listeners single it out as a candidate for the best ` +
+      `version ever recorded. One reviewer noted that Phil Lesh "totally drives" the set and ` +
+      `identifies two specific moments in the Dancin' > Franklin's where "he just steps up and ` +
+      `steers the Jam to new frontiers". At the end of Franklin's, one listener described how, ` +
+      `just as the band seemed to be wrapping up, Phil "comes in with some loud powerful licks ` +
+      `that totally re-energizes the boys to pick it right up and go for about 3 minutes more". ` +
+      `One reviewer pointed to a distinctive sound in the Dancin' jam — a funky, buzzing keyboard ` +
+      `texture from Brent — describing it as having "a George Clinton Parliament sound to it". ` +
+      `Don't skip the post-Drums run: one reviewer called the Black Peter "one of the most ` +
+      `powerful and emotional versions I have heard" and noted the NFA as "one of those late 70's ` +
+      `slow versions with no intro licks, just great drawn out jammin and Jerry really pouring ` +
+      `everything into his voice and guitar".`,
+    context:
+      `This show took place October 27, 1979 at the Cape Cod Coliseum in South Yarmouth, MA — a ` +
+      `relatively small and remote venue the Dead played only twice that fall. It falls in the ` +
+      `late-70s era, roughly six months after Brent Mydland replaced Keith Godchaux on keyboards. ` +
+      `The best circulating recording is a soundboard (identifier: gd79-10-27.sbd.clugston.13980.sbeok.shnf) ` +
+      `and the show has never received an official release. One reviewer noted that the Garcia–Mydland ` +
+      `pairing was already producing results, observing that "to know how Garcia and Mydland ` +
+      `developed such incredible chemistry, all's you have to do is listen to this version of ` +
+      `Brown Eyed Women".`,
+    funFact:
+      `One attendee noted that the show's 25th anniversary fell on the same night the Red Sox ` +
+      `finally won the World Series, writing "we danced in the streets once again — leave it up ` +
+      `to Jerry to somehow link all of this together".`,
+    communityVoices: [
+      { quote: "This second set is the best I ever saw in over 230 shows. If there is a better set out there I have yet to hear it.", attribution: "Purple Gel", source: "Archive.org review" },
+      { quote: "what can you say about a 21-minute Frankin's Tower? May be one of the best of all time!!", attribution: "RFKROX, on Franklin's Tower", source: "Archive.org review" },
+      { quote: `I felt as if the coliseum was transformed into "another time's forgotten space." Jerry's jams after every verse were never rushed with each one being a complete entity unto itself`, attribution: "AshesRising, on Dancin' > Franklin's Tower", source: "Archive.org review" },
+      { quote: `That Jam with Brent and Jerry is and I'll say it for the "first time" about any song or jam this is the best version of Dancin>Franklins.`, attribution: "early 80's meltdown, on Dancin' > Franklin's Tower", source: "Archive.org review" },
+      { quote: "when we left the arena the steam poured out of the doors for a half hour to the heavens, sort of a tribute to intensity of the evening.", attribution: "smattman", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── MSG 9/16/90 — stub, awaiting pipeline merge ───────────────────
+  {
+    id: "gd-1990-09-16",
+    date: "1990-09-16",
+    venue: "Madison Square Garden",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "Hell In A Bucket",
+      "Cold Rain And Snow",
+      "Little Red Rooster",
+      "Stagger Lee",
+      "Queen Jane Approximately",
+      "Tennessee Jed",
+      "Cassidy",
+      "Deal",
+      "Samson And Delilah",
+      "Iko Iko",
+      "Looks Like Rain",
+      "He's Gone > Jam > Drums > Space > Standing On The Moon > Space > I Need A Miracle > Morning Dew",
+      "It's All Over Now Baby Blue",
+    ],
+    archiveUrl: "https://archive.org/details/gd1990-09-16.144784.sbd.miller.flac2496",
+    era: "80s",
+    moods: ["introspective", "emotional", "mellow"],
+    styles: ["jazz-space", "jam", "rock"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: [],
+    headline: "MSG, September '90, He's Gone into Morning Dew.",
+    whyThisShow:
+      `This is a soundboard recording of a September 1990 MSG run show, with one reviewer calling ` +
+      `it "as good or better than Dick's Picks 9 official release". The setlist is built around a ` +
+      `He's Gone > Jam > Drums > Space > Standing On The Moon > Space > I Need A Miracle > Morning ` +
+      `Dew sequence that gives the second set real weight. The show remains officially unreleased, ` +
+      `which makes Charlie Miller's soundboard transfer the primary way the community accesses it.`,
+    listenFor:
+      `The second set's late run is the main event: He's Gone opens into a full jam before Drums ` +
+      `and Space, then surfaces into Standing On The Moon before pushing through to Morning Dew. ` +
+      `The first set carries some range too — Little Red Rooster and Stagger Lee back to back, ` +
+      `then Queen Jane Approximately, a less common slot for that song. The recording itself comes ` +
+      `recommended as benchmark-quality for the era, with one listener rating it "as good or better ` +
+      `than Dick's Picks 9".`,
+    context:
+      `September 1990, MSG — the Dead were deep into their late-era run, a period marked by ` +
+      `large-venue residencies in New York. This tape is a Charlie Miller soundboard transfer ` +
+      `(identifier: gd1990-09-16.144784.sbd.miller.flac2496), available in FLAC at 24/96. The show ` +
+      `has never been officially released, which itself signals something to the community: one ` +
+      `reviewer called it "Magnificent" and flagged the recording as a peer of Dick's Picks volumes.`,
+    funFact:
+      `One reviewer benchmarked this unreleased Charlie Miller board against an official Dick's ` +
+      `Picks volume and found it holds up: "As good or better than Dick's Picks 9 official release".`,
+    communityVoices: [
+      { quote: "As good or better than Dick's Picks 9 official release.", attribution: "Monkeypaws, on recording quality", source: "Archive.org review" },
     ],
     headyversionRanks: [],
   },

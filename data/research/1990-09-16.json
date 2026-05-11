@@ -1,0 +1,27 @@
+{
+  "date": "1990-09-16",
+  "venue": "Madison Square Garden",
+  "bestRecording": {
+    "identifier": "gd1990-09-16.144784.sbd.miller.flac2496",
+    "archiveUrl": "https://archive.org/details/gd1990-09-16.144784.sbd.miller.flac2496",
+    "isSbd": true,
+    "totalReviews": 1
+  },
+  "reviews": [
+    {
+      "title": "Magnificent",
+      "body": "Great recording. As good or better than Dick's Picks 9 official release. Thanks again Charlie Miller.",
+      "reviewer": "Monkeypaws",
+      "reviewDate": "2023-10-25",
+      "stars": 5
+    }
+  ],
+  "searchUrls": {
+    "redditGratefulDead": "https://www.google.com/search?q=site%3Areddit.com%2Fr%2Fgratefuldead%20%221990-09-16%22",
+    "headyversion": "https://www.google.com/search?q=site%3Aheadyversion.com%20%22September%2016%2C%201990%22",
+    "blogs": "https://www.google.com/search?q=(site%3Alostlivedead.blogspot.com%20OR%20site%3Adeadessays.blogspot.com)%20%221990-09-16%22",
+    "jerrybase": "https://jerrybase.com/events/19900916-01",
+    "google": "https://www.google.com/search?q=%221990-09-16%22%20Grateful%20Dead%20Madison%20Square%20Garden"
+  },
+  "generatedAt": "2026-05-11T15:40:31.096Z"
+}

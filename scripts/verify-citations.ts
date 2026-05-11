@@ -65,12 +65,18 @@ function usage(): never {
 // - sometimes uses curly quotes; fold to ASCII.
 // - re-formats whitespace, so collapse runs of whitespace.
 function normalize(s: string): string {
+  // We compare citations to review bodies by reducing both to a punctuation-
+  // and whitespace-free lowercase form. Fan reviews are wildly inconsistent
+  // about quotation marks, ellipses, em-dashes, and spacing — but the content
+  // is what we care about. As long as the synthesizer doesn't *change words*,
+  // the citation should match. (If words change, the substring fails — which
+  // is the actual hallucination we want to catch.)
   return s
+    .replace(/<[^>]+>/g, "") // strip HTML tags — Archive review bodies contain <b>, <i>, <a href=...>, etc.
+    .replace(/&[a-z]+;/gi, "") // strip HTML entities like &amp; &nbsp; &quot;
     .replace(/\\'/g, "'") // unescape \' → '
     .replace(/\\"/g, '"') // unescape \" → "
-    .replace(/[‘’ʼ]/g, "'") // smart single quotes → ASCII
-    .replace(/[“”]/g, '"') // smart double quotes → ASCII
-    .replace(/\s+/g, "") // collapse all whitespace — fan reviews have wildly inconsistent spacing/punctuation
+    .replace(/[^a-z0-9]/gi, "") // strip every non-alphanumeric (whitespace, punctuation, smart quotes, etc.)
     .toLowerCase();
 }
 
