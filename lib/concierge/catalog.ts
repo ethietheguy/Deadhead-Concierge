@@ -652,14 +652,47 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "Three shows in one night — acoustic, New Riders, and a Dark Star for the ages.",
+    releasedAs: [],
+    headline: "Binghamton, May 1970 — acoustic and electric, all night.",
     whyThisShow:
-      "This is the most complete portrait of the 1970 Dead you can find. An acoustic set, then a New Riders of the Purple Sage set (with Jerry on pedal steel), then an electric set with a 25-minute Dark Star. A college gym became a church that night. Released officially as Dick's Picks 8 — one of the most beloved archival releases in the Dead's catalog.",
+      `Binghamton May 2nd is broadly considered one of the essential early-Dead tapes still sitting ` +
+      `outside the official release catalog. The format alone sets it apart: an acoustic opening ` +
+      `set with New Riders mixed in, then the electric Dead taking over for a full night's run — ` +
+      `one reviewer described it as a show where "Garcia telling the small crowd 'we got you all ` +
+      `night'". The intimate college setting seems to have loosened the band up considerably, with ` +
+      `one listener calling it "Relaxed, funny, cosmic, and funky". When those rough nights hit, ` +
+      `at least one devoted listener treats this tape as restorative, noting that "that acoustic ` +
+      `set is as good as pain meds". It lives on Charlie Miller's soundboard transfer, which the ` +
+      `community regards as the only version worth having.`,
     listenFor:
-      "The acoustic set opens with Don't Ease Me In and Candyman — this was the era of Workingman's Dead and American Beauty, when the band had rediscovered country and folk. Then the electric set unleashes Dark Star → St. Stephen → Not Fade Away → Mason's Children — one of the most dizzying sequences they ever played. Uncle John's Band was brand new in 1970 and sounds freshly minted.",
+      `The Dark Star–St. Stephen sequence is the electric set's center of gravity, and one ` +
+      `listener flatly called it "the single best version I've ever heard" of that run. Dancing in ` +
+      `the Street gets a similar endorsement — the same reviewer judged it "much better than the ` +
+      `subsequent MIT rendition". Morning Dew also draws specific attention, described as "a ` +
+      `candidate for best ever". For the acoustic half, the New Riders material is a genuine draw: ` +
+      `one reviewer noted that "all other recordings of it (unlike dicks' picks) are off of the ` +
+      `radio broadcast and not even comparable in quality" to this Miller board. The show closes ` +
+      `with Uncle John's Band after a long electric journey — the full arc is worth the time.`,
     context:
-      "Spring 1970 was a transitional peak. Workingman's Dead would come out in June, American Beauty in November. The band was honoring its folk roots and its rock future simultaneously, playing acoustic and electric sets on the same night. Harpur captured both halves in a single performance.",
-    funFact: "Jerry Garcia literally played three different sets that night — acoustic Dead, pedal steel with the New Riders, and electric Dead. One guitarist, three bands, one evening.",
+      `May 1970 found the Dead deep in one of their most exploratory periods, working the ` +
+      `acoustic–electric split format that would appear on American Beauty and Workingman's Dead ` +
+      `later that year. This Harpur College show is an SBD sourced from Charlie Miller's transfer ` +
+      `(identifier: gd1970-05-02.138227.sbd.miller.flac1648), widely regarded as the ` +
+      `best-circulating recording of the night. It has never received an official release, which ` +
+      `makes the Miller board the community's de facto version. The New Riders of the Purple Sage ` +
+      `shared the bill and appear in the acoustic portion, adding a country-tinged opening before ` +
+      `the Dead took the electric set.`,
+    funFact:
+      `One listener specifically called out the archiver by name, writing "Charlie Miller, you ` +
+      `have the ears like Owsley...endless thanks to you".`,
+    communityVoices: [
+      { quote: "you have managed to find one of those tapes which actually drip magic from it's timbre. You've done it, now sit back and enjoy", attribution: "Nick512", source: "Archive.org review" },
+      { quote: "TIFTOO is the single best version I've ever heard, and so is Dancin' -- much better than the subsequent MIT rendition.", attribution: "grateful phishmon, on Dark Star and Dancing in the Street", source: "Archive.org review" },
+      { quote: "Hard to match a room full of college aged acid freaks mind melting en masse!", attribution: "Boston_Marmaduke", source: "Archive.org review" },
+      { quote: "If you wanted a time capsule of what it was like in 1970 tour this is the show to go to. Relaxed, funny, cosmic , and funky", attribution: "kboyxxx123", source: "Archive.org review" },
+      { quote: "this is legitimately the best recording on the internet of it, doubly so for the new riders' segment", attribution: "Outlier Case, on recording quality", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 13. 4/29/71 Fillmore East — Pigpen's last peak ────────────
@@ -1084,14 +1117,51 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
-    headline: "Peak Brent-era — when the mid-'80s Dead could still hit the ceiling.",
+    releasedAs: [],
+    headline: "Riverbend, summer '85, Garcia on fire all night.",
     whyThisShow:
-      "If you want one show that proves the 1985 Dead could still be great, this is it. Riverbend Music Center in Cincinnati, midsummer, band relaxed and firing on all cylinders. Brent is everywhere — piano, organ, vocals. Jerry's tone is warm. The second-set jam sequence is some of the most transcendent playing they did that decade.",
+      `This is a June 1985 show that the community keeps coming back to, and the setlist explains ` +
+      `why: the second set runs Help on the Way > Slipknot! > Franklin's Tower into Estimated ` +
+      `Prophet > Eyes of the World, a run that hits several of the era's high-water marks in one ` +
+      `evening. One listener singled out the interplay between Garcia and Weir as a defining ` +
+      `feature, writing that "Bob is on the top of his game" and that "His slide work on Samson ` +
+      `(which you can really hear on this recording) is incredible". The soundboard recording from ` +
+      `this night rewards close listening, and one reviewer with high-end playback equipment ` +
+      `concluded that "you wont find the machines or their users short of the capturing magic". ` +
+      `One caveat: the same listener flagged some "herky-jerky" in the mastering, so the SBD is ` +
+      `excellent but not flawless.`,
     listenFor:
-      "Help on the Way > Slipknot! > Franklin's Tower in the second set is a reminder of why this three-song sequence is a holy text for Deadheads. Eyes of the World is extended and jazzy. The Wheel > Gimme Some Lovin' is Brent in full gospel mode. Wharf Rat closes the main set with weight. This show has an unhurried, summer-evening quality.",
+      `Start with Let It Grow — one reviewer put it plainly: "Garcia is doing his best Al DiMeola ` +
+      `during Let It Grow". The Comes A Time draws a strong reaction from at least one deep ` +
+      `listener who has called it "BY FAR THE BEST 'COMES A TIME' YOU WILL HEAR" after working ` +
+      `through roughly 8TB of Dead material. The Weir-Garcia dynamic is audible throughout: one ` +
+      `reviewer noted that Weir "is practically co-soloing with Garcia on the He's Gone". Also ` +
+      `watch for the Good Lovin' closer, which one attendee who was there on his first show called ` +
+      `his "favorite post-Pig Pen Good Lovin' ever". The P.A. vocal effects are audible and ` +
+      `intentional — one reviewer identified them as "Mr. Healy using the 'effects' on vocals" and ` +
+      `noted it "disturbed a lot of listeners" while he personally enjoyed them.`,
     context:
-      "1985 was the Dead's 20th anniversary year. They were playing arenas and amphitheaters, Jerry was still mostly healthy, Brent had fully integrated. Summer tour had an easy confidence. Two years later, Touch of Grey and In the Dark would turn them into household names. This show catches the band still in its pre-megastar moment, comfortable and playing for themselves.",
-    funFact: "In the Dark, the 1987 album that produced Touch of Grey, was recorded live on stage at the Marin Civic with no audience — the band wanted the live feel. It worked: the only Dead album to go platinum.",
+      `June 24, 1985, at Riverbend Music Center in Cincinnati — an outdoor amphitheater with the ` +
+      `Ohio River visible behind the stage, part of the Dead's 20th anniversary touring year. The ` +
+      `recording circulates as a soundboard (identifier: gd85-06-24.sbd.miller.25315.sbeok.shnf) ` +
+      `and has not received an official release, which makes this SBD tape the community's primary ` +
+      `reference. One attendee recalled that the band had broken out Cryptical three shows earlier ` +
+      `at the Greek Theatre and skipped it at Alpine Valley, so "there was a buzz in the air" ` +
+      `heading into Cincinnati. The show draws 69 reviews on Archive.org, an unusually strong ` +
+      `number for an unreleased tape.`,
+    funFact:
+      `One reviewer who was there on the day recalled spending the afternoon at an adjacent ` +
+      `amusement park, writing that "there was an amusement park with a water slide and wave pool ` +
+      `adjacent to the areana" and that "We had a great time during the day going down the water ` +
+      `slide and hangin' in the lot".`,
+    communityVoices: [
+      { quote: "Garcia is doing his best Al DiMeola during Let It Grow. Seriously, Garcia's guitar on this one is spectacular. Jaw-dropping good!", attribution: "Reece, on Let It Grow", source: "Archive.org review" },
+      { quote: `THE BEST "COMES A TIME" YOU WILL HEAR , THERE ARE A FEW OTHER'S THAT COME TO MIND BUT BETWEEN THIS SONG AND THE SETLIST AND THE SOUND QUALITY OF THE SHOW, THIS TO ME MAKES THIS THE BEST VERSION AROUND`, attribution: "gratefuly deadicated, on Comes A Time", source: "Archive.org review" },
+      { quote: "The Let it Grow was insane. This was the 25th anniversay tour so they had the killer backdrop of the skeliton w/a gun", attribution: "drkstrcrashes, on the show atmosphere", source: "Archive.org review" },
+      { quote: "What a hideously sick and raunchy version of USB this is. Sloppy>mistakes>galore>ignore>brilliance.", attribution: "Evan S. Hunt, on U.S. Blues", source: "Archive.org review" },
+      { quote: "you dont need to know much about 85 to know that this night turned out about as best as could be imagined", attribution: "audioresearch", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 26. 7/17/89 Alpine Valley — Brent-era outdoor peak ───────
@@ -1494,14 +1564,49 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "The first fully-realized Mind Left Body Jam. The Wall of Sound at full pressure.",
+    releasedAs: ["Dick's Picks Vol. 12"],
+    headline: "Boston Garden, June '74, and that jam.",
     whyThisShow:
-      "Two things happened here that change how you hear the band. First, the Mind Left Body Jam — that floating, gospel-tinged passage that would become a cherished improvisational space — emerges fully formed for the first time, out of Weather Report Suite. Second, the Wall of Sound speaker system was at its peak; you can hear the band playing inside the unique sonic envelope that PA created. Boston Garden was a notoriously difficult room and the band beat it.",
+      `The broad community case for this show rests almost entirely on one sequence: the Weather ` +
+      `Report Suite dissolving into the Mind Left Body Jam and beyond. One reviewer called it ` +
+      `"THE BEST JAM EVER" by any band. Another broke the sequence into seven distinct movements ` +
+      `spanning roughly 28 minutes, including a Dark Star jam fragment, a two-chord minor ` +
+      `excursion, and multiple jazzy peaks before the whole thing collapses into U.S. Blues. The ` +
+      `rest of the setlist gets less ink from reviewers, though one notes a "really hot Scarlet" ` +
+      `and what they call "the best U.S. blues ever" bookending the night. This is a soundboard ` +
+      `recording released officially as Dick's Picks Vol. 12, and the community signal is strong: ` +
+      `nearly every reviewer treats the WRS jam as a once-in-a-lifetime document.`,
     listenFor:
-      "The Weather Report Suite > Mind Left Body Jam > U.S. Blues sequence is the whole reason to listen — Keith's piano is 'delicious,' the band moves as one organism, and the brief Dark Star tease drops in like a memory. The Eyes of the World is jazzy and patient. The first-set Mississippi Half-Step is one of the songs Bobby's transmogrifier was already morphing into something new (one Archive reviewer notes it would become Music Never Stopped within months).",
+      `The WRS>jam sequence is the whole reason to queue this up. Coming out of a "terrific WRS," ` +
+      `the jam moves through "dark ashes of space" before locking into the MLB theme. What ` +
+      `distinguishes this version from other 1974 MLB jams is that it "goes through multiple ` +
+      `different tempo's, styles and landscapes with the entire band contributing" without ` +
+      `dropping the thread. One reviewer who listened closely heard a Dark Star theme surface ` +
+      `briefly inside the jam — "oh, if only they'd played it all!" — before it gives way to ` +
+      `further territory. The Phil and Ned Seastones interlude in set one is noted on the setlist ` +
+      `but draws no specific community commentary in the sampled reviews; the WRS sequence is ` +
+      `where listener attention concentrates.`,
     context:
-      "Summer 1974 was the Wall of Sound era — the band was carrying 75 tons of speaker equipment through every show, the crew was burning out, and they'd announce a touring hiatus by October. Boston was deep in the road. The audience tape is from Moore/Weiner; it's the AUD that circulates because the SBD was used for Dick's Picks 12 and is harder to find raw.",
-    funFact: "The Mind Left Body Jam isn't a real song — it's a musical theme based on a Paul Kantner / Grace Slick song called 'Your Mind Has Left Your Body' from the Baron Von Tollbooth album. The Dead just liked the chord changes and started jamming on them.",
+      `June 1974 puts the band deep in the Wall of Sound era, hauling the massive PA system into ` +
+      `arenas across the country. Jerry reportedly held this period in high regard: one reviewer ` +
+      `noted that "Jerry often mentioned that the Spring/Summer '74 tours were his favorites". ` +
+      `The show was released as Dick's Picks Vol. 12, a release that reportedly required some ` +
+      `internal struggle to bring out, with one reviewer noting that "Dick had to fight tooth and ` +
+      `nail to get any show released". The Archive identifier reflects a soundboard source ` +
+      `(gd74-06-28.set1.sbd.snider.10984.sbeok.shnf), meaning the recording quality matches the ` +
+      `canonical status of the performance.`,
+    funFact:
+      `One reviewer mapped out the full post-WRS jam in seven timed segments, clocking the entire ` +
+      `sequence at approximately 28 minutes — and still called it an understatement to say they ` +
+      `weren't disappointed.`,
+    communityVoices: [
+      { quote: `I'm gonna go out on a limb and say the Jam at the end of Weather Report Suite is "THE BEST JAM EVER" by any band.`, attribution: "mgags", source: "Archive.org review" },
+      { quote: "it evolves into the most beautifully rendered and involving MLB Jam ever and then goes through multiple different tempo's, styles and landscapes with the entire band contributing, all telepathically on the same magical wavelength throughout", attribution: "Kola67, on the WRS jam", source: "Archive.org review" },
+      { quote: "the only other mind-left-body jam i can think of that comes remotely within the same galaxy as this one is 7/31/74, but its way shorter and doesn't go through the mindbogglingly telepathic changes as this does", attribution: "clementinescaboose, on the MLB Jam", source: "Archive.org review" },
+      { quote: "This was my first Dick's Picks (a gift from a friend) - I was not dissapointed (what an understatement!). You won't be either.", attribution: "juanie", source: "Archive.org review" },
+      { quote: "Dick had to fight tooth and nail to get any show released.", attribution: "average_joe, on release history", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 37. 8/6/74 Roosevelt Stadium — the Eyes of the World ────
@@ -1640,14 +1745,53 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["newcomer", "exploring", "head"],
-    headline: "The Dead come back from hiatus and announce a whole new band.",
+    releasedAs: ["One From the Vault"],
+    headline: "Blues for Allah, live, in a 400-seat jazz club, 1975.",
     whyThisShow:
-      "1975 was the touring hiatus year — the Dead played only four shows all year. This one was an invite-only benefit at a 600-seat club, recorded for the Blues for Allah album. They debuted Help on the Way > Slipknot! > Franklin's Tower live for only the second time ever. They debuted Crazy Fingers, King Solomon's Marbles, and the Blues for Allah suite. Released officially in 1991 as *One From the Vault* — the gold-standard Dead live release. If a friend asks 'what should my first official Dead live album be?' — point them here.",
+      `This is the only show the Dead played in 1975 promoted under the Grateful Dead name, ` +
+      `staged as an invite-only industry showcase for radio programmers attending a Billboard ` +
+      `convention, in a 400-seat jazz club they self-rented in the Tenderloin. The entire Blues ` +
+      `for Allah album was performed live, front to back, with eight older songs worked in — the ` +
+      `only time they intentionally played a current album live in this way. The show works ` +
+      `because they actually rehearsed it, which was not standard Dead operating procedure, and ` +
+      `the woodshedding is audible throughout. It became One From the Vault, the first officially ` +
+      `released full show in the Dead's catalog, sixteen years after the night itself. Billy ` +
+      `Kreutzmann later called it 'a very pivotal gig and a great night of my life, overall'.`,
     listenFor:
-      "The opening Help > Slip > Frank is, in one Archive reviewer's words, 'epic' — not yet routine, still being figured out. The Eyes of the World is the ONLY version played between October '74 and June '76, and 'it takes off and keeps taking off.' The Crazy Fingers debut is gorgeous. The full Blues for Allah suite, with Mickey's cricket sound effects, ends the night somewhere between a rock concert and a meditation retreat.",
+      `The Help on the Way opener is only the second time the song was ever played, and one ` +
+      `reviewer noted it is 'amazing' for that earliest-form reason. The Eyes of the World is the ` +
+      `only performance between October 1974 and June 1976, and one reviewer described it as ` +
+      `taking off and keeping taking off. Sage and Spirit appears here as its only electric ` +
+      `performance — the album version was acoustic guitar and flute, and the 1980 reprise was ` +
+      `acoustic too, making this one singular. The Blues for Allah closer incorporates the Sand ` +
+      `Castles and Unusual Occurrences suite, and one reviewer flagged that anyone in the room ` +
+      `hearing it for the first time was probably in a trance during the whole song. For the FM ` +
+      `source here on Archive, one careful reviewer notes the pitch needs a -1% adjustment on ` +
+      `U.S. Blues but calls it the best historical trade source, with original tunings and ` +
+      `introduction trimmed from the official release.`,
     context:
-      "By August '75 the band had been off the road for ten months, recording Blues for Allah at Bob Weir's home studio. They threw this show as a thank-you to friends and to record the album live. Pre-FM SBD source (the show was broadcast on radio later). One Archive reviewer captures the spirit: 'I bet the Dead came off stage this night and were fucking riveted by what they had just done.'",
-    funFact: "The Great American Music Hall was a former bordello and burlesque theater dating to 1907. It seats 600. The Dead were filling 50,000-seat stadiums by this point — they could have played anywhere, and chose this room because they wanted to record the way the music actually sounded in a small space.",
+      `August 1975 fell in the middle of the Dead's extended touring hiatus, a year when almost ` +
+      `nothing was happening publicly. The show was organized to support the Blues for Allah ` +
+      `album release and to help Grateful Dead Records secure a distribution deal with United ` +
+      `Artists Records, which also acquired rights to distribute the forthcoming movie soundtrack. ` +
+      `Mickey Hart appeared here as a sit-in, not yet fully back in the band — his return was ` +
+      `still months away. The FM broadcast circulated widely on C90s and later as a vinyl ` +
+      `bootleg titled 'Make Believe Ballroom' or 'Hot as Hell,' but those tapes were missing ` +
+      `about 45 minutes via edits and three tracks; the official One From the Vault release in ` +
+      `1991 was the first time the complete show reached the public.`,
+    funFact:
+      `Mickey Hart brought a box of crickets to the show and had them miked for the performance; ` +
+      `Phil Loos later wrote that they escaped through the microphone hole and, to the best of ` +
+      `his knowledge, 'they can still be heard chirping nightly from the highest rafters of the ` +
+      `Great American Music Hall'.`,
+    communityVoices: [
+      { quote: "The live run-through of the album should've been the album itself.", attribution: "Mind Wondrin [quoting Billy Kreutzmann, on the show overall]", source: "Archive.org review" },
+      { quote: "This is tight, well rehearsed Grateful Dead, and they absolutely deliver the knockout punch.", attribution: "ScarletTouchFire", source: "Archive.org review" },
+      { quote: "Oh Phil's bass on that EYES intro !!", attribution: "c-freedom, on Eyes of the World", source: "Archive.org review" },
+      { quote: "If there was ever a Dead Show that I could go back in time & see in person, this is probably the one I would choose.", attribution: "Dean1067", source: "Archive.org review" },
+      { quote: "Jerry tickles your spine with his fast finger work on King Solomon's Marbles", attribution: "Tie-Dyed Tom, on King Solomon's Marbles", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 41. 5/15/70 Fillmore East — acoustic and electric ──────
@@ -1853,14 +1997,44 @@ export const CATALOG: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
-    headline: "The Grateful Dead, in front of the Sphinx, jamming with Sudanese musicians by torchlight.",
+    releasedAs: ["Rocking the Cradle: Egypt 1978"],
+    headline: "Giza, September '78, pyramids behind the stage.",
     whyThisShow:
-      "The Egypt shows are mythology made real — the Dead flew the band, family, and crew to Cairo, set up at the Sound and Light Theater literally between the pyramids and the Sphinx, invited Sudanese tar-drum master Hamza El-Din to join them, and played three nights to a crowd of locals and pilgrim Deadheads. This middle night is the most-reviewed and the most musically focused. As one Archive reviewer asks: 'In the history of mankind, will there ever be something quite like this?'",
+      `The Egypt shows are canonical for the Dead, and this one — September 16th at the sound and ` +
+      `light theatre at Giza — is broadly considered the peak of the run. One reviewer called it ` +
+      `"the most important show of 1978 hands down, toping 1/22/78, redrocks, new years, anything ` +
+      `from november". The centerpiece is the second-set sequence where Sudanese musician Hamza ` +
+      `El-Din performs before the band joins in, described as "the Hamza El-Din, a Sudanese ` +
+      `musician who plays Nubian and Arabic music" whose last song the band joins with "Jerry ` +
+      `playing the African melody -- very interesting stuff" before sliding into Fire on the ` +
+      `Mountain. One listener described the Ollin Arageed into Fire sequence as "EPIC. The Dead ` +
+      `on an entirely new level". The show also carries historical weight as the last-ever ` +
+      `performance of Sunrise, though that song is not captured on this particular recording.`,
     listenFor:
-      "Hamza El-Din's 'Ollin Arageed' opening the second set is the historical pivot — the Dead joined him on his Sudanese chant, then segued straight into a Shakedown Street that was only the second-ever performance. The song flows like the Nile. Sunrise (Donna's contribution) was played here for the last time. The whole show has a quality of musicians out of their normal context, listening harder than usual.",
+      `The Shakedown Street is the thing to zero in on: one reviewer heard Jerry's guitar ` +
+      `sounding like "the wolf, he lets his notes ride a bit, and echo, it's graceful, not rushed ` +
+      `or crowded" and argues the solo extends "with very little limits" in a way the New Year's ` +
+      `Dark Star doesn't match. The Stella Blue is singled out as "out of this world from the ` +
+      `first note to the last". One reviewer notes the Iko Iko is "top notch" and there's "nice ` +
+      `guitar work on Miracle". The soundboard recording has "good but not perfect" balance, ` +
+      `though still considered a clear step above audience sources from the run.`,
     context:
-      "September 1978 — the Dead chartered planes, brought 60+ family and crew, and played the Egypt shows as a personal pilgrimage. They lost money. They didn't care. The recordings sat unreleased for thirty years; *Rocking the Cradle: Egypt 1978* came out in 2008 with this show as the centerpiece. The ORF (Austrian radio) feed is the canonical SBD source. As one reviewer notes: 'Imagine enjoying some of the Middle East's finest hashish and dancing with your sweet thing in front of the Sphinx on this fine September evening.'",
-    funFact: "A lunar eclipse occurred during the September 16 show. The band claimed they hadn't planned it. Bill Graham, who'd organized the tour, said he had — and refused to elaborate.",
+      `This is the second of three Dead shows at Giza in September 1978, performed in front of ` +
+      `the pyramids at the sound and light theatre. The recording circulates as a soundboard ` +
+      `(identifier: gd78-09-16.sbd.orf.2319.sbeok.shnf); a partial release covering selections ` +
+      `from this run came out in 2008 as Rocking the Cradle: Egypt 1978. One reviewer noted ` +
+      `these were reportedly "the first time the local people were exposed to electrified music".`,
+    funFact:
+      `One listener reported that "some local people showed up on camels and observed from the ` +
+      `outer limits".`,
+    communityVoices: [
+      { quote: "this is the most important show of 1978 hands down, toping 1/22/78, redrocks, new years, anything from november", attribution: "rollandfin", source: "Archive.org review" },
+      { quote: "The Olin > Fire is EPIC. The Dead on an entirely new level.", attribution: "Rider384, on Ollin Arageed > Fire on the Mountain", source: "Archive.org review" },
+      { quote: "only Stella Blue is out of this world from the first note to the last. I can feel the energy of the ancient pyramids and that unique location", attribution: "Sister Viola Lee, on Stella Blue", source: "Archive.org review" },
+      { quote: "This show had the very last performance of Sunrise, but it's not included here in this recording.", attribution: "L. Rosley", source: "Archive.org review" },
+      { quote: "the mood is really set and its in Egypt. thats the clincher right there", attribution: "ClubdElf", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
   },
 
   // ── 47. 3/29/85 Springfield — first-set Supplication Jam ───

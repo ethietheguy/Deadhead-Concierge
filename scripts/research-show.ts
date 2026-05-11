@@ -52,7 +52,7 @@ type ArchiveMetadataResponse = {
   reviews?: ArchiveReview[];
 };
 
-type ArchiveScrapeItem = {
+type ArchiveSearchDoc = {
   identifier: string;
   avg_rating?: number | string;
   num_reviews?: number | string;
@@ -60,9 +60,11 @@ type ArchiveScrapeItem = {
   coverage?: string;
 };
 
-type ArchiveScrapeResponse = {
-  items: ArchiveScrapeItem[];
-  total: number;
+type ArchiveAdvancedSearchResponse = {
+  response: {
+    docs: ArchiveSearchDoc[];
+    numFound: number;
+  };
 };
 
 // Structured output consumed by scripts/synthesize-show.ts.
@@ -182,20 +184,29 @@ async function findBestRecording(date: string): Promise<Best | null> {
     };
   }
 
-  // Fallback: query Archive directly for that date
+  // Fallback: query Archive directly for that date.
+  //
+  // Earlier this used /services/search/v1/scrape, which works one-off but is
+  // aggressively cached at the CDN layer in a way that returns the previous
+  // request's payload across a batch. (Confirmed by curling the same path
+  // with two different date queries — second response = first response.)
+  // /advancedsearch.php?output=json appears to use a different cache key and
+  // returns correct per-query results under serial batch use.
   const params = new URLSearchParams();
   params.set("q", `collection:GratefulDead AND date:${date}`);
-  params.set("fields", "identifier,avg_rating,num_reviews,venue,coverage");
-  params.set("count", "200");
+  params.set("fl", "identifier,avg_rating,num_reviews,venue,coverage");
+  params.set("rows", "200");
+  params.set("output", "json");
 
-  const url = `https://archive.org/services/search/v1/scrape?${params.toString()}`;
-  const json = await fetchJson<ArchiveScrapeResponse>(url);
-  if (!json || !json.items || json.items.length === 0) {
+  const url = `https://archive.org/advancedsearch.php?${params.toString()}`;
+  const json = await fetchJson<ArchiveAdvancedSearchResponse>(url);
+  const docs = json?.response?.docs ?? [];
+  if (docs.length === 0) {
     console.error(`No Archive recordings found for ${date}.`);
     return null;
   }
 
-  const scored = json.items
+  const scored = docs
     .map((d) => ({
       id: d.identifier,
       sbd: isSbd(d.identifier),
