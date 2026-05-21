@@ -39,3 +39,6 @@ next-env.d.ts
 # scratch: prompt iterations + pipeline test scripts (not for public repo)
 /scratch/
 /scripts/_*.ts
+
+# claude: ephemeral worktrees + agent session files (never commit)
+/.claude/
