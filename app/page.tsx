@@ -207,6 +207,18 @@ export default function ConciergePage() {
     return () => clearInterval(interval);
   }, []);
 
+  // Reset to the welcome state when the Nav logo is clicked
+  useEffect(() => {
+    const handleReset = () => {
+      setRecommendation(null);
+      setMoodText("");
+      setSelectedChips([]);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+    window.addEventListener("concierge:reset", handleReset);
+    return () => window.removeEventListener("concierge:reset", handleReset);
+  }, []);
+
   const toggleChip = useCallback((keyword: string) => {
     setSelectedChips((prev) =>
       prev.includes(keyword)
