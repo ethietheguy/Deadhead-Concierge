@@ -299,9 +299,8 @@ export const CATALOG: ConciergeShow[] = [
       `hadn't been played in over seventeen years — a gap some heads argue is as significant as the ` +
       `Dark Star return.`,
     funFact:
-      `One first-timer, then fifteen, spent most of the night staring up at the ceiling — until a girl ` +
-      `named Elizabeth from Tappahannock kept tapping his arm to tell him the band was up there on the ` +
-      `stage, not in the rafters.`,
+      `Tickets for the run came back from the printer lime green with "The Warlocks" in gold foil. ` +
+      `At least one attendee scored his out of the back seat of a police car in the lot.`,
     communityVoices: [
       { quote: "I have seen the Band 500 times and this was the best Combined audience band experienced I have ever had.", attribution: "entourage1", source: "Archive.org review" },
       { quote: "When the opening notes rang out, I was peaking. My friend and I just jumped in unison, while holding each other, for several minutes.", attribution: "superfoodman, on Dark Star", source: "Archive.org review" },
@@ -362,9 +361,8 @@ export const CATALOG: ConciergeShow[] = [
       `circulated widely, and several reviewers reference watching that rather than the audio alone. ` +
       `It sits right at the tail end of what many heads consider the band's strongest sustained stretch.`,
     funFact:
-      `One reviewer owned a dubbed bootleg where the entire Scarlet > Fire jam had been accidentally ` +
-      `cut — the tape jumped straight from Donna's vocalizing to the coda — so he didn't even know ` +
-      `the full sequence existed until he saw the DVD years later.`,
+      `John Belushi and Dan Aykroyd opened as the Blues Brothers, five weeks after Briefcase Full of ` +
+      `Blues hit the shelves. Bill Graham served the crowd a hot champagne breakfast at sunrise.`,
     communityVoices: [
       { quote: "The transition from Dark Star into The Other One is so smooth, you could easily miss it.", attribution: "gphishmon, on the third set", source: "Archive.org review" },
       { quote: "If you actually survive Terrapin-Playing and make it through the 47 min aural ecstasy of Dark Star-Other One-Dark Star-Wharf Rat-St. Stephen-Good Lovin', then you can lay yourself down and die a peaceful death.", attribution: "DJPeebs, on the third set", source: "Archive.org review" },
@@ -425,9 +423,9 @@ export const CATALOG: ConciergeShow[] = [
       `the playing. One head who'd toured the whole summer called the run a disaster tour right up ` +
       `until it became, in their telling, the band's best show of the year.`,
     funFact:
-      `One ticketless fan, locked out with a crowd in the same spot, reasoned that anyone still ` +
-      `crossing the stadium bridges on foot must already have a ticket in hand — worked the gap, and ` +
-      `landed Row K at face value. He described it like finding the golden ticket.`,
+      `Phil's Unbroken Chain, the great unicorn of the catalog, had been waiting twenty-one years ` +
+      `for its first live performance. The band finally cracked it in March '95 and played it ` +
+      `exactly ten times before the run ended in Chicago.`,
     communityVoices: [
       { quote: "So Many Roads was one of those moments, in fact the most powerful soul experience I ever witnessed from Jerry (in my 69 shows).", attribution: "santacruzer, on So Many Roads", source: "Archive.org review" },
       { quote: "Black Muddy River. Jerry's rendering of this tune makes me forget the sloppy guitar work and spotty vocals.", attribution: "jerrysongs, on Black Muddy River", source: "Archive.org review" },
@@ -485,9 +483,9 @@ export const CATALOG: ConciergeShow[] = [
       `were on the downslope and Jerry had recently been introduced to the substances that would later ` +
       `weigh on him — context that makes the quality of this run feel more remarkable in hindsight.`,
     funFact:
-      `One reviewer caught both Cornell and Buffalo as a teenager, having driven up from Cleveland ` +
-      `without a license — he says the Estimated Prophet turned him inside out, and he had to grab ` +
-      `the wheel on the ride home when the driver nodded off.`,
+      `Most '77 first sets ease in with a Promised Land or a Mississippi Half-Step. Buffalo cold-opens ` +
+      `with Help on the Way > Slipknot! > Franklin's Tower and hits the suite as hard as the band ` +
+      `would all year.`,
     communityVoices: [
       { quote: "every note was purposeful", attribution: "zzzboxofrainzzz, on the show overall", source: "Archive.org review" },
       { quote: "Certainly my favorite Help Slip Franklins. Pair this set with the previous night's second and wow!", attribution: "gvtmule, on the first set", source: "Archive.org review" },
@@ -543,8 +541,10 @@ export const CATALOG: ConciergeShow[] = [
       `fidelity well above most 1969 recordings. At least one attendee who caught both this night and ` +
       `March 2 says the band played the best he ever saw them that weekend.`,
     funFact:
-      `One reviewer who was there says the show sent him straight out to buy his first guitar — he'd ` +
-      `been watching Weir's fluid right hand and the rhythmic fills, and that was that.`,
+      `The Aoxomoxoa sessions were burning a hole through Warner Bros.'s money — the album would land ` +
+      `$180,000 over budget. The Fillmore tapes from this week ran in parallel as the rescue plan, ` +
+      `the live record they wouldn't have to pay studio time for. It came out as Live/Dead later that ` +
+      `year.`,
     communityVoices: [
       { quote: "this version of Dark Star, which appears on Live Dead, coming out of a beautiful transition from Mountains on the Moon is THE quintesssential dark star", attribution: "Kola67, on Dark Star", source: "Archive.org review" },
       { quote: "the Live/Dead DS contained here is basically the measuring stick of all others. for many people, it was their first window into the improvisational possibilities of the greatest band on earth", attribution: "clementinescaboose, on Dark Star", source: "Archive.org review" },
@@ -602,8 +602,8 @@ export const CATALOG: ConciergeShow[] = [
       `which makes the Miller board the community's default. The New Riders of the Purple Sage shared ` +
       `the bill and play the acoustic portion, adding a country-tinged opening before the electric set.`,
     funFact:
-      `One listener was moved enough to thank the archivist by name, telling Charlie Miller he had ` +
-      `ears like Owsley.`,
+      `Jerry pulled triple duty that night — pedal steel with the New Riders, acoustic guitar in the ` +
+      `middle, lead with the Dead. Three different jobs, one stage.`,
     communityVoices: [
       { quote: "you have managed to find one of those tapes which actually drip magic from it's timbre. You've done it, now sit back and enjoy", attribution: "Nick512", source: "Archive.org review" },
       { quote: "TIFTOO is the single best version I've ever heard, and so is Dancin' -- much better than the subsequent MIT rendition.", attribution: "grateful phishmon, on Dark Star and Dancing in the Street", source: "Archive.org review" },
@@ -661,8 +661,9 @@ export const CATALOG: ConciergeShow[] = [
       `this recording shares that record's sonic footprint. It's never had a standalone official ` +
       `release, though more than one head ranks April 8 among the best stops on the whole run.`,
     funFact:
-      `One reviewer used this exact Dark Star to convert a fence-sitting friend — about fifteen ` +
-      `minutes in, he says, the guy was completely won over.`,
+      `The whole Europe '72 tour was conceived as a working vacation. The band brought wives, ` +
+      `girlfriends, and crew — forty-three people in all, per the album's inside credits — and ` +
+      `hauled a 16-track studio along to capture every show. Wembley was the second stop.`,
     communityVoices: [
       { quote: "Single Best Dark Star Ever Bar None", attribution: "gphishmon", source: "Archive.org review" },
       { quote: "one of the most driven, intense Dark Stars out there, it will always be in my tops! Billy drives the intensity and much as Jerry, and it doesn't let go.", attribution: "kochman, on the Dark Star", source: "Archive.org review" },
@@ -718,9 +719,8 @@ export const CATALOG: ConciergeShow[] = [
       `never had an official release, making the Archive tape the community's standard source. The ` +
       `Allman Brothers were on hand and joined for a third set that reviewers count as a highlight.`,
     funFact:
-      `One attendee remembers that once Deadheads got into RFK, some of them opened the other gates — ` +
-      `the venue ran out of food — and that a rent-a-cop on a scooter spooked him and his future wife ` +
-      `so badly on the way out they half-believed they were being kept for observation.`,
+      `The Allman Brothers joined for a third set that ran past midnight. Seven weeks later they'd ` +
+      `all do it again together at Watkins Glen — for six hundred thousand people.`,
     communityVoices: [
       { quote: "Eyes is very jazzy and upbeat with crisp keys providing the perfect background for Jerry to play to. The keys are so prominent it's almost approaching ragtime.", attribution: "enjoy every (dead) sandwich, on Eyes of the World", source: "Archive.org review" },
       { quote: "Phil had his guitar wired each string to four huge stacks of speakers about 70 yards from the stage. He played with the stadium echo during Playing in the Band and I haven't been the same since.", attribution: "Sweetmd3, on Playing in the Band", source: "Archive.org review" },
@@ -783,8 +783,8 @@ export const CATALOG: ConciergeShow[] = [
       `earlier at the Greek and then skipped it at Alpine Valley. It draws an unusually strong run of ` +
       `reviews on Archive for an unreleased tape.`,
     funFact:
-      `One reviewer spent the afternoon before the show at the amusement park next door — water slide, ` +
-      `wave pool — and counted the day in the lot as part of the fun.`,
+      `Behind the band that summer hung Rick Griffin's "Twenty Years So Far" banner — a skeleton ` +
+      `minuteman holding Jerry's Tiger guitar like a musket. Only used on the 1985 tour.`,
     communityVoices: [
       { quote: "Garcia is doing his best Al DiMeola during Let It Grow. Seriously, Garcia's guitar on this one is spectacular. Jaw-dropping good!", attribution: "Reece, on Let It Grow", source: "Archive.org review" },
       { quote: `THE BEST "COMES A TIME" YOU WILL HEAR , THERE ARE A FEW OTHER'S THAT COME TO MIND BUT BETWEEN THIS SONG AND THE SETLIST AND THE SOUND QUALITY OF THE SHOW, THIS TO ME MAKES THIS THE BEST VERSION AROUND`, attribution: "gratefuly deadicated, on Comes A Time", source: "Archive.org review" },
@@ -846,9 +846,9 @@ export const CATALOG: ConciergeShow[] = [
       `setlist includes Dark Star, its first appearance for many in the room, alongside a full ` +
       `second set that runs through The Other One, Wharf Rat, and Not Fade Away.`,
     funFact:
-      `One attendee had a birthday cake smuggled into the Garden, and when the candles were lit ` +
-      `during setbreak, he heard what seemed like the majority of the people in MSG singing and ` +
-      `cheering for him.`,
+      `Eight musicians on the Garden stage that night — the core five, both Bruce Hornsby and Vince ` +
+      `Welnick on keys, plus Branford Marsalis on sax. The biggest configuration the post-Brent band ` +
+      `ever fielded.`,
     communityVoices: [
       { quote: "On this particular night, they were the best band in the entire world playing at that moment in time. There is no question about it.", attribution: "zleary", source: "Archive.org review" },
       { quote: "my quest for The Holy Grail (Dark Star) ended that night and with Branford no less. That doesn't change the facts. I knew it that night.", attribution: "The TRUE Bucky, on Dark Star", source: "Archive.org review" },
@@ -975,8 +975,9 @@ export const CATALOG: ConciergeShow[] = [
       `fighting to get out the door. The source is a soundboard, so the fidelity matches the ` +
       `performance's canonical reputation.`,
     funFact:
-      `One reviewer mapped the full post-WRS jam into seven timed segments, clocked the whole thing at ` +
-      `about twenty-eight minutes, and still felt that saying he wasn't disappointed badly undersold it.`,
+      `The Mind Left Body Jam was never actually a Grateful Dead song. Phil borrowed the chord changes ` +
+      `from a Paul Kantner/David Crosby tune ("Your Mind Has Left Your Body") and started fishing for ` +
+      `them inside other jams. The name stuck. Boston is one of the canonical landings.`,
     communityVoices: [
       { quote: `I'm gonna go out on a limb and say the Jam at the end of Weather Report Suite is "THE BEST JAM EVER" by any band.`, attribution: "mgags", source: "Archive.org review" },
       { quote: "it evolves into the most beautifully rendered and involving MLB Jam ever and then goes through multiple different tempo's, styles and landscapes with the entire band contributing, all telepathically on the same magical wavelength throughout", attribution: "Kola67, on the WRS jam", source: "Archive.org review" },
@@ -1244,8 +1245,9 @@ export const CATALOG: ConciergeShow[] = [
       `For this one, the full Archive tape matters, because the official release leaves out the part ` +
       `people argue about most.`,
     funFact:
-      `Dick Latvala picked this show for Dick's Picks 26. Almost twenty years later, fans were still ` +
-      `on the Archive page asking why he wasn't allowed to include the encore.`,
+      `Aaron Russo's Chicago outpost burned down six months later in a fire later linked to a mob ` +
+      `blackmail attempt against the owner. The Dead's three April nights were among the room's last ` +
+      `big rock dates.`,
     communityVoices: [
       { quote: "Just a month after the lads run at the Fillmore that became the bulk of Live Dead", attribution: "Darrylizer", source: "Archive.org review" },
       { quote: `The playing on "Mountains" is sensitive and lyrical, Jerry's vocals filled with passion`, attribution: "palealien", source: "Archive.org review" },
@@ -1305,8 +1307,8 @@ export const CATALOG: ConciergeShow[] = [
       `the Pacific Northwest '73-'74: The Complete Recordings box set — the only official place to find this ` +
       `tape outside the trader network.`,
     funFact:
-      `One Reddit user described the Mind Left Body Jam from this night as the first big Dead jam he ever ` +
-      `really "got" — a useful clue for how to hear this show.`,
+      `The Mind Left Body Jam usually surfaced out of Weather Report Suite or China > Rider. Portland ` +
+      `is one of the rare nights it tumbled out of Truckin' instead.`,
     communityVoices: [
       { quote: "i'm convinced that of all the pre-hiatus versions of china>rider i've heard (the ones with the ujb or feeling groovy jam) this is THE archetype", attribution: "clementinescaboose", source: "Archive.org review" },
       { quote: `For me, this is The Jam. This was the first big jam I ever really “got,” and once I did, it was a real before-and-after moment.`, attribution: "splitopenandjerk, on the Mind Left Body Jam", source: "r/gratefuldead" },
@@ -1363,8 +1365,9 @@ export const CATALOG: ConciergeShow[] = [
       `band. The Spring '89 tour ran shows like this across the southeast, and Atlanta is one of the ` +
       `better-circulated boards from that swing.`,
     funFact:
-      `Box of Rain was still an uncommon encore after its return — this was only the tenth — which is ` +
-      `part of why this one sticks in people's notes.`,
+      `Foolish Heart had been in the rotation less than a year by this Atlanta show. The band was ` +
+      `workshopping the Built to Last material that would land that October — and you can hear them ` +
+      `feeling out where the songs sat.`,
     communityVoices: [
       { quote: `Tripped on way too much liquid… saw a bunch of huge pastel-colored tissue paper flowers pop up all around the stage at the beginning of Playing.`, attribution: "anonymous, on Playing in the Band", source: "r/gratefuldead" },
       { quote: "done just perfectly as a lullaby to send us on our way", attribution: "shipofthesun, on the Box of Rain encore", source: "Archive.org review" },
@@ -1419,8 +1422,9 @@ export const CATALOG: ConciergeShow[] = [
       `band did most springs. Released on the 30 Trips Around the Sun box set — the band's 50th-anniversary ` +
       `compilation that pulled one show per year from 1965 to 1995. This was their pick for 1993.`,
     funFact:
-      `The review-page argument around this show is basically the larger 1993 argument in miniature: ` +
-      `some heads hear decline, others hear a year still capable of real lift.`,
+      `The Days Between was the last song Hunter and Garcia ever wrote together. It debuted six weeks ` +
+      `before this Albany show, was played forty-one times in all, and never made it to a studio ` +
+      `album. The band's last performance of it came the night before Jerry's final show.`,
     communityVoices: [
       { quote: "This one melted me.  And still does.", attribution: "LevitatingYogi, on Comes A Time", source: "Archive.org review" },
       { quote: "It was times like this in 1992-93 that would restore my faith in the band and renew my appreciation for them.", attribution: "AceHigh4", source: "Archive.org review" },
@@ -1548,8 +1552,9 @@ export const CATALOG: ConciergeShow[] = [
       `high-resolution FLAC. It's never been officially released, which itself tells the community ` +
       `something: reviewers rate it a peer of the released Dick's Picks volumes.`,
     funFact:
-      `One reviewer set this unreleased Miller board head-to-head against an official Dick's Picks ` +
-      `volume and concluded it holds up as an equal.`,
+      `Brent had been gone less than seven weeks. Vince Welnick had played his first show with the ` +
+      `band nine nights earlier; Bruce Hornsby was at the piano for his second-ever Dead set. Two ` +
+      `keyboard players learning the songs on the fly, with the room watching.`,
     communityVoices: [
       { quote: "As good or better than Dick's Picks 9 official release.", attribution: "Monkeypaws, on recording quality", source: "Archive.org review" },
     ],
