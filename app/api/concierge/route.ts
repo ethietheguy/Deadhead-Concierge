@@ -34,6 +34,16 @@ function compactCatalog() {
   }));
 }
 
+// The catalog is identical on every request, so we build it ONCE at module
+// load and send it as a cached prompt prefix. With prompt caching, Anthropic
+// reuses this ~10k-token block at ~10% of the input cost on repeat calls
+// within a 5-minute window — exactly what happens during a traffic spike.
+// Byte-for-byte stability is what makes the cache hit, so this string must
+// never be rebuilt per request.
+const CATALOG_BLOCK =
+  "Catalog (pick exactly one id from this list):\n" +
+  JSON.stringify(compactCatalog(), null, 2);
+
 const SYSTEM_PROMPT = `You are the Dead Concierge — a trusted older Deadhead handing someone the right tape. Not a hype writer.
 
 PICK
@@ -102,7 +112,43 @@ const TOOL_SCHEMA = {
   },
 };
 
+// ── Rate limiting ───────────────────────────────────────────────
+// Simple in-memory sliding window, keyed by IP. Each serverless instance
+// keeps its own map, so this is a blunt instrument rather than a hard
+// guarantee — but it stops casual scripted abuse from burning API credits.
+const RATE_LIMIT = 10; // requests
+const RATE_WINDOW_MS = 60_000; // per minute
+const MAX_TEXT_LENGTH = 500;
+const hits = new Map<string, number[]>();
+
+function rateLimited(ip: string): boolean {
+  const now = Date.now();
+  const recent = (hits.get(ip) ?? []).filter((t) => now - t < RATE_WINDOW_MS);
+  if (recent.length >= RATE_LIMIT) {
+    hits.set(ip, recent);
+    return true;
+  }
+  recent.push(now);
+  hits.set(ip, recent);
+  // Keep the map from growing unbounded on long-lived instances.
+  if (hits.size > 5000) {
+    for (const [k, v] of hits) {
+      if (v.every((t) => now - t >= RATE_WINDOW_MS)) hits.delete(k);
+    }
+  }
+  return false;
+}
+
 export async function POST(req: Request) {
+  const ip =
+    req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+  if (rateLimited(ip)) {
+    return NextResponse.json(
+      { error: "Too many requests. Take a breath — try again in a minute." },
+      { status: 429 },
+    );
+  }
+
   let body: RequestBody;
   try {
     body = await req.json();
@@ -110,7 +156,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400 });
   }
 
-  const text = body.text?.trim();
+  const text = body.text?.trim().slice(0, MAX_TEXT_LENGTH);
   const chips = body.chips ?? [];
   const previousIds = body.previousIds ?? [];
 
@@ -129,35 +175,45 @@ export async function POST(req: Request) {
 
   const client = new Anthropic({ apiKey });
 
+  // Only the variable, per-request parts go in the user message. The catalog
+  // lives in the cached system prefix (CATALOG_BLOCK) below.
   const userMessage = [
     `The user said: "${text}"`,
     chips.length > 0 ? `They also picked these vibes: ${chips.join(", ")}` : null,
     previousIds.length > 0
       ? `Previously recommended in this session (try to avoid unless perfect fit): ${previousIds.join(", ")}`
       : null,
-    "",
-    "Catalog:",
-    JSON.stringify(compactCatalog(), null, 2),
   ]
     .filter(Boolean)
     .join("\n");
 
   try {
-    const response = await client.messages.create({
+    const response = await client.beta.messages.create({
       model: "claude-sonnet-4-6",
       max_tokens: 1024,
-      system: SYSTEM_PROMPT,
+      betas: ["prompt-caching-2024-07-31"],
+      // The static prefix (instructions + full catalog) is cached. The
+      // cache_control breakpoint sits on the catalog block, so everything up
+      // to and including it — tools, system prompt, catalog — gets reused on
+      // repeat calls within ~5 minutes at ~10% of the input cost.
+      system: [
+        { type: "text", text: SYSTEM_PROMPT },
+        {
+          type: "text",
+          text: CATALOG_BLOCK,
+          cache_control: { type: "ephemeral" },
+        },
+      ],
       tools: [TOOL_SCHEMA],
       tool_choice: { type: "tool", name: "recommend_show" },
       messages: [{ role: "user", content: userMessage }],
     });
 
-    // Find the tool_use block
-    const toolUse = response.content.find(
-      (block): block is Anthropic.ToolUseBlock => block.type === "tool_use",
-    );
+    // Find the tool_use block. (Beta client returns beta block types, so we
+    // narrow by the discriminant rather than asserting a specific SDK type.)
+    const toolUse = response.content.find((block) => block.type === "tool_use");
 
-    if (!toolUse) {
+    if (!toolUse || toolUse.type !== "tool_use") {
       return NextResponse.json(
         { error: "Model did not return a tool call" },
         { status: 502 },
