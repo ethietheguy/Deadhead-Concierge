@@ -2830,6 +2830,490 @@ export const CATALOG: ConciergeShow[] = [
   // See scratch/all-five-synthesis.md for source documentation.
   // ─────────────────────────────────────────────────────────────
 
+  // ── 47. 3/29/85 Nassau — first-set Supplication Jam ────────
+  {
+    id: "gd-1985-03-29",
+    date: "1985-03-29",
+    venue: "Nassau Veterans Memorial Coliseum",
+    city: "Uniondale",
+    state: "NY",
+    setlist: [
+      "Cold Rain and Snow", "Little Red Rooster",
+      "Bird Song", "My Brother Esau",
+      "Bottom of the Bottle", "Supplication Jam",
+      "Don't Ease Me In",
+      "Terrapin Station",
+      "Playing in the Band",
+      "Drums", "Space",
+      "The Wheel", "Throwing Stones",
+      "Not Fade Away",
+      "Johnny B. Goode",
+    ],
+    archiveUrl: "https://archive.org/details/gd85-03-29.oade-schoeps.sacks.23475.sbeok.flacf",
+    era: "80s",
+    moods: ["high-energy", "joyful", "psychedelic", "party"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    headline: "Nassau's wild first set, March '85, Jerry cooking.",
+    whyThisShow:
+      `This is a strong mid-80s Nassau show with a first set that draws consistent praise — a rare ` +
+      `Supplication Jam anchors it, and one reviewer called the first set "so kickin" before noting ` +
+      `things soften after Drums. The Terrapin that opens the second set is a genuine highlight; ` +
+      `one listener called it "a perfect version" with an extended jam after the shed light line. ` +
+      `The show closes with a Johnny B. Goode that one reviewer called "blazing fast, the fastest ` +
+      `version I've ever heard". One voice does flag that Jerry "does not sound himself" coming out ` +
+      `of Space, so the second set has its rough patches. Unreleased, but the Oade Brothers AUD ` +
+      `recording is regarded as excellent, and one listener noted the sound was "amazing" and the ` +
+      `recording captures it.`,
+    listenFor:
+      `The Supplication Jam in the first set is the rare-treat centerpiece — one reviewer noted ` +
+      `"great group improvisation" with Phil laying down "amazing lines under Jerry's fiery ` +
+      `noodling". In the Terrapin, stay for the outro which develops into what one reviewer ` +
+      `described as "a bouncy, lively Man Smart". The Bottom of the Bottle sequence features "a lot ` +
+      `of group interplay and funky, bluesy soloing by Jerry" with Phil "prominent" as the jam ` +
+      `peaks. Brent is consistently sharp throughout; one reviewer singled out his "great solos, ` +
+      `especially Brent's hammond" in Minglewood and his "passionate singing and great soloing" on ` +
+      `Baby, What You Want Me to Do. The second-set drop-off after Drums is real and noted by at ` +
+      `least one listener, so temper expectations for the stretch from Space onward.`,
+    context:
+      `March 1985 was part of a spring tour that one reviewer noted had all general admission ` +
+      `seating, lending an unusual floor energy to the Nassau run. The recording circulates as an ` +
+      `Oade Brothers–transferred Schoeps AUD (identifier: ` +
+      `gd85-03-29.oade-schoeps.sacks.23475.sbeok.flacf), which reviewers consistently praise for ` +
+      `fidelity. The show remains officially unreleased, making the Archive.org AUD the primary way ` +
+      `the community has kept it in circulation.`,
+    funFact:
+      `One reviewer described the Johnny B. Goode closing the show as "the equivalent of the horse ` +
+      `galloping as it sees the barn" — the fastest version they'd encountered.`,
+    communityVoices: [
+      { quote: "the first set is so kickin but coming out of space jerry just fades - he does not sound himself", attribution: "sheikyerbouti", source: "Archive.org review" },
+      { quote: "The Johnny is blazing fast, the fastest version I've ever heard. They absolutely tear through it in record time.", attribution: "corby112, on Johnny B. Goode", source: "Archive.org review" },
+      { quote: "the guy sitting in front of me was blind and was in (not on) complete ecstasy during the entire first set", attribution: "anarekey2000", source: "Archive.org review" },
+      { quote: "Well played, consistent and steaming. Great AUD too, you can't go wrong with the Oade brothers.", attribution: "Darrylizer", source: "Archive.org review" },
+      { quote: "wonderfully unique... great sound power energy too fast? i dont know... great fun... nice setlist", attribution: "gruUbic", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 48. 3/24/86 Spectrum — second Box of Rain since '74 ────
+  {
+    id: "gd-1986-03-24",
+    date: "1986-03-24",
+    venue: "The Spectrum",
+    city: "Philadelphia",
+    state: "PA",
+    setlist: [
+      "Hell in a Bucket", "Cold Rain and Snow",
+      "Walkin' Blues", "Friend of the Devil",
+      "Box of Rain",
+      "Lost Sailor", "Saint of Circumstance",
+      "Help on the Way", "Slipknot!", "Franklin's Tower",
+      "Estimated Prophet", "Eyes of the World",
+      "Drums", "Space",
+      "Morning Dew", "Sugar Magnolia",
+      "U.S. Blues",
+    ],
+    archiveUrl: "https://archive.org/details/gd86-03-24.naks.braverman.16746.sbeok.shnf",
+    era: "80s",
+    moods: ["triumphant", "emotional", "high-energy", "joyful"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    headline: "Philly '86 — the last Sailor/Saint, and a backstage blowup.",
+    whyThisShow:
+      `This show is remembered as much for what happened offstage as on. An eyewitness account ` +
+      `describes Jerry and Bobby in a visible confrontation in the wings after the Lost Sailor → ` +
+      `Saint of Circumstance, with one attendee recalling "Jerry lit into him. I thought for a ` +
+      `second it was gonna come to blows. I think it was Steve Parrish who intervened". Whatever ` +
+      `the source of the friction, the show delivered: one reviewer notes this was "the last ` +
+      `Sailor/Saint with Garcia", which gives the entire sequence an unplanned weight in ` +
+      `retrospect. One attendee noted the show started out with "Jerry Playing Better Than The ` +
+      `Earlier Shows Of The Tour". The Help→Slipknot!→Franklin's Tower and the reportedly charged ` +
+      `Morning Dew round out a night the community treats as a classic, even without an official ` +
+      `release.`,
+    listenFor:
+      `The Lost Sailor → Saint of Circumstance is the centerpiece listen here — one attendee who ` +
+      `was standing near the stage urged listeners to "Listen For The Feedback Growl From Jerry ` +
+      `Seconds Into It". After Space, the band returned for just a single song before the encore, ` +
+      `which one listener flagged as almost certainly unique: "I'm pretty sure this is the only ` +
+      `time that happened in this show format". The Morning Dew that followed the backstage ` +
+      `confrontation is described as "a Furious Dew", so treat that as required listening. One ` +
+      `reviewer also singles out Phil's vocal on Box of Rain, writing that he thinks Phil sung it ` +
+      `better in 86 than in later years. Be aware that the SBD on Archive has patches: "part of El ` +
+      `Paso, all of Drums, and all of the Dew are all an audience patch", so some listeners ` +
+      `recommend hunting down the audience recording instead.`,
+    context:
+      `This is a March 1986 show at The Spectrum in Philadelphia, part of a spring tour. The ` +
+      `recording on Archive (gd86-03-24.sbd.miller.22783.sbeok.shnf) is a soundboard but contains ` +
+      `known patches sourced from an audience tape for portions of the second set. The show has ` +
+      `never received an official release. One attendee described attending the first six shows of ` +
+      `this tour as a honeymoon trip, noting it led to "31 Years And Counting Of Blessed ` +
+      `Partnership And Love".`,
+    funFact:
+      `After the backstage confrontation, one eyewitness reported that "Jerry Came Back Out And Sat ` +
+      `Alone In A Little Aclove Of Speakers And Amps Hidden From Sight" before Steve Parrish came ` +
+      `out and talked him back onstage.`,
+    communityVoices: [
+      { quote: "Jerry lit into him. I thought for a second it was gonna come to blows. I think it was Steve Parrish who intervened.", attribution: "Bucketed1Sevices, on the Jerry/Bobby confrontation backstage", source: "Archive.org review" },
+      { quote: "this was the last Sailor/Saint with Garcia", attribution: "ride_her_like_a_surfer, on Lost Sailor → Saint of Circumstance", source: "Archive.org review" },
+      { quote: "I'm pretty sure this is the only time that happened in this show format.", attribution: "kbmill, on the single song between Space and encore", source: "Archive.org review" },
+      { quote: "Vocals are soooo pure, and sound good.", attribution: "drgnw/mtchs", source: "Archive.org review" },
+      { quote: "I think Phil sung \"Box of Rain\" Better in '86 than '87-'95.", attribution: "rick e., on Box of Rain", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 50. 7/19/90 Deer Creek — Brent's swan song window ──────
+  {
+    id: "gd-1990-07-19",
+    date: "1990-07-19",
+    venue: "Deer Creek Music Center",
+    city: "Noblesville",
+    state: "IN",
+    setlist: [
+      "Jack Straw", "Mississippi Half-Step",
+      "Walkin' Blues", "Loser",
+      "Queen Jane Approximately", "Bird Song",
+      "Promised Land",
+      "Foolish Heart",
+      "Victim or the Crime",
+      "Playing in the Band",
+      "Uncle John's Band",
+      "Drums", "Space",
+      "The Other One", "Stella Blue",
+      "Lovelight",
+      "Knockin' on Heaven's Door",
+    ],
+    archiveUrl: "https://archive.org/details/gd90-07-19.dsbd.garcia420.2177.sbeok.shnf",
+    era: "80s",
+    moods: ["high-energy", "joyful", "emotional", "triumphant"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 40 (7/18-19/90)"],
+    headline: "Deer Creek, July '90 — Brent's last run, officially out.",
+    whyThisShow:
+      `This is one half of the two-night Deer Creek run released as Dave's Picks Vol. 40, and the ` +
+      `community broadly regards it as the stronger night. One listener noted that "this show ` +
+      `overall is a much better performance for Jerry than the previous night" and that "Phil is a ` +
+      `beast the entire show". The second set's Playing in the Band sequence draws the most ` +
+      `attention, with one reviewer calling it "excellent, full of energy with tight playing and ` +
+      `lots of passion from Jerry". The Foolish Heart is singled out as a peak moment, one listener ` +
+      `placing it in the "Top 3" for the song and hearing Jerry playing "WITH the band" rather than ` +
+      `over it. One reviewer described the whole Deer Creek run as having "restored my faith after ` +
+      `I saw some bad shows the previous 2 years".`,
+    listenFor:
+      `The Row Jimmy is the most cited individual moment — one listener zeroed in on "the handoff ` +
+      `of the second jam at just after the 5 minute mark," calling it "graceful sad stuff" with ` +
+      `Phil anchoring throughout. The Playing > Uncle John's Band sequence is the structural spine ` +
+      `of the second set, described as carrying "lots of passion from Jerry" with "His solo in ` +
+      `China Doll alone" cited as worth the listen. One reviewer also flagged Desolation Row as ` +
+      `"flat out incredible" with Phil and Jerry both deeply engaged. Healy's mix draws a brief ` +
+      `note — one listener loved his effects on Desolation Row while flagging a couple of moments ` +
+      `where Weir gets run through the "screech box".`,
+    context:
+      `This show is from the summer 1990 tour, part of a two-night stand at Deer Creek Music Center ` +
+      `in Noblesville, Indiana. It was officially released by the Dead's own archival series as ` +
+      `Dave's Picks Vol. 40, paired with the July 18 show. The recording circulating on Archive.org ` +
+      `is a soundboard (identifier: gd1990-07-19.sbd.miller.32354.sbeok.flac16). Brent Mydland died ` +
+      `just days after this run, which gives the tape a particular weight for listeners who know ` +
+      `the timeline — one reviewer noted of the Row Jimmy interplay, "It would all be over in a few ` +
+      `days".`,
+    funFact:
+      `One reviewer described this as their second Dead show ever and their first "paper ` +
+      `experience," writing "I would kill for a copy of this show".`,
+    communityVoices: [
+      { quote: "The Playing> China Doll> Uncle John's Band is the clear high light of this show. It is excellent, full of energy with tight playing and lots of passion from Jerry.", attribution: "Stellablu122, on the second set sequence", source: "Archive.org review" },
+      { quote: "Listen to the handoff of the second jam at just after the 5 minute mark. It'll break your heart. Phil is right there throughout as well. Just graceful sad stuff.", attribution: "DAVEDOG21, on Row Jimmy", source: "Archive.org review" },
+      { quote: "The Foolish Heart is intricate and you can hear Jerry not only tearing it up, but doing so WITH the band!", attribution: "Mrl4science, on Foolish Heart", source: "Archive.org review" },
+      { quote: "This Deer Creek run restored my faith after I saw some bad shows the previous 2 years. Phil was definitely in charge!", attribution: "Rollo33", source: "Archive.org review" },
+      { quote: "its my second dead show ever, also my first, um \"paper experience\" ever.", attribution: "rj5570", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 51. 4/22/79 Spartan Stadium — Brent Mydland's first show ─
+  {
+    id: "gd-1979-04-22",
+    date: "1979-04-22",
+    venue: "Spartan Stadium",
+    city: "San Jose",
+    state: "CA",
+    setlist: [
+      "Jack Straw", "Tennessee Jed", "Mama Tried",
+      "Mexicali Blues", "Sugaree", "New Minglewood Blues",
+      "Brown-Eyed Women", "Looks Like Rain",
+      "Stagger Lee", "Passenger", "Deal",
+      "I Need a Miracle", "Bertha", "Good Lovin'",
+      "Scarlet Begonias", "Fire on the Mountain",
+      "Estimated Prophet", "He's Gone",
+      "Drums", "The Other One", "Wharf Rat",
+      "Around and Around", "U.S. Blues",
+      "Shakedown Street",
+    ],
+    archiveUrl: "https://archive.org/details/gd79-04-22.sbd.bennett.12001.sbeok.shnf",
+    era: "late-70s",
+    moods: ["high-energy", "joyful", "road-trip"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    headline: "Brent's first night, Spartan Stadium, April '79.",
+    whyThisShow:
+      `This is Brent Mydland's first concert with the Grateful Dead, making it a genuine ` +
+      `before-and-after moment in band history — one listener noted it was the "opening concert ` +
+      `with The Good Ol' Grateful Dead" featuring Brent. The band came in prepared: one attendee ` +
+      `attributed the tightness directly to rehearsal time put in to bring Brent up to speed. The ` +
+      `setlist is deep and well-stocked — one fan called it "one of my favorites, just missing ` +
+      `Terrapin and Franklins". The recording is a soundboard, circulated widely enough to rack up ` +
+      `85 reviews on Archive, and remains unreleased officially — which only adds to the community ` +
+      `interest in this tape.`,
+    listenFor:
+      `New Minglewood Blues is the obvious first stop: one listener described Brent raging in with ` +
+      `his organ just as Jerry was winding up, delivering "a massive solo in minglewood, for not ` +
+      `ever playing live with the band before". Looks Like Rain carries a bit of legend from those ` +
+      `who were there — one attendee remembered "Bobby magically making it rain on command during ` +
+      `LLR". The sound quality is described as "a little 79ish" by one listener, so go in with that ` +
+      `expectation for the SBD. The second set — Estimated through Wharf Rat — is where the band's ` +
+      `rehearsal investment tends to show itself most.`,
+    context:
+      `April 22, 1979 at Spartan Stadium in San Jose was a Bill Graham-produced outdoor event, with ` +
+      `the Greg Kihn Band and Charlie Daniels Band on the bill before the Dead. It was the first ` +
+      `show after Keith Godchaux and Donna Godchaux departed the band, with Brent Mydland stepping ` +
+      `in on keyboards for the first time in a live setting. The best-circulating recording is a ` +
+      `soundboard (identifier: gd79-04-22.sbd.bennett.12001.sbeok.shnf) and the show has never ` +
+      `received an official release.`,
+    funFact:
+      `One attendee was so far under the influence that he misremembered the setlist entirely, ` +
+      `convinced they played Here Comes Sunshine when the sun broke through the clouds — ` +
+      `"apparently not".`,
+    communityVoices: [
+      { quote: "Brent rips out a massive solo in minglewood, for not ever playing live with the band before.. i knew it was coming.", attribution: "keysareme, on Minglewood Blues", source: "Archive.org review" },
+      { quote: "Bobby magically making it rain on command during LLR.", attribution: "BurtTheButcher, on Looks Like Rain", source: "Archive.org review" },
+      { quote: "It was a killer show and great set list.....played a lot of my favorites.", attribution: "sfdead", source: "Archive.org review" },
+      { quote: "This was one of those earthquake weather concerts days. You know the one, it feels like a heavy pressure on the head and face like anything could happen.", attribution: "ElPintado Bear", source: "Archive.org review" },
+      { quote: "This was one fucking outstanding show.", attribution: "poghmahone", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 52. 9/16/87 MSG — In the Dark tour, late-summer fire ────
+  {
+    id: "gd-1987-09-16",
+    date: "1987-09-16",
+    venue: "Madison Square Garden",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "Touch of Grey", "Scarlet Begonias",
+      "Little Red Rooster", "Dire Wolf",
+      "My Brother Esau", "High Time",
+      "Let It Grow", "Don't Ease Me In",
+      "Bertha", "Greatest Story Ever Told",
+      "Devil With the Blue Dress", "Good Golly Miss Molly",
+      "Devil With the Blue Dress (reprise)",
+      "He's Gone", "Drums", "Space",
+      "Truckin'", "Wharf Rat", "Throwing Stones",
+      "Not Fade Away",
+      "Goin' Down the Road Feeling Bad",
+      "Black Muddy River",
+    ],
+    archiveUrl: "https://archive.org/details/gd87-09-16.sbd.hinko.22797.sbeok.shnf",
+    era: "80s",
+    moods: ["high-energy", "joyful", "triumphant", "party"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    headline: "MSG, September '87, setlist does the talking.",
+    whyThisShow:
+      `The setlist alone makes this one worth tracking down — Scarlet Begonias in the first set, a ` +
+      `Rock 'n' Roll medley built around Devil With the Blue Dress, and Bertha into Greatest Story ` +
+      `are not combinations you see every night. One listener noted this was one of those shows ` +
+      `where "it wouldn't matter how they played, because they kicked down with such a fun, ` +
+      `interesting and surprising setlist". Jerry in late 1987 was riding the momentum of a genuine ` +
+      `pop hit, and one reviewer felt that "it could have given him a boost, that might explain his ` +
+      `wonderful performance, of course not only at this show, but during the whole year". Brent ` +
+      `and Bobby are not afterthoughts here — Stefan W. specifically noted that "Bobby is really ` +
+      `putting all he's got into GSET and Throwing Stones, which is almost hypnotical".`,
+    listenFor:
+      `The Scarlet Begonias is a focal point for multiple reviewers — one called it "really really ` +
+      `tight and sounds like the very best of 1974 or 1976". Worth noting that the crowd's initial ` +
+      `reaction was skeptical, since capn doubledose remembered you "can hear the crowd bum as this ` +
+      `was pretty overused at this time" before the band locked it in. The closing sequence draws ` +
+      `particular attention — one reviewer warned that "if you don't almost cry during the very ` +
+      `soft and emotional sung lines of Black Muddy River after an entirely perfect show, you can ` +
+      `call me a liar". The NFA is also flagged as "really hot" by at least one listener.`,
+    context:
+      `This is a soundboard recording from the band's long residency run at Madison Square Garden ` +
+      `in September 1987, sourced from the Hinko collection and marked sbeok (SBD okay). The show ` +
+      `falls in the era immediately following Touch of Grey's chart run — it peaked at number 9 in ` +
+      `1987 — which brought an enormous new audience into MSG and gave the whole tour a charged ` +
+      `atmosphere. The recording is unreleased officially, but the SBD source means the sound ` +
+      `quality is well-documented by the community as strong, with one reviewer describing "a fine ` +
+      `stage sound, which is simply amazing" alongside audible audience response.`,
+    funFact:
+      `One reviewer remembered showing up to the venue in a pinstriped suit after starting a new ` +
+      `job, worried that "people would think I was a narc".`,
+    communityVoices: [
+      { quote: "Scarlet in the first freaking set! Devil with a Blue Dress! Bertha>Greatest Story! On top of it, they played great! Bonus!", attribution: "jamiejoon", source: "Archive.org review" },
+      { quote: "This playing recalls Fall 1984 it's so good. NFA is really hot, also the Scarlet near the beginning is really really tight and sounds like the very best of 1974 or 1976.", attribution: "Zaorish", source: "Archive.org review" },
+      { quote: "Jerry was really amazed by finally having a hit. It could have given him a boost, that might explain his wonderful performance, of course not only at this show, but during the whole year.", attribution: "Stefan W.", source: "Archive.org review" },
+      { quote: "You can hear the crowd bum as this was pretty overused at this time and after hearing the first few bars you know they will just nail it and they did", attribution: "capn doubledose, on Scarlet Begonias", source: "Archive.org review" },
+      { quote: "Isn't it great that Jerry finally got the hit he'd always wanted?", attribution: "fenario80", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 54. 6/22/92 Star Lake — Dark Star and the Spanish Jam returns ─
+  {
+    id: "gd-1992-06-22",
+    date: "1992-06-22",
+    venue: "Star Lake Amphitheater",
+    city: "Burgettstown",
+    state: "PA",
+    setlist: [
+      "Jack Straw", "Loser",
+      "Walkin' Blues", "It Must Have Been the Roses",
+      "Queen Jane Approximately",
+      "Ramble On Rose", "Beat It On Down the Line",
+      "Deal",
+      "Scarlet Begonias", "Fire on the Mountain",
+      "Victim or the Crime",
+      "Dark Star", "Drums", "Space",
+      "Spanish Jam", "The Other One",
+      "Stella Blue", "Goin' Down the Road Feeling Bad",
+      "Around and Around",
+      "Knockin' on Heaven's Door",
+    ],
+    archiveUrl: "https://archive.org/details/gd92-06-22.daud.harlan.5218.sbeok.shnf",
+    era: "final-years",
+    moods: ["psychedelic", "emotional", "introspective", "dark"],
+    styles: ["jam", "experimental", "rock"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    headline: "Dark Star opens up, then Jerry walks to Drums.",
+    whyThisShow:
+      `This was the opening night of Star Lake Amphitheater, a brand new venue, and the Dead ` +
+      `christened it with a second set built around Dark Star, a Spanish Jam, and The Other One — ` +
+      `rare architecture for a 1992 show. One listener said "i give it a 5 for the spanish jam ` +
+      `alone", and another called the second set's sequence "good daring stuff". The honest caveat ` +
+      `is that the Dark Star felt truncated to at least one witness there that night — "the Dark ` +
+      `Star seemed to just be opening up and Jerry left the stage to Drums". Still, the setlist ` +
+      `ambition alone puts this in a different category from most 1992 summer shows, and the ` +
+      `community has rated it a classic accordingly.`,
+    listenFor:
+      `The second set is where this show earns its keep: track the Scarlet Begonias into Fire on ` +
+      `the Mountain, which one reviewer noted sees "Jerry considerably sharper than a half hour ` +
+      `before". Then ride through the Dark Star fragment into Drums and back out through Space into ` +
+      `the Spanish Jam, which "suddenly gave way to The Other One". One reviewer noted they ` +
+      `appreciated the attempt to play "The Other One at a different tempo instead of just another ` +
+      `recitation of the material they'd played for 25 years". On the recording, be aware that "the ` +
+      `bass just didn't project out of the tin can stage", so don't expect much Phil in the low end ` +
+      `on this audience tape.`,
+    context:
+      `Star Lake Amphitheater in Burgettstown, PA had just opened, and this was one of two ` +
+      `back-to-back Dead shows that inaugurated it in June 1992. The recording circulating on ` +
+      `Archive is an audience tape (identifier: gd92-06-22.daud.harlan.5218.sbeok.shnf) and has ` +
+      `never seen an official release. The venue's acoustic situation was a known challenge — one ` +
+      `reviewer described it as "a big tin shack for the band to play in with a half-ass ` +
+      `ampitheatre in front of it", which colors what you hear on the tape. Sound engineer Dan ` +
+      `Healy reportedly worked the room hard as the night progressed.`,
+    funFact:
+      `One attendee still has the flyer from the nearby lot party at Bennets, which posted a rule ` +
+      `of "no gas after 11" — a rule that, by their account, was ignored until sunrise.`,
+    communityVoices: [
+      { quote: "i give it a 5 for the spanish jam alone", attribution: "STELLARDARKSTAR", source: "Archive.org review" },
+      { quote: "The Dark Star seemed to just be opening up and Jerry left the stage to Drums.", attribution: "hjennings3, on Dark Star", source: "Archive.org review" },
+      { quote: "The \"Spanish Jam\" and the Dark Star pt. 2 was worth it alone.... Not to mention a great Loser in the first set.", attribution: "Space", source: "Archive.org review" },
+      { quote: "Billy the Kid shook his finger & smiled @ me, saying something though i don't recall what, for smoking the joint that I did right there in front of security & the band.", attribution: "tree-ap", source: "Archive.org review" },
+      { quote: "What better way to christen a brand new arena than w/ back to back good Dead shows.", attribution: "chuck m, on the venue", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 55. 10/1/94 Boston Garden — last Garden run, Help>Slip>Frank opener ─
+  {
+    id: "gd-1994-10-01",
+    date: "1994-10-01",
+    venue: "Boston Garden",
+    city: "Boston",
+    state: "MA",
+    setlist: [
+      "Help on the Way", "Slipknot!", "Franklin's Tower",
+      "Walkin' Blues", "Althea",
+      "Me and My Uncle", "Big River",
+      "Just Like Tom Thumb's Blues",
+      "So Many Roads",
+      "The Promised Land",
+      "Scarlet Begonias", "Fire on the Mountain",
+      "Way to Go Home", "Saint of Circumstance",
+      "Terrapin Station",
+      "Drums", "Space",
+      "The Last Time", "Stella Blue",
+      "One More Saturday Night",
+      "Liberty",
+    ],
+    archiveUrl: "https://archive.org/details/gd94-10-01.sbd.ashley-bertha.14869.sbeok.shnf",
+    era: "final-years",
+    moods: ["triumphant", "emotional", "high-energy", "joyful"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["30 Trips Around the Sun"],
+    headline: "Boston Garden's last October, Jerry wide awake.",
+    whyThisShow:
+      `This is a broadly canonical show from the final years, included on the official 30 Trips ` +
+      `Around the Sun box set, and community reviewers consistently point to it as the peak of ` +
+      `1994. One reviewer called it "the best of '94" and noted that "a great show was not a ` +
+      `regular occurrence in '94-'95. In fact, it was rare". Another framed it as "the last TRULY ` +
+      `magical night that the boys had before the passing of St.Jerome". One New York partisan who ` +
+      `set out to prefer the 10/14 MSG version of Scarlet>Fire conceded that "the Boston version is ` +
+      `cleaner, tighter, and features a beautiful MIDI flute solo by Jerry". The first set draws ` +
+      `particular attention: one listener wrote that "by any measure, any era, that first set ` +
+      `smokes". The one note of complexity is the show's place in a difficult era — the reverence ` +
+      `here is partly inseparable from the scarcity of nights this good in the surrounding months.`,
+    listenFor:
+      `The Scarlet>Fire is the centerpiece and the thing most reviewers name first. One detail ` +
+      `worth seeking out: at around 11:25 into the Scarlet track, "Jerry starts doing this little ` +
+      `MIDI flute thing, and right as Jerry starts to get cooking on it, Phil immediately starts ` +
+      `RIPPING into the Fire bass line and Jerry INSTANTLY takes that little riff and weaves it ` +
+      `into a variation on the Fire rythum". One listener called that moment "absolutely PRICELESS" ` +
+      `and noted the exchange "only lasts from around 11:25 to 12:15, but its absolutely ` +
+      `PRICELESS". So Many Roads also gets a call-out, with one reviewer describing it simply as ` +
+      `"exquisite". Stella Blue closes the second set, and one reviewer heard Jerry "goes all out ` +
+      `ad-libbing many additional repeatings" and that "as he cries you can hear right down into ` +
+      `the very substance of all that he was". The soundboard recording quality draws consistent ` +
+      `praise: one listener noted "very good balance between all the instruments. You can easily ` +
+      `pick out any instrument in the mix".`,
+    context:
+      `Boston Garden, October 1, 1994 — final-years era, Vince Welnick on keys. This was among the ` +
+      `last shows ever played at the old Boston Garden before the building closed, a fact one ` +
+      `reviewer speculated may have sharpened the band's focus: "Perhaps he was aware that this ` +
+      `would be the last music ever played in that building". The recording is a soundboard ` +
+      `(gd94-10-01.sbd.ashley-bertha.14869.sbeok.shnf) and was officially released as part of the ` +
+      `30 Trips Around the Sun box set. The fall 1994 tour is often cited as a relative bright spot ` +
+      `after a difficult summer, and one reviewer noted it "adds credence to the theory that the ` +
+      `Dead (and Jerry in particular) were surprisingly coherent in Fall '94".`,
+    funFact:
+      `One reviewer drew a direct comparison to Cornell, noting the Phil-to-Jerry handoff in ` +
+      `Scarlet was a move "ala Cornell".`,
+    communityVoices: [
+      { quote: "at 11:25 into the Scarlet track, Jerry starts doing this little MIDI flute thing, and right as Jerry starts to get cooking on it, Phil immediately starts RIPPING into the Fire bass line and Jerry INSTANTLY takes that little riff and weaves it into a variation on the Fire rythum", attribution: "BlackPeter, on Scarlet>Fire transition", source: "Archive.org review" },
+      { quote: "I have to give a slight nod to the Boston version as better. It's important to recognize that the 10/14 version is a rather uniquely sprawling landscape, with jagged peaks and valleys (including that explosive ending). But the Boston version is cleaner, tighter, and features a beautiful MIDI flute solo by Jerry.", attribution: "DavidGlasses, on Boston vs. NYC Scarlet>Fire", source: "Archive.org review" },
+      { quote: "This show is such a bright shining light in a sea of darkness that defined the last year or two of the Grateful Dead.", attribution: "jpos", source: "Archive.org review" },
+      { quote: "this was my 5th show, and by far the best I ever saw...the 5 star rating is relative in this case, as I feel it is indeed the 'last great show' and that has a lot to do with it.", attribution: "fez_43", source: "Archive.org review" },
+      { quote: "You can hear him giving not only his all but something more.", attribution: "Evan S. Hunt, on Jerry", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
   // ── Electric Theater 4/26/69 — primal-era deep cut ────────────
   {
     id: "gd-1969-04-26",
