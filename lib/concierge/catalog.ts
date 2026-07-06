@@ -1127,6 +1127,407 @@ export const CATALOG: ConciergeShow[] = [
     headyversionRanks: [],
   },
 
+  // ── 19. 10/18/74 Winterland — pre-hiatus farewell ────────────
+  {
+    id: "gd-1974-10-18",
+    date: "1974-10-18",
+    venue: "Winterland Arena",
+    city: "San Francisco",
+    state: "CA",
+    setlist: [
+      "Scarlet Begonias", "Mexicali Blues", "Brown-Eyed Women",
+      "Jack Straw", "Tennessee Jed", "Me and My Uncle",
+      "Playing in the Band", "Weather Report Suite",
+      "Let It Grow", "Ship of Fools",
+      "Truckin'", "Mind Left Body Jam", "Eyes of the World",
+      "Wharf Rat", "Sugar Magnolia",
+      "Morning Dew", "One More Saturday Night",
+    ],
+    archiveUrl: "https://archive.org/details/gd1974-10-18.sbd.miller.97466.sbeok.flac16",
+    era: "wall-of-sound",
+    moods: ["emotional", "triumphant", "introspective", "meditative"],
+    styles: ["jam", "jazz-space", "rock"],
+    audioQuality: "good",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["The Grateful Dead Movie (10/16-20/74 run)"],
+    headline: "Phil's Dew, Winterland, October '74.",
+    whyThisShow:
+      `This is one of the October 1974 Winterland farewell-run nights captured for the Grateful ` +
+      `Dead Movie, and the community treats it as canonical, anchored almost entirely to the ` +
+      `Morning Dew. One reviewer called it "perhaps the best all-time performance - totally tight, ` +
+      `zero mistakes, huge power from Phil, incredible dynamics, perfect". Another seconded that ` +
+      `the Dew "is what makes this show so special" and that "the solo sections are absolutely ` +
+      `nuts". The second set as a whole draws its own praise: one listener called it "one of most ` +
+      `unique sets ever" and "a complete meltdown". One attendee who was there in person does note ` +
+      `that despite a magnificent recording, "I cannot recall anything special about the night's ` +
+      `music", a minority view in a pool of five-star reverence.`,
+    listenFor:
+      `The path through the second set is where this one earns its reputation: the jam that flows ` +
+      `into Dark Star is described as "genius" and the Dark Star itself as "not a spacy, indulgent ` +
+      `Dark Star, but a seemingly well-crafted musical Dark Star, with very smooth transitions, and ` +
+      `a mellow feel throughout". That Dark Star then takes a left turn where "it evolves into a ` +
+      `funky feel reminiscent of jazz-rock of the same period". Then comes the Dew. One reviewer ` +
+      `also flagged that the recording carries an unusual sonic character: "the most 'acoustic' ` +
+      `electric show I have heard from '74" with "Vocals WAY out front". The soundboard source here ` +
+      `comes from Jay Ashley, and one attendee noted "a slight anomaly in my ears to the drums" ` +
+      `that is audible on the recording but that "does not spoil the overall effect".`,
+    context:
+      `This show falls in the wall-of-sound era, one night into the legendary October 1974 ` +
+      `Winterland run that served as the Dead's pre-hiatus farewell to performing. The recording is ` +
+      `a soundboard (identifier: gd74-10-18.sbd.bertha-ashley.22796.sbeok.shnf), sourced from Jay ` +
+      `Ashley. Footage and audio from this run were used in the Grateful Dead Movie, released as ` +
+      `part of the October 16–20, 1974 film documentation. One reviewer singled out Donna's ` +
+      `performance as being "on" that night, noting "even Donna is on".`,
+    funFact:
+      `One reviewer who attended in person walked straight past security without presenting a ` +
+      `ticket — "I walked straight into the main floor and essentially right on up to the front of ` +
+      `the stage. It was not at all crowded" — and spent the night clean, no substances, head ` +
+      `clear.`,
+    communityVoices: [
+      { quote: "the best Morning Dew of the year in an incredible Dew year (2/24,3/23,6/18,9/10). Yes it's the one in the the movie, and for my ears, perhaps the best all-time performance - totally tight, zero mistakes, huge power from Phil, incredible dynamics, perfect!", attribution: "fibber, on Morning Dew", source: "Archive.org review" },
+      { quote: "It's filled with energy and emotion and the solo sections are absolutely nuts. This is THE Dew.", attribution: "indigo_child44, on Morning Dew", source: "Archive.org review" },
+      { quote: "This show really stands on it's own. It is the most ''acoustic'' electric show ! have heard from '74. The sound is super intimate and i love it. Vocals WAY out front.", attribution: "Jwheel88", source: "Archive.org review" },
+      { quote: "it evolves into a funky feel reminiscent of jazz-rock of the same period", attribution: "L. Rosley, on Dark Star", source: "Archive.org review" },
+      { quote: "Though it fails me, I cannot recall anything special about the night's music.", attribution: "Evan S. Hunt", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 20. 6/14/76 Beacon Theatre — post-hiatus return ──────────
+  {
+    id: "gd-1976-06-14",
+    date: "1976-06-14",
+    venue: "Beacon Theatre",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "The Music Never Stopped", "Sugaree", "Mama Tried",
+      "Row Jimmy", "Cassidy", "Friend of the Devil",
+      "Looks Like Rain", "They Love Each Other",
+      "Help on the Way", "Slipknot!", "Franklin's Tower",
+      "Samson and Delilah", "High Time",
+      "The Wheel", "Comes a Time", "Dancing in the Street",
+      "Wharf Rat", "Sugar Magnolia",
+    ],
+    archiveUrl: "https://archive.org/details/gd1976-06-14.sbd.miller.30055.sbeok.shnf",
+    era: "77-peak",
+    moods: ["mellow", "introspective", "emotional"],
+    styles: ["rock", "country-folk", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Beacon Theatre, New York, NY 6/14/76"],
+    headline: "Phil's birthday at the Beacon, June '76.",
+    whyThisShow:
+      `This is the first of two nights at the Beacon Theatre on the return from the '75 hiatus, and ` +
+      `one reviewer calls it "the more extraordinary, overall" of the pair. The show has been ` +
+      `officially released, and the soundboard source is described as having "pure and exceptional" ` +
+      `quality with "the mix is perfect, clarity right on and no background hiss". One listener ` +
+      `notes it used to appear "on all-time-best lists during B&P trading" but has since become ` +
+      `"something of a hidden gem". The consensus pull is the second set, anchored by a Crazy ` +
+      `Fingers, Help/Slip/Frank sequence, and a Cosmic Charlie that one listener calls "the ` +
+      `neatliest" of the post-hiatus returns.`,
+    listenFor:
+      `The Crazy Fingers is the song most reviewers flag first — one calls the "instrumental jam at ` +
+      `the end" "so hypnotic", while another says it goes "into a Spanish-Jam-ish before a drum ` +
+      `segue into Dancin'". The Slipknot! is worth particular attention: one listener says it is ` +
+      `"actually more of a free jam more than a true Slipknot" and credits it as one of the ` +
+      `highlights of the night. One reviewer singles out the Slipknot!–Franklin's Tower transition ` +
+      `as potentially "the best ever," describing it as "a great example of how 'out there' they ` +
+      `could get without losing each other". On the source side, one reviewer notes that "only the ` +
+      `hollister_22804 is complete, and is the best source from High Time onward".`,
+    context:
+      `This show comes from the summer 1976 tour, the band's first full return to touring after the ` +
+      `extended 1975 hiatus. It was one of only two nights the Dead ever played the Beacon Theatre ` +
+      `on the upper west side, a room that seated roughly 2,800. The show has been officially ` +
+      `released as 'Beacon Theatre, New York, NY 6/14/76.' The best complete recording is the SBD ` +
+      `identifier gd76-06-14.sbd.hollister.22804.sbeok.shnf; one reviewer notes the alternate ` +
+      `sirmick matrix has cuts in High Time and Franklin's Tower. One listener flags that it was ` +
+      `Phil Lesh's birthday and speculates "he's using a fretless bass".`,
+    funFact:
+      `One reviewer notes that the Might as Well performed here was only "the 5th airing and now ` +
+      `ready to amaze," calling it part of "a helluva sequence".`,
+    communityVoices: [
+      { quote: "At this point, Slipknot! is actually more of a free jam more than a true Slipknot - and a helluva jam at that.", attribution: "Mind Wondrin, on Slipknot!", source: "Archive.org review" },
+      { quote: "Is this the best version of Crazy Fingers? Maybe, maybe not. All I know is Garcia still can sing it here in '76.", attribution: "StrawRider, on Crazy Fingers", source: "Archive.org review" },
+      { quote: "The Jam in the middle is flawless and the Jam into Dancin' is golden.", attribution: "CarbideHead, on Crazy Fingers", source: "Archive.org review" },
+      { quote: "I don't know if I've heard another show where every single band member was having such an incredible night all at once.", attribution: "TranscendentalFloss", source: "Archive.org review" },
+      { quote: "the 76 summer tour was gaining speed JG and the band boogie away into the morning Alchemy", attribution: "sailler", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 21. 10/29/77 DeKalb — fall '77 fire ──────────────────────
+  {
+    id: "gd-1977-10-29",
+    date: "1977-10-29",
+    venue: "Evans Field House, Northern Illinois University",
+    city: "DeKalb",
+    state: "IL",
+    setlist: [
+      "Mississippi Half-Step", "Mama Tried",
+      "They Love Each Other", "El Paso", "Row Jimmy",
+      "Passenger", "Ramble On Rose", "Let It Grow",
+      "Scarlet Begonias", "Fire on the Mountain",
+      "Estimated Prophet", "Terrapin Station",
+      "Playing in the Band", "Drums",
+      "Not Fade Away", "Black Peter",
+      "Sugar Magnolia", "One More Saturday Night",
+    ],
+    archiveUrl: "https://archive.org/details/gd1977-10-29.sbd.unknown.8106.sbeok.shnf",
+    era: "77-peak",
+    moods: ["high-energy", "joyful", "road-trip"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 33"],
+    headline: "Phil's happiest day, DeKalb, October '77.",
+    whyThisShow:
+      `This is an October '77 show that holds its own against the May run, and the community knows ` +
+      `it — it was officially released as Dave's Picks Vol. 33, a formal stamp of endorsement. One ` +
+      `reviewer calls it the best Dead show ever played, laying out the case that "the fall tour" ` +
+      `carries "that hard-driving rock & roll edge to go along with the perfect flow" of the ` +
+      `spring. Phil reportedly stopped the show after Ramble On Rose to tell the DeKalb crowd "This ` +
+      `is the happiest day of my life". One attendee who was there in person recalled the band ` +
+      `"rocking so hard" that from the top row of the bleachers he reached up "to make sure I could ` +
+      `hang on to the rafters in case the bleachers collapsed". The fall '77 band is described as ` +
+      `"a little grittier" than May, "perhaps closer even to that '78 sound, but still with the ` +
+      `consistency and focus of '77".`,
+    listenFor:
+      `The Let It Grow is a community highlight: one reviewer describes Garcia throwing in "liberal ` +
+      `hints of 'Spanish Jam' and other fuzz-guitar madness" and ranks it in the all-time top five ` +
+      `versions. The Estimated Prophet is described as "a Jerry Wah-Wah fest of the highest order" ` +
+      `with "spacey elements to the post-lyrics jam that will mesmerize the mind". One listener ` +
+      `singles out the Good Lovin' as "one of the finest, most electric and engrossing melody ` +
+      `rifle's ever," noting a "high high piercing finish" that he says will "just pierce the ` +
+      `chakra". The Black Peter draws specific attention: one reviewer describes it as "focused and ` +
+      `intense" with Jerry's final plea rendered so that "we're all wailing at the wall of a ` +
+      `tortured soul". On the Charlie Miller soundboard, Sugar Magnolia includes a patch restoring ` +
+      `the full version — one reviewer specifically flags: "this excellent Miller upgrade includes ` +
+      `a patch so you get the FULL Magnolia. Accept nothing less".`,
+    context:
+      `Evans Field House at Northern Illinois University, DeKalb, IL — a mid-sized college field ` +
+      `house on a fall Saturday night in the heart of the peak '77 era. The recording is a Charlie ` +
+      `Miller soundboard transfer (gd1977-10-29.sbd.miller.92085.sbeok.flac16), widely regarded as ` +
+      `a significant upgrade over earlier circulating copies. One attendee recalled talking to Dick ` +
+      `Latvala years later about the show, and Dick said "he couldn't find recording that was good ` +
+      `enough to release". The show was eventually officially released as Dave's Picks Vol. 33, ` +
+      `validating what the tape-trading community had quietly known for decades.`,
+    funFact:
+      `One reviewer recounts that the Dead arrived in DeKalb and refused to play unless ticket ` +
+      `prices were lowered — the box office closed the day before and "reopened the day of the show ` +
+      `with new tickets" at $7.50 instead of $12.50.`,
+    communityVoices: [
+      { quote: "This is the happiest day of my life.", attribution: "mcgrupp216, quoting Phil Lesh from stage", source: "Archive.org review" },
+      { quote: "Garcia rises, falls, rises again, and crashes it all down with band in tow into a frenzy of musical ecstasy that defines what the Grateful Dead were and what they meant to their fans.", attribution: "grendelschoice, on Eyes of the World", source: "Archive.org review" },
+      { quote: "I was in the top row of the bleachers...as far away from the stage as possible. They were rocking so hard that I reached up to make sure I could hang on to the rafters in case the bleachers collapsed.", attribution: "jfinkel, attendee", source: "Archive.org review" },
+      { quote: "Remember writing in this little notebook I had \"Grateful Dead at their worst\" Hahahahah. Well I did KEEP the tape and circled back to it soon enough.", attribution: "Judge Weed, on first encounter with the tape", source: "Archive.org review" },
+      { quote: "this PETER is hovering like a Hot Air Balloon", attribution: "c-freedom, on Black Peter", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 22. 5/7/80 Barton Hall — return to Cornell ───────────────
+  {
+    id: "gd-1980-05-07",
+    date: "1980-05-07",
+    venue: "Barton Hall, Cornell University",
+    city: "Ithaca",
+    state: "NY",
+    setlist: [
+      "Jack Straw", "Tennessee Jed", "Cassidy", "Row Jimmy",
+      "El Paso", "Easy to Love You", "Althea", "Feel Like a Stranger",
+      "Don't Ease Me In",
+      "Shakedown Street", "Bertha", "Playing in the Band",
+      "Terrapin Station", "Drums", "Space", "Saint of Circumstance",
+      "Black Peter", "Playing in the Band (reprise)", "Good Lovin'",
+      "Alabama Getaway",
+    ],
+    archiveUrl: "https://archive.org/details/gd1980-05-07.sbd.walker.6961.sbeok.shnf",
+    era: "late-70s",
+    moods: ["mellow", "introspective", "emotional"],
+    styles: ["acoustic", "country-folk", "rock"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Road Trips Vol. 3 No. 4 (5/6-7/80)"],
+    headline: "Back at Barton Hall, Black Peter in the dark.",
+    whyThisShow:
+      `Barton Hall 1980 is the Dead's return to Cornell, and it lives in the long shadow of '77 — ` +
+      `one reviewer notes it is "Not as colossal as '77, but then few shows are". That said, the ` +
+      `second set has a real peak run: a great Space leads into what one listener calls an ` +
+      `"incredible, dynamic, loosely/tightened version of Black Peter". The official release on ` +
+      `Road Trips Vol. 3 No. 4 pulls from both nights of the May 6–7 run, giving this show partial ` +
+      `canonical standing, though Mind Wondrin flags that the Road Trips mastering dragged slowly ` +
+      `and has the channels reversed, making it "quite non-essential" as a source — the ` +
+      `miller_26349 SBD is the recommended tape. One reviewer's summary lands the show well: "the ` +
+      `curious from '77 Barton come here" and find "a solid show with a great late sequence".`,
+    listenFor:
+      `The Black Peter is the centerpiece: one attendee recalled "jerry standing there in the erie ` +
+      `spot light during black peter and the rest of the barn pitch black". The Space before it is ` +
+      `described as "a great, outer-space Space, with a wonderful tranny into a superb Saint". The ` +
+      `May '80 Althea gets a quiet nod — one reviewer notes "the May '80 Altheas are always good" ` +
+      `while acknowledging this one doesn't reach the Nassau benchmark. One listener also flagged ` +
+      `that Jerry opened the show by attempting Cornell's school song on guitar before the first ` +
+      `set began, apparently sight-reading or recalling a folk melody. Note that the miller_26349 ` +
+      `SBD runs "pitched a hair fast, needing -1% correction" if you're particular about pitch.`,
+    context:
+      `The Dead played Barton Hall three times — 1977, 1980, and 1981 — and this middle visit came ` +
+      `almost three years to the day after the famous one. The show falls in the late-70s/early-80s ` +
+      `era and was partially released on Road Trips Vol. 3 No. 4 alongside the May 6 show. The best ` +
+      `available recording is the SBD gd80-05-07.sbd.miller.26349.sbeok.shnf. Mind Wondrin notes ` +
+      `the Road Trips release contains edits in Drums and Space and was mastered at the wrong ` +
+      `speed, so the Archive SBD is the preferred listen.`,
+    funFact:
+      `By one reviewer's count, this was only the second time the band ever played Shakedown Street ` +
+      `directly into Bertha — the first was November 25, 1979.`,
+    communityVoices: [
+      { quote: "i can still see jerry standing there in the erie spot light during black peter and the rest of the barn pitch black", attribution: "evoleno, on Black Peter", source: "Archive.org review" },
+      { quote: "it is typical cornell take a step back and watch us smoke the first set sounds better than the second the row jimmy and terapin are exceptional", attribution: "tony2004296", source: "Archive.org review" },
+      { quote: "Next is an incredible, dynamic, loosely/tightened version of Black Peter", attribution: "Mind Wondrin, on Black Peter", source: "Archive.org review" },
+      { quote: "Not as colossal as '77, but then few shows are", attribution: "Green Warbler", source: "Archive.org review" },
+      { quote: "I hitchhiked to this show from SUNY Brockport with my friend Debbie Ng. We had just finished our freshman year. Such a memorable time!", attribution: "mowgli16", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 23. 3/10/81 MSG — early Brent punch ──────────────────────
+  {
+    id: "gd-1981-03-10",
+    date: "1981-03-10",
+    venue: "Madison Square Garden",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "Mississippi Half-Step", "Franklin's Tower", "Me and My Uncle",
+      "It Must Have Been the Roses", "Little Red Rooster",
+      "Don't Ease Me In", "Lazy Lightning", "Supplication",
+      "Brown-Eyed Women", "Looks Like Rain", "Deal",
+      "Scarlet Begonias", "Fire on the Mountain", "Lost Sailor",
+      "Saint of Circumstance", "Drums", "Space", "The Wheel",
+      "China Doll", "Truckin'", "Sugar Magnolia",
+      "(I Can't Get No) Satisfaction", "Brokedown Palace",
+    ],
+    archiveUrl: "https://archive.org/details/gd1981-03-10.sbd.walker.9134.sbeok.shnf",
+    era: "80s",
+    moods: ["high-energy", "joyful", "party"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["In and Out of the Garden: Madison Square Garden '81, '82, '83"],
+    headline: "MSG, March '81, Half Step first.",
+    whyThisShow:
+      `This one is officially out in the world — it was released as part of "In and Out of the ` +
+      `Garden: Madison Square Garden '81, '82, '83," so the band's organization put their stamp on ` +
+      `it. The Half Step > Franklin's Tower opener draws the most attention, with multiple ` +
+      `listeners calling it out as the anchor of the first set. One reviewer said "Jerry is 'on' ` +
+      `tonight is what it comes down to". The Lazy Lightning > Supplication stretch in set two ` +
+      `pulls particular notice for its balance of structure and freedom, described as having "the ` +
+      `improvisational beauty that is more associated with the early days". Set two closes through ` +
+      `He's Gone, The Other One, Stella Blue, and Brokedown Palace — a sequence one listener called ` +
+      `"very sweet" and "well deserving a Brokedown".`,
+    listenFor:
+      `The Half Step > Franklin's Tower pairing is what reviewers come back to first. One listener ` +
+      `caught "some pretty crunchy... accidental feedback during Half-Step" and flagged it as part ` +
+      `of the texture of the night. The Scarlet > Fire draws attention for a structural oddity — ` +
+      `one reviewer noted it "ends with the lack of the coda jam at the end and instead has a ` +
+      `twilighting sort of 'about to play comes a time or saint stephen' sort of sound" before ` +
+      `moving into Sailor > Saint. On the board source, one reviewer noted Brent's keyboard sound ` +
+      `is worth tracking from the opening bars of Scarlet: "Scarlet-Fire is 5 star from Brent's ` +
+      `great keyboard sound on the opening bars of scarlet through jerry going nuts on the last jam ` +
+      `in fire".`,
+    context:
+      `This is a soundboard recording sourced from the Miller collection ` +
+      `(gd1981-03-10.sbd.miller.115598.flac16), and sound quality draws consistent praise. The show ` +
+      `was later officially released as part of "In and Out of the Garden: Madison Square Garden ` +
+      `'81, '82, '83," the box set documenting the band's run at MSG across three years. By 1981 ` +
+      `Brent Mydland had been in the band for two years, and one reviewer noted that around this ` +
+      `period "by '82 you can hear how he becomes an integral part of the band". MSG was a regular ` +
+      `stop the band treated as a home venue on the East Coast.`,
+    funFact:
+      `One listener flagged a loud noise at the top of the show and wanted it on record: "THAT LOUD ` +
+      `NOISE IN THE BEGINNING OF THE FIRST SONG THAT WASN'T A MISTAKE ,,,THAT WAS ART!!!".`,
+    communityVoices: [
+      { quote: "Jerry is 'on' tonight is what it comes down to.", attribution: "brendanmcauley", source: "Archive.org review" },
+      { quote: "The Grateful Dead were at home in NYC and you feel and hear it in their playing", attribution: "kee-zee", source: "Archive.org review" },
+      { quote: "Its not so unstructured as a '73 playing jam, but it has the improvisational beauty that is more associated with the early days.", attribution: "Dave B 1986, on Lazy Lightning > Supplication", source: "Archive.org review" },
+      { quote: "frankilin's will smoke your eyelids, friends, the half-step just high stepped it outta here", attribution: "The Dirty Mac", source: "Archive.org review" },
+      { quote: "Set 2-very sweet--well deserving a BROKEDOWN--EXCELLENT SHOW & SOUND--EASILY A FAVORITE!", attribution: "c-freedom", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 24. 10/12/84 Augusta — mid-'80s hidden gem ───────────────
+  {
+    id: "gd-1984-10-12",
+    date: "1984-10-12",
+    venue: "Augusta Civic Center",
+    city: "Augusta",
+    state: "ME",
+    setlist: [
+      "Mississippi Half-Step", "Little Red Rooster",
+      "Dire Wolf", "C.C. Rider", "Row Jimmy",
+      "Beat It On Down the Line", "Ramble On Rose",
+      "Let It Grow",
+      "Hell in a Bucket", "Scarlet Begonias",
+      "Fire on the Mountain", "Playing in the Band",
+      "Uncle John's Band", "Morning Dew",
+      "Sugar Magnolia", "Wharf Rat",
+    ],
+    archiveUrl: "https://archive.org/details/GratefulDead?query=date%3A1984-10-12",
+    era: "80s",
+    moods: ["mellow", "introspective", "emotional"],
+    styles: ["rock", "country-folk", "jam"],
+    audioQuality: "good",
+    significance: "deep-cut",
+    bestFor: ["head"],
+    releasedAs: ["30 Trips Around the Sun"],
+    headline: "Augusta, October '84 — the Dew left the lot silent.",
+    whyThisShow:
+      `This one landed on the official 30 Trips Around the Sun box set, and the community had been ` +
+      `talking about it long before that. One reviewer rated it his personal best out of everything ` +
+      `he saw from 1978 through '95, saying "there was something in the air, something different, ` +
+      `special, pretty damn unbelievable". Another called it a top-five show across 150 Dead ` +
+      `concerts seen. The setlist is not obviously special on paper — no Terrapin, no Estimated, no ` +
+      `Shakedown — but one listener who flagged exactly that notes that "everything is played with ` +
+      `such energy and soul that even the mediocre songs shine". The Augusta Civic Center was a ` +
+      `small room, and the people who were there keep coming back to that intimacy as the thing ` +
+      `that made the night feel different.`,
+    listenFor:
+      `The Uncle John's Band is the centerpiece of the second set: at eleven minutes it drifts into ` +
+      `a separate five-minute jam that one reviewer heard as sounding "like Dark Star, China Doll ` +
+      `or Sage and Spirit all in one". The Morning Dew follows directly and multiple attendees flag ` +
+      `it as the emotional peak of the night — one listener described the scene as Brent's Leslie ` +
+      `making the whole arena spin, with Phil's bombs hitting hard even through the mixed source. ` +
+      `One taper noted the jamming "started towards the end of don't need love and carried right on ` +
+      `thru Morning Dew" with no separate Space section breaking the flow. The Playing in the Band ` +
+      `reprise also draws attention: one reviewer called it "a fun little joke for those that were ` +
+      `stoned enough to get it," a leftover from the previous night's show.`,
+    context:
+      `This is a soundboard recording from the fall 1984 east coast run, archived as ` +
+      `gd84-10-12.sbd.clugston.5585.sbeok.shnf. The show was later officially released as part of ` +
+      `the 30 Trips Around the Sun box set. Reviewers place it in the context of a strong October ` +
+      `run that also included shows on 10/11 and 10/15, though one noted that the adjacent dates ` +
+      `survive only as audience recordings. One reviewer described the 1984 soundboard sound as ` +
+      `having "full, lots of bass, depth and a certain 1984 ambiance".`,
+    funFact:
+      `One taper brought in thirty-eight pounds of digital audio processing equipment on his back ` +
+      `and connected to Nakamichi mics on either side of the soundboard, losing count at around ` +
+      `twenty-five DAT recorders running — and walked out with what he called "the un-interrupted ` +
+      `master".`,
+    communityVoices: [
+      { quote: "this night will never be equaled. Enjoy the set. also check out 4 6 82, my other fave. Whew that was amazing too. Whata Dew!", attribution: "liebo", source: "Archive.org review" },
+      { quote: "Jerry sings his liver out, and maybe a few other organs besides. Brent's Leslie is making the whole arena spin", attribution: "dr. flashback, on Morning Dew", source: "Archive.org review" },
+      { quote: "how about the silence in the lot afterwards??? not from the state police, but from the satisfaction from the show", attribution: "jazid88", source: "Archive.org review" },
+      { quote: "it was worth boiling my pet lobster before this show (the poor thing)", attribution: "JurassicBlueberries.com", source: "Archive.org review" },
+      { quote: "Definitely a top-5 among the 150 shows I saw from 1977-1995.", attribution: "StevenHS", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
   // ── 25. 6/24/85 Riverbend — peak Brent era ───────────────────
   {
     id: "gd-1985-06-24",
