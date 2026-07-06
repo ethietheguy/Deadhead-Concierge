@@ -1592,6 +1592,144 @@ export const CATALOG: ConciergeShow[] = [
     headyversionRanks: [],
   },
 
+  // ── 26. 7/17/89 Alpine Valley — Brent-era outdoor peak ───────
+  {
+    id: "gd-1989-07-17",
+    date: "1989-07-17",
+    venue: "Alpine Valley Music Theatre",
+    city: "East Troy",
+    state: "WI",
+    setlist: [
+      "Hell in a Bucket", "Cold Rain and Snow",
+      "Little Red Rooster", "Row Jimmy",
+      "When I Paint My Masterpiece", "Tennessee Jed",
+      "The Music Never Stopped",
+      "Scarlet Begonias", "Fire on the Mountain",
+      "Estimated Prophet", "Eyes of the World",
+      "Drums", "Space", "I Need a Miracle",
+      "Standing on the Moon", "Sugar Magnolia",
+      "Morning Dew",
+    ],
+    archiveUrl: "https://archive.org/details/gd89-07-17.sbd.miller.7443.sbeok.shnf",
+    era: "80s",
+    moods: ["joyful", "high-energy", "triumphant", "road-trip"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["newcomer", "exploring", "head"],
+    releasedAs: ["Downhill from Here (video)"],
+    headline: "Brent at full heat, Alpine Valley, July '89.",
+    whyThisShow:
+      `This is the show the Dead themselves endorsed by releasing it as the video document ` +
+      `"Downhill from Here," and the community broadly agrees the band earned that choice. One ` +
+      `reviewer placed it among the year's best, writing that "July was the hottest month since '87 ` +
+      `and the best until March '90" and that "the Alpine run was the late-Brent era's hottest ` +
+      `3-day run". The second set is where the most sustained energy lives: one listener heard the ` +
+      `China>Rider opener as "surprisingly fresh and inspired for such an old horse" followed by ` +
+      `ensemble playing in Playin' and UJB that was "so on target it's easy to forget it's live". ` +
+      `The show also closes a chapter: Push Comes to Shove turns up here for the last time, and one ` +
+      `head who saw roughly fourteen versions called this the best of the lot. And We Bid You ` +
+      `Goodnight, absent since Winterland's closing night eleven years prior, capped the evening.`,
+    listenFor:
+      `The Music Never Stopped in the first set is a specific target: one reviewer called it "just ` +
+      `freaking nailed" and noted it as one of the song's best outings after more routine 80s ` +
+      `airings. On Standing on the Moon, one listener flagged the line "A lovely view of heaven, ` +
+      `but I'd rather be with you" as a lump-in-the-throat moment, with a solo that "brings the ` +
+      `house down". The Space is worth your time: described as "very mystical and introspective" ` +
+      `with Brent's effects doing something unusual right before the transition out. The SBD ` +
+      `recording (identifier gd89-07-17.sbd.unknown.17702.sbeok.shnf) draws consistent praise for ` +
+      `balance and clarity — one reviewer noted "everyone is nicely balanced unlike other SBDs I ` +
+      `have come across from this era". Note that "Good Times" and one other track have cut-outs on ` +
+      `this upload.`,
+    context:
+      `July 17, 1989 was the first night of a three-show run at Alpine Valley Music Theatre in East ` +
+      `Troy, WI — a run the community has treated as a peak moment of Brent Mydland's final active ` +
+      `years. The show was captured in a complete-show video taping and officially released as ` +
+      `"Downhill from Here," making it one of the more thoroughly documented late-era shows. The ` +
+      `SBD circulates under archive identifier gd89-07-17.sbd.unknown.17702.sbeok.shnf; a Sokolow ` +
+      `matrix version also exists and has drawn positive notice. One reviewer noted the video ` +
+      `release doesn't include every song played that night, with Row Jimmy, Masterpiece, Push ` +
+      `Comes to Shove, and Music Never Stopped left off the commercial release.`,
+    funFact:
+      `And We Bid You Goodnight closed the show — one attendee remembered "a momentary scream of ` +
+      `joy from the audience when the first notes came out of Jerry's mouth" before the crowd fell ` +
+      `quiet to listen, marking the song's first appearance since Winterland closed in 1978.`,
+    communityVoices: [
+      { quote: "Brent's performance here equals anything Keith achieved in 1973. His organ work, in particular really shines here.", attribution: "dr. flashback, on Brent", source: "Archive.org review" },
+      { quote: "You gotta love it when Brent hits that high note and sustains it over the rest of the band during the jam!", attribution: "samson, on Music Never Stopped", source: "Archive.org review" },
+      { quote: "lists the highlights of this particular show as '...every damn note.'", attribution: "Alpine7784, citing John Dwork's Taping Compendium", source: "Archive.org review" },
+      { quote: "There was a momentary scream of joy from the audience when the first notes came out of Jerry's mouth, then everybody just as quickly shut up and enjoyed.", attribution: "Alpine7784, on And We Bid You Goodnight", source: "Archive.org review" },
+      { quote: "Push2Shove however, was almost never pulled off like this. It's a definitive version and, what's weirder: the last!", attribution: "Mind Wondrin, on Push Comes to Shove", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 27. 6/17/91 Giants Stadium — late-era stadium run ────────
+  {
+    id: "gd-1991-06-17",
+    date: "1991-06-17",
+    venue: "Giants Stadium",
+    city: "East Rutherford",
+    state: "NJ",
+    setlist: [
+      "Eyes of the World", "Walkin' Blues", "Brown-Eyed Women",
+      "When I Paint My Masterpiece", "Loose Lucy", "Cassidy",
+      "Might As Well",
+      "Saint of Circumstance", "Ship of Fools", "Dark Star Jam",
+      "Truckin'", "New Speedway Boogie", "Uncle John's Band",
+      "Drums", "Space", "China Doll", "Playing in the Band",
+      "Sugar Magnolia", "The Weight",
+    ],
+    archiveUrl: "https://archive.org/details/gd91-06-17.sbd.miller.95898.flac16",
+    era: "final-years",
+    moods: ["high-energy", "joyful", "road-trip", "party"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Saint of Circumstance: Giants Stadium 6/17/91"],
+    headline: "Eyes opener, Dark Star ghost, Giants Stadium '91.",
+    whyThisShow:
+      `This is a officially released show — out as Saint of Circumstance: Giants Stadium 6/17/91 — ` +
+      `and the community endorsement runs deep across 60 reviews. The organizing principle is a ` +
+      `Dark Star that never quite arrives: one reviewer called it "the most Dark Star-influenced ` +
+      `show I've ever heard, but the song proper is never played". The theme surfaces as teases and ` +
+      `riffs throughout both sets, keeping tension coiled from the Eyes of the World opener through ` +
+      `the second set. Multiple attendees cite this as among their best-ever Dead shows, and the ` +
+      `SBD recording puts Bob Weir prominently forward in the mix, which matters here — one ` +
+      `reviewer argues this was "one of Bob's best nights of the 90's". Bruce Hornsby's ` +
+      `contributions are also central: one listener noted Hornsby "sneaks the familiar Dark Star ` +
+      `riff into several of the songs — when's the last time you heard a DS tease in the middle of ` +
+      `Masterpiece?".`,
+    listenFor:
+      `The Dark Star tease preceding Masterpiece in Set 1 is a specific target: one reviewer ` +
+      `described it as "barely a minute and a half" that "moves at a glacial pace" yet with "raw ` +
+      `energy boiling under the surface waiting to explode". The Loose Lucy drew particular ` +
+      `attention — one attendee called it "likely the best I ever heard out of 100 shows". Saint of ` +
+      `Circumstance was singled out as the peak of the second set, with one reviewer saying the ` +
+      `stadium was "comin off the chain" during it. For Weir specifically, one listener ` +
+      `recommended: "If you love Bob's work than put this show in and turn it up. He is very ` +
+      `forward in the mix".`,
+    context:
+      `June 17, 1991 falls in the final-years era, part of a two-night Giants Stadium run — the ` +
+      `night before also featured Dark Star teasing, and one reviewer noted the teases ` +
+      `"incidentally they began the night before". The lineup included Bruce Hornsby on keys ` +
+      `alongside Vince Welnick. The best-circulating recording is a soundboard (identifier: ` +
+      `gd91-06-17.sbd.gardner.3591.sbeok.shnf). The show was officially released by the band's ` +
+      `organization as Saint of Circumstance: Giants Stadium 6/17/91.`,
+    funFact:
+      `One reviewer recalled a Spike Lee Levi's commercial filmed at this show, noting "I remember ` +
+      `seeing a Spike Lee commercial he did for Levi's that was filmed at this show".`,
+    communityVoices: [
+      { quote: "It's ironic that it's the most Dark Star-influenced show I've ever heard, but the song proper is never played; and that's a good thing it keeps the listener on edge and paying attention.", attribution: "socal, on the Dark Star theme", source: "Archive.org review" },
+      { quote: "The jam barely a minute and a half and it moves at a glacial pace. Yet you can feel the raw energy boiling under the surface waiting to explode.", attribution: "Sviatapolk, on the Dark Star tease before Masterpiece", source: "Archive.org review" },
+      { quote: "St. of Circumstance is without doubt the best I ever heard live or on tape. The stadium was comin off the chain during this.", attribution: "elsha, on Saint of Circumstance", source: "Archive.org review" },
+      { quote: "I turned to my girlfriend and asked her what they were gonna open with...She says \"Eyes of the World.\" I laughed and told her how they NEVER open with Eyes....And then bam.", attribution: "gemsing777, on the Eyes opener", source: "Archive.org review" },
+      { quote: "There were massive thunderstorms right before the show. It absolutely poured. I remember people running around on the floor (or field) and sliding on the huge blue tarp they used to protect the grass like the whole place was a giant slip and slide.", attribution: "icecreamjay, on the pre-show scene", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
   // ── 28. 9/10/91 MSG — Branford Marsalis (second time) ────────
   {
     id: "gd-1991-09-10",
@@ -1652,6 +1790,283 @@ export const CATALOG: ConciergeShow[] = [
       { quote: "Jerry, Bruce and Branford contribute to an acid drenched and quite jazzy version of Slipknot, shades of Bitches Brew era Miles Davis.", attribution: "JoeShoe, on Slipknot!", source: "Archive.org review" },
       { quote: "it was one of the best post brent shows i have ever been to", attribution: "feellikeastranger", source: "Archive.org review" },
       { quote: "already the Garden is shrinking from a 18k seat venue to a tight downtown club", attribution: "Solo Head", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 31. 5/22/77 Pembroke Pines — the Sugaree heard 'round the world ──
+  {
+    id: "gd-1977-05-22",
+    date: "1977-05-22",
+    venue: "Sportatorium",
+    city: "Pembroke Pines",
+    state: "FL",
+    setlist: [
+      "Bertha", "Mama Tried", "Tennessee Jed",
+      "Looks Like Rain", "Sugaree", "El Paso",
+      "Peggy-O", "Big River", "Brown-Eyed Women",
+      "Promised Land",
+      "Help on the Way", "Slipknot!", "Franklin's Tower",
+      "Estimated Prophet", "The Other One",
+      "Wharf Rat", "Terrapin Station", "Morning Dew",
+      "One More Saturday Night",
+    ],
+    archiveUrl: "https://archive.org/details/gd77-05-22.sbd.dp-leftovers.18803.sbefail.shnf",
+    era: "77-peak",
+    moods: ["high-energy", "triumphant", "joyful", "emotional"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["newcomer", "exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 3"],
+    headline: "Pembroke Pines, May '77 — the show Dick only half released.",
+    whyThisShow:
+      `This is a May '77 show with a legitimate claim on the whole month, not just a footnote to ` +
+      `Cornell. One reviewer argues that "it is entirely possible to suggest that 5-22 is the ` +
+      `better all-around show and should therefore be in the 'Best Ever' discussion". The ` +
+      `Help>Slip>Franklin's that opens the second set draws particular attention, with one listener ` +
+      `calling it "easily a top-3 of all-time". The back half of the second set — Estimated Prophet ` +
+      `into The Other One into Wharf Rat into Terrapin into Morning Dew — is substantial: one ` +
+      `reviewer describes this Dew as "quite remarkable, with a long, spiraling jam that starts out ` +
+      `very quite and mellow and progresses into a full-out assault on the auditory senses". The ` +
+      `one practical caveat: Dick's Picks Vol. 3 drew only eight songs from this night, and one ` +
+      `reviewer notes "One of the reasons I don't play DP3 very much is because it is not the ` +
+      `complete show" — the Archive identifier has the rest.`,
+    listenFor:
+      `Start with the Help>Slip>Franklin's — one listener places it among the best sequences the ` +
+      `band ever played. Then track the Sugaree in the first set: one reviewer calls it "nothing ` +
+      `less than brilliant," ranking it second only to the Fox Theater version played two shows ` +
+      `earlier. Another listener goes further, calling it "the best ever done". Stay through the ` +
+      `segue late in the second set, where one reviewer specifically flags "the segue from an ` +
+      `abbreviated Terrapin right into Morning Dew" as worth your attention. The soundboard ` +
+      `recording rewards close listening: one reviewer describes "well balanced vocals and ` +
+      `instruments with just the slightest touch of reverb".`,
+    context:
+      `This is a May 1977 show at the Sportatorium in Pembroke Pines, Florida, from one of the most ` +
+      `celebrated touring runs in the band's history. The best available recording is a soundboard ` +
+      `(identifier: gd77-05-22.sbd.dp-leftovers.18803.sbefail.shnf), and the Archive identifier ` +
+      `specifically contains the songs left off the official release. Dick's Picks Vol. 3 was the ` +
+      `first official 1977 release from Dick Latvala's series, but it drew only a partial selection ` +
+      `from this night; the Archive recording fills in what the official release omitted, including ` +
+      `Peggy-O, Friend of the Devil, Ramble on Rose, and Brown-Eyed Women. To hear the full show in ` +
+      `sequence, listeners assemble the DP3 tracks alongside this Archive source.`,
+    funFact:
+      `One reviewer reports that before a now-defunct trading site went dark, they managed to ` +
+      `download every song not on Dick's Picks and burn the complete 24-song concert to CD, calling ` +
+      `the quality and clarity "second-to-none".`,
+    communityVoices: [
+      { quote: "Help on the Way -> Slipknot! -> Franklin's Tower is easily a top-3 of all-time, and one could argue this is the best sequence ever performed!", attribution: "RFKROX, on Help>Slip>Franklin's", source: "Archive.org review" },
+      { quote: "it is entirely possible to suggest that 5-22 is the better all-around show and should therefore be in the \"Best Ever\" discussion", attribution: "Chomskyan Dead Head, on 5-22 vs. Cornell", source: "Archive.org review" },
+      { quote: "it has got to be the finest soundboard recording of the band ever done", attribution: "lilrichwhiteboy, on the recording quality", source: "Archive.org review" },
+      { quote: "This Dew is also quite remarkable, with a long, spiraling jam that starts out very quite and mellow and progresses into a full-out assault on the auditory senses.", attribution: "Andy-O from Fennario, on Morning Dew", source: "Archive.org review" },
+      { quote: "I cannot fathom why Dick Latvala elected to exclude these songs from DP3. One of the reasons I don't play DP3 very much is because it is not the complete show.", attribution: "Jeff Knorek from Nova Scotia, on Dick's Picks Vol. 3", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 32. 5/19/77 Atlanta Fox — the other May '77 contender ────
+  {
+    id: "gd-1977-05-19",
+    date: "1977-05-19",
+    venue: "Fox Theatre",
+    city: "Atlanta",
+    state: "GA",
+    setlist: [
+      "Promised Land", "Sugaree", "Mama Tried",
+      "Mexicali Blues", "Peggy-O", "El Paso",
+      "Row Jimmy", "Looks Like Rain", "Deal",
+      "Bertha", "Good Lovin'",
+      "Scarlet Begonias", "Fire on the Mountain",
+      "Estimated Prophet", "He's Gone",
+      "Drums", "The Other One", "Stella Blue",
+      "Around and Around", "U.S. Blues",
+    ],
+    archiveUrl: "https://archive.org/details/gd77-05-19.sbd.direwolf.3120.sbeok.shnf",
+    era: "77-peak",
+    moods: ["high-energy", "triumphant", "joyful", "emotional"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["newcomer", "exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 29 (with 5/21/77)"],
+    headline: "Fox Theatre Sugaree, May '77, three jams deep.",
+    whyThisShow:
+      `This is a canonical May '77 show, released on Dick's Picks Vol. 29 alongside 5/21/77, and ` +
+      `the community broadly treats it as the peak of that already-peak month. One listener, ` +
+      `cross-referencing the Deadhead's Compendium, called it the "Best show of May 77" and noted ` +
+      `it "doesn't have a single let down...not one note". Another goes further, calling 5-19-77 ` +
+      `"the best of the best" among May '77 shows and placing it at "the Dead's technical and ` +
+      `artistic peak". The Sugaree alone accounts for a lot of that reputation — one reviewer ` +
+      `described it as carrying "three separate, distinct jams, all of which could stand alone and ` +
+      `still be amazing". The second set closing sequence drew its own devotees, with one listener ` +
+      `saying the ending medley "couldn't be more perfect" as an entry point into '77.`,
+    listenFor:
+      `Start with the Sugaree — it runs around 20 minutes and one reviewer described it as "the ` +
+      `sweetest 20 or so minutes of listening pleasure" built from three distinct jams that ` +
+      `collectively constitute something beyond any single one of them. The Peggy-O and Row Jimmy ` +
+      `are also flagged as highlights, with one listener noting "the way Jerry switches back and ` +
+      `forth from normal lead guitar playing to slide guitar is unfathomable" across those two ` +
+      `songs. One reviewer specifically pointed to "Second set's Terrapin through the conclusion of ` +
+      `Playin" as showing "stunning cohesion between the band members". The recording is a ` +
+      `soundboard, so the detail is there to hear all of it clearly.`,
+    context:
+      `This show was recorded at the Fox Theatre in Atlanta on May 19, 1977, deep in the era widely ` +
+      `regarded as the band's creative and technical peak. The recording circulates as a clean ` +
+      `soundboard (identifier: gd77-05-19.sbd.direwolf.3120.sbeok.shnf). It was officially released ` +
+      `by the band's organization as Dick's Picks Vol. 29, paired with the May 21, 1977 show — the ` +
+      `organization's endorsement of both nights as representative of the era. Note: some Archive ` +
+      `reviews from the mid-2000s reflect a period when officially released shows were temporarily ` +
+      `pulled from free streaming, which generated commentary unrelated to the music itself.`,
+    funFact:
+      `One reviewer noted a peculiar guitar texture on the Playing Reprise — describing Garcia ` +
+      `producing "a bass like underwater kind of sound" for roughly the first three minutes while ` +
+      `"Keith and Phil don't play for a while" — and asked if anyone had heard that sound from ` +
+      `Garcia's guitar before.`,
+    communityVoices: [
+      { quote: "The Sugaree is, in my opinion, nothing less than the most brilliant and inspired version of this incredible tune.", attribution: "Andy-O from Fennario, on Sugaree", source: "Archive.org review" },
+      { quote: "30 plus years supporting this band and (Dare I say) maybe, wasting a good bit of my life or a lot of time and potential. But...no regrets", attribution: "yippierb", source: "Archive.org review" },
+      { quote: "this one doesn't have a single let down...not one note", attribution: "Embers dad", source: "Archive.org review" },
+      { quote: "The ending medley is one of the first things from '77 i ever heard, and it couldn't be more perfect.", attribution: "GennyBenni", source: "Archive.org review" },
+      { quote: "As consistently good as anything from 1977.", attribution: "KennRat", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 33. 5/15/77 St. Louis Arena — May '77 box deep cut ──
+  {
+    id: "gd-1977-05-15",
+    date: "1977-05-15",
+    venue: "St. Louis Arena",
+    city: "St. Louis",
+    state: "MO",
+    setlist: [
+      "The Promised Land", "Bertha", "Mama Tried",
+      "Tennessee Jed", "Looks Like Rain",
+      "Sugaree", "El Paso", "Brown-Eyed Women",
+      "Passenger", "Friend of the Devil", "Music Never Stopped",
+      "Bertha (II)",
+      "Scarlet Begonias", "Fire on the Mountain",
+      "Estimated Prophet", "Eyes of the World",
+      "Drums", "Wharf Rat",
+      "Dancin' in the Streets",
+      "St. Stephen", "Iko Iko", "Not Fade Away",
+    ],
+    archiveUrl: "https://archive.org/details/gd1977-05-15.28916.sbeok.flac16",
+    era: "77-peak",
+    moods: ["high-energy", "joyful", "psychedelic", "triumphant"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["May 1977 (box set)"],
+    headline: "St. Louis, May '77 — the hammer comes down.",
+    whyThisShow:
+      `This is a canonical May '77 show, included in the official May 1977 box set release. One ` +
+      `listener called it a "full-on, colossal '77 killer" while noting that "nearly everything the ` +
+      `dead touched in may '77 turned to shimmering gold, but this show somehow grabbed me as being ` +
+      `extra special". The second set is the gravitational center — one reviewer wrote that "the ` +
+      `second set is where they absolutely bring the fucking hammer down though... every song is ` +
+      `completely shit-hot". The Estimated Prophet > Eyes of the World sequence draws the most ` +
+      `heat, with one listener saying "the ideas flowing out of Jerry's brain during this 25min ` +
+      `segment is unparalled". The St. Stephen > Iko Iko > Not Fade Away closing sequence is ` +
+      `described as "absolutely stunning" by another reviewer.`,
+    listenFor:
+      `In Estimated Prophet, Garcia deploys full wah, and one reviewer noted he gets "an incredibly ` +
+      `rich, full sound" with an inside solo that "grew and prospered" as the band developed the ` +
+      `song. In Eyes of the World, watch for Garcia's break before the "Redeemer" verse — he "ends ` +
+      `a line with a brush of a chord; pauses; and then unleashes a beautiful run". One reviewer ` +
+      `also flagged the Not Fade Away transition as "a marvelous transition, leaving the crowd ` +
+      `wondering where they could possibly be going next". On the recording itself, one listener ` +
+      `noted that "the first 3 or 4 songs the levels are a bit off.. (low) but that's at the ` +
+      `source" before the board settles in. The Dancin' in the Streets has drawn particular ` +
+      `attention, with one reviewer saying it is "one of the best of all-time".`,
+    context:
+      `This show falls squarely in the era-peak May 1977 run and was officially released as part of ` +
+      `the May 1977 box set, giving it the band organization's own stamp. The best circulating ` +
+      `recording is a soundboard (identifier: gd77-05-15.sbd.gorinsky.7008.sbeok.shnf), which has ` +
+      `92 reviews on Archive.org. One reviewer noted some hiss on the upload, speculating it was ` +
+      `either tape hiss or cymbals not coming through quite right, and suggested "the tape I've had ` +
+      `for years is much better (less hiss) than this upload". The St. Louis Arena setlist includes ` +
+      `a rare first-set Scarlet > Fire pairing and an Iko Iko in the second set, which one reviewer ` +
+      `flagged as "complete icing".`,
+    funFact:
+      `One reviewer noted that the show closes with what he called "probably the best reading" of ` +
+      `Uncle John's Band he had ever heard, describing it as a must-hear encore.`,
+    communityVoices: [
+      { quote: "this is a full-on, colossal '77 killer... everything about this show just gels so well, ebbs/flows, etc", attribution: "humandonkey", source: "Archive.org review" },
+      { quote: "he somehow settles on six wonderful notes, descending, and then steps up the staircase to the stars above", attribution: "dcain, on Eyes of the World", source: "Archive.org review" },
+      { quote: "Jerry is so possesed during this 25 min segment, I cannot descibe it", attribution: "mgags, on Estimated Prophet > Eyes of the World", source: "Archive.org review" },
+      { quote: "I played that one for my father and he flipped his lid...exact words, \"he just busts it up!\"", attribution: "DeadGoose, on Dancin' in the Streets", source: "Archive.org review" },
+      { quote: "First 3 or 4 songs the levels are a bit off.. (low) but that's at the source ..after that the show is perfect. And I mean perfect.", attribution: "Deep Space, on recording quality", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 34. 6/9/77 Winterland — the Eyes that ranks above '74 ────
+  {
+    id: "gd-1977-06-09",
+    date: "1977-06-09",
+    venue: "Winterland Arena",
+    city: "San Francisco",
+    state: "CA",
+    setlist: [
+      "Mississippi Half-Step", "Mama Tried", "Tennessee Jed",
+      "Looks Like Rain", "Loser", "El Paso",
+      "Peggy-O", "The Music Never Stopped",
+      "Bertha",
+      "Estimated Prophet", "Eyes of the World",
+      "Drums", "Not Fade Away",
+      "He's Gone", "Truckin'", "Wharf Rat",
+      "Sugar Magnolia",
+      "U.S. Blues",
+    ],
+    archiveUrl: "https://archive.org/details/gd1977-06-09.28614.sbeok.flac16",
+    era: "77-peak",
+    moods: ["high-energy", "triumphant", "joyful", "psychedelic"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Winterland June 1977: The Complete Recordings"],
+    headline: "Three nights at Winterland, and this one's the vault copy.",
+    whyThisShow:
+      `This is a broadly canonical June '77 Winterland night, officially released as part of ` +
+      `Winterland June 1977: The Complete Recordings — the band's organization put their name on ` +
+      `it. One longtime fan who had been seeing the Dead since 1967 called it "probably the best ` +
+      `Grateful Dead show I've ever been too, or at least in the top 3-5". The Help>Slip>Franklin's ` +
+      `is the centerpiece the community keeps returning to, with one reviewer arguing "Slipknot ` +
+      `thru Franklins Tower was mastered at the Winterland", while another finds it meanders and ` +
+      `scores it a four against the show's five. That specific disagreement over the suite has been ` +
+      `a running community conversation, with the 5/9/77 Buffalo version frequently named as the ` +
+      `comparison point.`,
+    listenFor:
+      `The Help>Slip>Franklin's runs roughly ten minutes longer than the 5/9/77 version, and one ` +
+      `listener pinpoints "the last 4 minutes or so which wrap up the song in a nice breezy relaxed ` +
+      `fashion" as the highlight. Jerry's vocals throughout the night drew particular attention — ` +
+      `one reviewer wrote "I don't think I have ever heard Jerry sing better" and described being ` +
+      `"mesmerized by how PERFECT his voice sounded". The second set's Estimated Prophet and the ` +
+      `run through Eyes of the World were singled out, with one fan noting "Estimated, esp. Jerry's ` +
+      `guitar lines" as among their favorite versions. The Mississippi Half-Step opener is flagged ` +
+      `as a good omen by one reviewer, who notes "half step opener usually a good sign" before the ` +
+      `second set "just explode[s] with musical energy".`,
+    context:
+      `June 9, 1977 is the third night of a three-night Winterland run, deep in the peak '77 tour. ` +
+      `The show is available here as a soundboard recording (identifier: ` +
+      `gd77-06-09.sbd.murphy.5597.sbefail.shnf). It was officially released as part of Winterland ` +
+      `June 1977: The Complete Recordings. One fan noted the circulating copies had "pitch problems ` +
+      `and a cut here and there" before the official release, which is part of why the official ` +
+      `vault version was welcomed.`,
+    funFact:
+      `One reviewer got their original tape of this show from a co-worker at BASS tickets in ` +
+      `Oakland named David Gans, and later received vault cassette copies directly from Phil Lesh ` +
+      `after asking him in the office kitchen — copies that were subsequently used "in the ` +
+      `beginning of the Grateful Dead Hour".`,
+    communityVoices: [
+      { quote: "The band sounds as if they were downright arrogant, like they knew they were at the very top of their game.", attribution: "WRat", source: "Archive.org review" },
+      { quote: "If anyone ever tries to explain why we love this band so much start them with this", attribution: "sheikyerbouti", source: "Archive.org review" },
+      { quote: "Slipknot thru Franklins Tower was mastered at the Winterland.", attribution: "rollandfin, on Help>Slip>Franklin's", source: "Archive.org review" },
+      { quote: "it just meanders a bit to much for my tastes but thats probably why some folks love it so much", attribution: "august 1031, on Help>Slip>Franklin's", source: "Archive.org review" },
+      { quote: "Phil Lesh came up to me in the kitchen of the main office and told me that everyone was happy to have me there and gave me his home phone number", attribution: "smarcus, on tape provenance", source: "Archive.org review" },
     ],
     headyversionRanks: [],
   },
