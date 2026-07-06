@@ -8,7 +8,7 @@ import type { ConciergeShow } from "./types";
  */
 export const CATALOG_QUEUE: ConciergeShow[] = [
 
-  // ── 7. 2/13/70 — Dark Star into St. Stephen ──────────────────
+  // ── 7. 2/13/70 — Dark Star into The Other One (late show) ───
   {
     id: "gd-1970-02-13",
     date: "1970-02-13",
@@ -16,8 +16,13 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     city: "New York",
     state: "NY",
     setlist: [
-      "Not Fade Away", "He Was a Friend of Mine", "Dark Star",
-      "St. Stephen", "Not Fade Away (reprise)", "Turn On Your Lovelight",
+      "China Cat Sunflower", "I Know You Rider", "Me and My Uncle",
+      "Dire Wolf", "Smokestack Lightning", "Monkey and the Engineer",
+      "Little Sadie", "Wake Up Little Susie", "Black Peter",
+      "Uncle John's Band", "Katie Mae", "Dark Star",
+      "Cryptical Envelopment", "Drums", "The Other One",
+      "Cryptical Envelopment (reprise)", "Turn On Your Lovelight",
+      "And We Bid You Goodnight",
     ],
     archiveUrl: "https://archive.org/details/gd1970-02-13.sbd.miller.95929.flac16",
     era: "early-70s",
@@ -26,6 +31,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 4 (with 2/14/70)"],
     headline: "Dark Star at the Fillmore East — where the Dead invented a new kind of music.",
     whyThisShow:
       "This is the Deep End. The Dark Star from this show is over 30 minutes of the band pushing into completely uncharted territory — dissonant, beautiful, terrifying, transcendent. If you want to understand why people call the Dead a psychedelic band, this is where you start. It's not background music. It demands your attention.",
@@ -59,6 +65,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["newcomer", "exploring"],
+    releasedAs: ["Red Rocks: 7/8/78"],
     headline: "Red Rocks under the stars — the Dead at their most relaxed and beautiful.",
     whyThisShow:
       "Some Dead shows hit you over the head. This one wraps around you like a warm blanket. The first Dead show at Red Rocks has a mellow, rolling energy — Row Jimmy, Looks Like Rain, Ramble On Rose, Candyman — these are songs about heartbreak and highways, played in one of the most beautiful venues on Earth. Perfect for a long drive or a quiet night.",
@@ -90,6 +97,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Ladies and Gentlemen... the Grateful Dead (4/25-29/71 run)"],
     headline: "Pigpen's final fire — the blues howl before everything changed.",
     whyThisShow:
       "Within a year, Pigpen would be too sick to tour and Keith Godchaux would replace him. This is the last great Pigpen era — the last time the Dead were really a blues band. The Skull & Roses album (the Dead's second live LP) draws from this Fillmore East run, and the energy is raw and swaggering — more rock, less cosmic searching.",
@@ -140,13 +148,15 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     city: "San Francisco",
     state: "CA",
     setlist: [
-      "Here Comes Sunshine", "Mexicali Blues", "Brown-Eyed Women",
-      "Mississippi Half-Step", "Weather Report Suite",
-      "Big River", "Row Jimmy", "El Paso",
-      "Playing in the Band", "He's Gone",
-      "Truckin'", "The Other One", "Eyes of the World",
-      "Stella Blue", "Sugar Magnolia",
-      "Morning Dew", "One More Saturday Night",
+      "The Promised Land", "Bertha", "Greatest Story Ever Told",
+      "Sugaree", "Black-Throated Wind", "To Lay Me Down", "El Paso",
+      "Ramble On Rose", "Me and Bobby McGee", "China Cat Sunflower",
+      "I Know You Rider", "Me and My Uncle", "Loose Lucy",
+      "Weather Report Suite", "Let It Grow",
+      "Mississippi Half-Step", "Big River", "Dark Star",
+      "Mind Left Body Jam", "Eyes of the World", "China Doll",
+      "Sugar Magnolia", "Uncle John's Band", "Johnny B. Goode",
+      "And We Bid You Goodnight",
     ],
     archiveUrl: "https://archive.org/details/gd1973-11-11.sbd.mattman.10925.sbeok.shnf",
     era: "wall-of-sound",
@@ -155,6 +165,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Winterland 1973: The Complete Recordings"],
     headline: "Peak jazz-era Dead — the most beautiful playing they ever did indoors.",
     whyThisShow:
       "1973 gets slept on because '77 is louder, but for pure musical taste, '73 might be the Dead's high-water mark. Keith's piano is everywhere. Jerry's guitar is melodic and unhurried. The songs stretch out without ever losing shape. Released as Dick's Picks 14 — the show for people who appreciate craft. Every moment is exactly where it should be.",
@@ -173,13 +184,13 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     city: "Miami",
     state: "FL",
     setlist: [
-      "Bertha", "Mexicali Blues", "Brown-Eyed Women",
-      "Beat It On Down the Line", "Tennessee Jed",
-      "Me and My Uncle", "Loose Lucy", "Jack Straw",
-      "Scarlet Begonias", "Playing in the Band",
-      "Ship of Fools", "Weather Report Suite",
-      "He's Gone", "Truckin'", "Wharf Rat",
-      "Sugar Magnolia", "U.S. Blues",
+      "Ramble On Rose", "Black-Throated Wind", "Mississippi Half-Step",
+      "Beat It On Down the Line", "Row Jimmy", "Jack Straw",
+      "Let It Rock", "Cumberland Blues", "El Paso", "To Lay Me Down",
+      "Weather Report Suite", "Let It Grow", "China Doll",
+      "Seastones", "Ship of Fools", "Big River", "Black Peter",
+      "Around and Around", "Dark Star", "Spanish Jam", "U.S. Blues",
+      "Uncle John's Band", "One More Saturday Night", "Casey Jones",
     ],
     archiveUrl: "https://archive.org/details/gd1974-06-23.sbd.miller.32230.sbeok.shnf",
     era: "wall-of-sound",
@@ -188,6 +199,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 34"],
     headline: "The Wall of Sound tour — 600 speakers pointed at a Florida jai-alai fronton.",
     whyThisShow:
       "In 1974 the Dead built the loudest, cleanest, most complex sound system in live rock: the Wall of Sound. Three stories tall, 600 speakers, each musician with a dedicated stack. This show from the tour is one of the best-sounding Dead tapes from the era — like parking a spaceship in a strip mall. If you want to hear why '74 sounds different than anything else, start here.",
@@ -221,6 +233,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["The Grateful Dead Movie (10/16-20/74 run)"],
     headline: "The band saying goodbye — the pre-hiatus farewell run at Winterland.",
     whyThisShow:
       "The Dead played five nights at Winterland in October 1974 to say farewell before their hiatus. They were exhausted, broke, and at a crossroads. But these shows are not tired — they're valedictory. The band played everything, long jams and gentle country songs, like they were trying to fit their whole catalog into one last week. Filmed and released as The Grateful Dead Movie.",
@@ -254,6 +267,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Beacon Theatre, New York, NY 6/14/76"],
     headline: "The post-hiatus return — intimate rooms, patient playing.",
     whyThisShow:
       "After 18 months off the road, the Dead came back smaller. Theaters instead of stadiums. Quieter. Slower. This Beacon Theatre run is a different kind of Dead — deliberate, each song given room to breathe. If the '70-'74 band was about expansion, the '76 band was about refinement. Beautiful and often overlooked.",
@@ -288,6 +302,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 33"],
     headline: "Fall '77 fire — when you've already heard May, this is next.",
     whyThisShow:
       "Everyone knows May '77. The fall '77 tour is the hidden gem — a different energy, more muscle, Terrapin Station fully in rotation. DeKalb's Field House has a classic late-'77 Dead show: Mississippi Half-Step opens, the band locks in, the Scarlet > Fire cooks. For heads who've already memorized Cornell, fall '77 is the next chapter.",
@@ -306,14 +321,13 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     city: "Ithaca",
     state: "NY",
     setlist: [
-      "On the Road Again", "Dark Hollow", "Monkey and the Engineer",
-      "Cassidy", "Ripple", "Deep Elem Blues",
-      "Althea", "Little Red Rooster", "Friend of the Devil",
-      "Stella Blue", "Promised Land",
-      "Feel Like a Stranger", "Ship of Fools",
-      "Estimated Prophet", "He's Gone",
-      "The Other One", "Wharf Rat", "Good Lovin'",
-      "Brokedown Palace",
+      "Jack Straw", "Tennessee Jed", "Cassidy", "Row Jimmy",
+      "El Paso", "Easy to Love You", "Althea", "Feel Like a Stranger",
+      "Don't Ease Me In",
+      "Shakedown Street", "Bertha", "Playing in the Band",
+      "Terrapin Station", "Drums", "Space", "Saint of Circumstance",
+      "Black Peter", "Playing in the Band (reprise)", "Good Lovin'",
+      "Alabama Getaway",
     ],
     archiveUrl: "https://archive.org/details/gd1980-05-07.sbd.walker.6961.sbeok.shnf",
     era: "late-70s",
@@ -322,6 +336,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Road Trips Vol. 3 No. 4 (5/6-7/80)"],
     headline: "The Dead return to Cornell — three years and one day after the legend.",
     whyThisShow:
       "Three years after the most famous show in Dead history, the band came back to Barton Hall. No one expected them to match Cornell '77, and they didn't — but this is a different kind of great. Quieter, more mature, Brent Mydland now in the band replacing Keith. The acoustic-electric sandwich structure the band used in 1980 makes this a beautifully shaped show.",
@@ -340,13 +355,14 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     city: "New York",
     state: "NY",
     setlist: [
-      "Shakedown Street", "El Paso", "Peggy-O",
-      "Me and My Uncle", "Big River", "Candyman",
-      "Little Red Rooster", "Deal",
-      "Feel Like a Stranger", "Lost Sailor",
-      "Saint of Circumstance", "He's Gone",
-      "The Other One", "Stella Blue",
-      "Sugar Magnolia", "Brokedown Palace",
+      "Mississippi Half-Step", "Franklin's Tower", "Me and My Uncle",
+      "It Must Have Been the Roses", "Little Red Rooster",
+      "Don't Ease Me In", "Lazy Lightning", "Supplication",
+      "Brown-Eyed Women", "Looks Like Rain", "Deal",
+      "Scarlet Begonias", "Fire on the Mountain", "Lost Sailor",
+      "Saint of Circumstance", "Drums", "Space", "The Wheel",
+      "China Doll", "Truckin'", "Sugar Magnolia",
+      "(I Can't Get No) Satisfaction", "Brokedown Palace",
     ],
     archiveUrl: "https://archive.org/details/gd1981-03-10.sbd.walker.9134.sbeok.shnf",
     era: "80s",
@@ -355,6 +371,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["In and Out of the Garden: Madison Square Garden '81, '82, '83"],
     headline: "Early Brent — the Dead tighter, leaner, newly urgent.",
     whyThisShow:
       "By 1981, Brent Mydland had settled in and the Dead had found a new gear. The early-'80s Dead is often dismissed by heads who prefer earlier eras, but the first half of the decade has a punchy confidence that nothing else sounds like. MSG '81 captures it — sharp song selection, Jerry's playing incisive, Brent adding color underneath.",
@@ -389,6 +406,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "deep-cut",
     bestFor: ["head"],
+    releasedAs: ["30 Trips Around the Sun"],
     headline: "A mid-'80s sleeper — when you want the Dead nobody talks about.",
     whyThisShow:
       "Augusta Civic Center, Maine, October 1984 — you won't find this on most 'greatest shows' lists. That's exactly why it's on this one. The mid-'80s Dead at a small venue in a small city is the band in its natural habitat — no stadium pressure, no landmark-show expectations, just a good night's work. Jerry's playing is sharp, the sound is crisp, and the whole show has a hidden-gem quality.",
@@ -424,6 +442,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["newcomer", "exploring", "head"],
+    releasedAs: ["Downhill from Here (video)"],
     headline: "Alpine Valley — Brent-era Dead at their outdoor-summer best.",
     whyThisShow:
       "Alpine Valley in East Troy, Wisconsin is one of the Dead's great outdoor rooms — a natural grass amphitheater tucked into rolling hills. The July '89 run is legendary; this first night sets the tone. Tight, fiery, Brent's organ pushing everyone, Jerry sounding fresh. Perfect summer Dead — if you've never sat in grass under stars listening to Scarlet > Fire, this show is the next best thing.",
@@ -442,14 +461,13 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     city: "East Rutherford",
     state: "NJ",
     setlist: [
-      "Cold Rain and Snow", "Walkin' Blues", "Loser",
-      "Queen Jane Approximately", "Big Railroad Blues",
-      "Cassidy", "Deal",
-      "Scarlet Begonias", "Fire on the Mountain",
-      "Looks Like Rain", "He's Gone",
-      "Drums", "Space", "I Need a Miracle",
-      "Standing on the Moon", "Not Fade Away",
-      "Foolish Heart",
+      "Eyes of the World", "Walkin' Blues", "Brown-Eyed Women",
+      "When I Paint My Masterpiece", "Loose Lucy", "Cassidy",
+      "Might As Well",
+      "Saint of Circumstance", "Ship of Fools", "Dark Star Jam",
+      "Truckin'", "New Speedway Boogie", "Uncle John's Band",
+      "Drums", "Space", "China Doll", "Playing in the Band",
+      "Sugar Magnolia", "The Weight",
     ],
     archiveUrl: "https://archive.org/details/gd91-06-17.sbd.miller.95898.flac16",
     era: "final-years",
@@ -458,6 +476,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Saint of Circumstance: Giants Stadium 6/17/91"],
     headline: "Late-era summer tour — the Dead filling stadiums, still finding surprises.",
     whyThisShow:
       "Giants Stadium in June 1991 is the Dead as late-era institution — tens of thousands of fans, a full stadium tour, the songs familiar but the performances still capable of lifting off. Brent had died the year before; Vince Welnick was now on keys, with Bruce Hornsby often sitting in. This show is the Dead figuring out who they were without Brent — and on this night, finding something new.",
@@ -522,6 +541,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "fair",
     significance: "deep-cut",
     bestFor: ["head"],
+    releasedAs: ["Two from the Vault"],
     headline: "Primal 1968 — before the songs, before the structure, just the sound.",
     whyThisShow:
       "This is the Dead at their most embryonic. The Shrine Auditorium shows from 1968 capture the band mid-mutation — the Anthem of the Sun era, before Live/Dead, before songs like Uncle John's Band even existed. Long, dissonant, searching. If you want to hear where the psychedelic Dead came from, start here. This is not background music. It's a document.",
@@ -556,6 +576,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["newcomer", "exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 3"],
     headline: "The May '77 show some Deadheads quietly insist beats Cornell.",
     whyThisShow:
       "Two weeks after Barton Hall, the band rolled into a hockey rink in the Florida swamps and turned in what a sizable minority of tape collectors consider the actual peak of May '77. Dick Latvala himself reportedly said this show 'tears Cornell apart, rips it to shreds.' If you've worn out 5/8/77, this is the next door to walk through.",
@@ -590,6 +611,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["newcomer", "exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 29 (with 5/21/77)"],
     headline: "The Peggy-O of Peggy-Os — May '77 in a beautiful old movie palace.",
     whyThisShow:
       "The Fox is a 4,600-seat 1929 Egyptian-revival movie theater with painted stars on the ceiling. The Dead were in the middle of the greatest run of their career. Put those two things together and you get the show that Archive reviewers describe with phrases like 'best set list ever' and 'Jerry was on FIRE this night.' The Sugaree rivals 5/22; the Peggy-O might be the band's definitive version. One Aussie taper goes further: 'If this show was circulated instead of 5/8/77 then it would be considered the greatest.'",
@@ -600,13 +622,13 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     funFact: "The Fox Theatre was nearly demolished in 1974 — saved by an Atlanta civic campaign three years before this show. The Dead played one of the first major rock concerts in the rescued venue.",
   },
 
-  // ── 33. 5/15/77 St. Paul — the night Estimated > Eyes was born ──
+  // ── 33. 5/15/77 St. Louis Arena — May '77 box deep cut ──
   {
     id: "gd-1977-05-15",
     date: "1977-05-15",
-    venue: "St. Paul Civic Center",
-    city: "St. Paul",
-    state: "MN",
+    venue: "St. Louis Arena",
+    city: "St. Louis",
+    state: "MO",
     setlist: [
       "The Promised Land", "Bertha", "Mama Tried",
       "Tennessee Jed", "Looks Like Rain",
@@ -626,6 +648,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["May 1977 (box set)"],
     headline: "First-ever Estimated > Eyes. First-ever Iko Iko. The night the second set's architecture clicked.",
     whyThisShow:
       "If May '77 has a hidden chapter, this is it. St. Paul is where two of the most-played pairings in Dead history were invented in real time: the Estimated Prophet > Eyes of the World pairing that would become the spine of late-era second sets, and the very first Iko Iko, dropped into a St. Stephen > NFA segue that Archive reviewers describe as 'off the rails.' The whole second set sounds like the band figuring out a new vocabulary on stage.",
@@ -661,6 +684,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Winterland June 1977: The Complete Recordings"],
     headline: "The most-reviewed '77 show on Archive.org. Read the comments — they're not wrong.",
     whyThisShow:
       "Of every show from the legendary '77 year, this Winterland night has the most fan reviews on Archive.org by a wide margin. The Mississippi Half-Step here is a top-three-ever candidate. The Eyes of the World is the only Estimated > Eyes in the band's history that resolves to a full stop instead of segueing — and reviewers consistently rank it above the famous '74 Eyes. One reviewer called it 'the best version for any year, post-1974.' That's a serious claim. Listen and judge.",
@@ -698,6 +722,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 31 (8/4-6/74)"],
     headline: "The Eyes of the World that everyone agrees is the best ever. Period.",
     whyThisShow:
       "Among Wall of Sound-era listeners, this Eyes is not debated. It is the version. Jerry's two solos between the verses are, as one Archive reviewer puts it, 'mind-blowing — so fast, so beautifully phrased, so inspired, I have never heard him play like that in ANY Eyes ever.' Then the Playing in the Band > Scarlet Begonias > Playing in the Band sandwich in the second set seals it. This is the Dead at the absolute apex of their improvisational powers.",
@@ -733,6 +758,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 13"],
     headline: "The Dark Star > Morning Dew that gets sworn at by Deadheads who can't believe it's real.",
     whyThisShow:
       "Officially released as Dave's Picks Vol. 13. The 45-minute Dark Star > Morning Dew sequence is, as Archive reviewers put it, 'the purest expression of the human experience ever uttered' — high praise even by Deadhead standards. This is the kind of show you put on at 2 AM with headphones and no plans for the next morning. The rare It's All Over Now Baby Blue encore is the cherry on top.",
@@ -769,6 +795,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 17"],
     headline: "Phil bombs and Spanish Jam — the night the Wall of Sound hit Fresno.",
     whyThisShow:
       "If you want one Wall of Sound show where Phil Lesh's bass is the lead instrument, this is it. Archive reviewers describe him as 'a beast — everywhere, dropping bombs.' The Weather Report Suite > Let It Grow > Spanish Jam > Eyes > China Doll suite is one of the most cohesive long-form passages of the entire era — reviewers compare it to chamber jazz played by a rock band with telepathy.",
@@ -804,6 +831,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "good",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Road Trips Vol. 3 No. 3"],
     headline: "An Evening with the Grateful Dead — acoustic, NRPS, electric. All in one night.",
     whyThisShow:
       "Spring 1970 was the brief, beautiful era when the Dead played 'An Evening with the Grateful Dead' — an acoustic Dead set, a New Riders of the Purple Sage set (with Jerry on pedal steel), then an electric Dead set. This Fillmore East show is the most-reviewed 1970 show on the entire Archive — 97 reviews and counting. As one reviewer puts it: 'If you want to hear what the GD were all about in 1970, get this.'",
@@ -874,6 +902,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 14"],
     headline: "Released as Dave's Picks 14. The Truckin' > Other One > Wharf Rat sandwich melts faces.",
     whyThisShow:
       "The seven-night Academy of Music run was the Dead's pre-Europe '72 warm-up — they were tightening up the new material with Keith on piano before crossing the Atlantic. This Sunday-night show is the most-reviewed of the run and the one Dave's Picks chose to preserve. Archive reviewers don't hold back: 'Truckin' = face melted. Other One = grenade dropped in puddle and former face distributed over large area.'",
@@ -921,13 +950,13 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     funFact: "Of the seven songs that debuted this night, six (Here Comes Sunshine, Eyes, They Love Each Other, China Doll, Loose Lucy, Row Jimmy) became permanent setlist staples. Wave That Flag evolved into U.S. Blues by 1974.",
   },
 
-  // ── 47. 3/29/85 Springfield — first-set Supplication Jam ───
+  // ── 47. 3/29/85 Nassau — first-set Supplication Jam ────────
   {
     id: "gd-1985-03-29",
     date: "1985-03-29",
-    venue: "Springfield Civic Center",
-    city: "Springfield",
-    state: "MA",
+    venue: "Nassau Veterans Memorial Coliseum",
+    city: "Uniondale",
+    state: "NY",
     setlist: [
       "Cold Rain and Snow", "Little Red Rooster",
       "Bird Song", "My Brother Esau",
@@ -1019,6 +1048,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Download Series Vol. 9 (4/2-3/89)"],
     headline: "Brent at peak — a Shakedown that doesn't slow down until Baby Blue.",
     whyThisShow:
       "Spring 1989 was Brent Mydland's absolute peak — vocals strong, organ work pushing the band, songs like Foolish Heart and We Can Run hitting their stride. This Pittsburgh show is the standout of that tour. Archive reviewers call it 'probably the best of this tour' — the Shakedown opens the second set hot and the band 'didn't slow down until Baby Blue.' The GDTRFB > Lovelight closing is one of the best of the late '80s.",
@@ -1057,6 +1087,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "legendary",
     bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 40 (7/18-19/90)"],
     headline: "Brent Mydland's swan song. Seven days later he was gone.",
     whyThisShow:
       "Brent Mydland died on July 26, 1990. This show was played seven days earlier. Listening with that knowledge changes everything — the Foolish Heart sounds like a goodbye, the Stella Blue is unbearable. Released officially as Dave's Picks Vol. 40. Archive reviewers describe a 'Killer Foolish with Brent — top 5 Foolish all-time.' Even without the context, it's a top-tier 1990 show; with the context, it becomes essential.",
@@ -1249,6 +1280,7 @@ export const CATALOG_QUEUE: ConciergeShow[] = [
     audioQuality: "pristine",
     significance: "classic",
     bestFor: ["exploring", "head"],
+    releasedAs: ["30 Trips Around the Sun"],
     headline: "Help > Slip > Franklin's opens the last-ever Boston Garden run. Top-ten 90s show.",
     whyThisShow:
       "By fall 1994, the conventional wisdom was that the band was running on fumes. This Boston Garden show is the rebuttal. Archive reviewer 'samson' is direct: 'A very solid show with great jamming. The whole band is definitely into it. Without a doubt, one of my top ten of the nineties.' Opening with Help on the Way > Slipknot! > Franklin's Tower is a statement — the band saying 'we still know how to do this.' This was the Dead's last-ever Boston Garden run; the building closed eleven months later.",

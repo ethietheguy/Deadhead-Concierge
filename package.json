@@ -12,6 +12,7 @@
     "research": "tsx scripts/research-show.ts",
     "synthesize": "tsx --env-file=.env.local scripts/synthesize-show.ts",
     "verify": "tsx scripts/verify-citations.ts",
+    "splice": "tsx scripts/splice-finalized.ts",
     "pipeline": "tsx scripts/run-pipeline.ts"
   },
   "dependencies": {

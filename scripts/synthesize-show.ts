@@ -24,6 +24,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { CATALOG } from "../lib/concierge/catalog";
+import { CATALOG_QUEUE } from "../lib/concierge/catalog-queue";
 import type { ConciergeShow } from "../lib/concierge/types";
 import type { ResearchBrief } from "./research-show";
 
@@ -201,10 +202,12 @@ function loadResearch(date: string): ResearchBrief {
 }
 
 function loadCatalogEntry(date: string): ConciergeShow {
-  const entry = CATALOG.find((s) => s.date === date);
+  const entry =
+    CATALOG.find((s) => s.date === date) ??
+    CATALOG_QUEUE.find((s) => s.date === date);
   if (!entry) {
     console.error(`No catalog entry for ${date}.`);
-    console.error(`Phase 5 reruns existing entries — add the show to lib/concierge/catalog.ts first, or wait for Phase 6 (new-show pipeline).`);
+    console.error(`Phase 5 reruns existing entries — add the show to lib/concierge/catalog.ts or lib/concierge/catalog-queue.ts first.`);
     process.exit(1);
   }
   return entry;
