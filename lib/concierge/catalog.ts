@@ -373,6 +373,143 @@ export const CATALOG: ConciergeShow[] = [
     headyversionRanks: [],
   },
 
+  // ── 7. 2/13/70 — Dark Star into The Other One (late show) ───
+  {
+    id: "gd-1970-02-13",
+    date: "1970-02-13",
+    venue: "Fillmore East",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "China Cat Sunflower", "I Know You Rider", "Me and My Uncle",
+      "Dire Wolf", "Smokestack Lightning", "Monkey and the Engineer",
+      "Little Sadie", "Wake Up Little Susie", "Black Peter",
+      "Uncle John's Band", "Katie Mae", "Dark Star",
+      "Cryptical Envelopment", "Drums", "The Other One",
+      "Cryptical Envelopment (reprise)", "Turn On Your Lovelight",
+      "And We Bid You Goodnight",
+    ],
+    archiveUrl: "https://archive.org/details/gd1970-02-13.sbd.miller.95929.flac16",
+    era: "early-70s",
+    moods: ["psychedelic", "dark", "late-night", "meditative"],
+    styles: ["experimental", "jam", "jazz-space"],
+    audioQuality: "good",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 4 (with 2/14/70)"],
+    headline: "Dark Star into The Other One, Fillmore East, February '70.",
+    whyThisShow:
+      `This is the show the Fillmore East run is remembered by, and the Dark Star at its center is ` +
+      `the reason. One listener who was there described "the places they went, and the changes they ` +
+      `went through during that time, were unlike anything I had ever seen or heard before, ` +
+      `including the Allmans earlier that night or the Dead themselves earlier that year". Another ` +
+      `reviewer described "an insanely inventive Dark Star that drops down to silence before ` +
+      `charging back up into a monster Feeling Groovy jam and then Bob drives the band through the ` +
+      `most high energy Other One I've ever heard". The sequence closes with Pigpen steering ` +
+      `Lovelight back to earth, and that same reviewer noted the band "managed to make the ` +
+      `connection" after the cosmic territory they had just covered. Dark Star, The Other One, and ` +
+      `Lovelight were officially released on Dick's Picks Vol. 4, with the Archive source carrying ` +
+      `a fuller picture of the night.`,
+    listenFor:
+      `The Dark Star is the main event — track the moment it drops to near-silence, which one ` +
+      `attendee recalled so vividly: "at the points where the music is quiet, almost silent, the ` +
+      `audience was also so quiet you could have heard a pin drop". When the Dead emerge from that ` +
+      `stillness they do not go to St. Stephen as the crowd expected — one witness recalled that ` +
+      `"when we all expected they would go into St. Stephen from DS, they went into The Other One, ` +
+      `which drew a collective gasp from the audience". One reviewer singled out the continuous arc ` +
+      `of the Dark Star through The Other One into Lovelight as "one of the best continuous jams ` +
+      `ever". The recording itself is soundboard and one listener found it "STRAIGHT SOUND BOARD, ` +
+      `STEREO MIX, AND SOUNDS ALBUM READY".`,
+    context:
+      `February 1970 was one of the Dead's densest runs at the Fillmore East, and this Friday-night ` +
+      `late show came the night before another legendary performance on the 14th — both nights were ` +
+      `eventually compiled for Dick's Picks Vol. 4. The Archive source ` +
+      `(gd70-02-13.early-late.sbd.cotsman.18114.sbeok.shnf) is a soundboard and carries more of the ` +
+      `full night than the official release, including an acoustic set, some of which one reviewer ` +
+      `noted "can be heard on Bears' Choice". The Allman Brothers opened that night, and at least ` +
+      `one attendee arrived already floored by what the Allmans had done, only to find himself ` +
+      `reconsidering everything once the Dead took the stage.`,
+    funFact:
+      `One eyewitness recalled that "it was dawn when the concert let out and the sidewalk outside ` +
+      `the Fillmore was filled with people, like me, who couldn't believe what we had just ` +
+      `witnessed".`,
+    communityVoices: [
+      { quote: "the places they went, and the changes they went through during that time, were unlike anything I had ever seen or heard before", attribution: "klopez1253", source: "Archive.org review" },
+      { quote: "it has everything that make the Grateful Dead what they are and showcases some of the finest playing of their career. It's easily in the top five.", attribution: "Darrylizer", source: "Archive.org review" },
+      { quote: "the DS>TIFTOO>TOYL is one of the best continuous jams ever and should be allowed to be shared for all to hear", attribution: "WharfRatDude", source: "Archive.org review" },
+      { quote: "the audio is STRAIGHT SOUND BOARD, STEREO MIX, AND SOUNDS ALBUM READY", attribution: "oh_uh_um_ah", source: "Archive.org review" },
+      { quote: "some 38 years later this sounds as fresh and awsome as the first time I saw them", attribution: "oldhead21470", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 8. Red Rocks '78 — the mellow road trip show ──────────────
+  {
+    id: "gd-1978-07-08",
+    date: "1978-07-08",
+    venue: "Red Rocks Amphitheatre",
+    city: "Morrison",
+    state: "CO",
+    setlist: [
+      "Jack Straw", "They Love Each Other", "Me and My Uncle",
+      "Row Jimmy", "Looks Like Rain", "Deal",
+      "Lazy Lightning", "Supplication", "El Paso",
+      "Ramble On Rose", "Let It Grow", "Bertha",
+      "Good Lovin'", "Candyman", "Estimated Prophet",
+      "Eyes of the World", "Drums", "Not Fade Away",
+      "Wharf Rat", "Sugar Magnolia",
+    ],
+    archiveUrl: "https://archive.org/details/gd1978-07-08.sbd.hollister.174.shnf",
+    era: "77-peak",
+    moods: ["mellow", "road-trip", "introspective", "joyful"],
+    styles: ["country-folk", "jam", "rock"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["newcomer", "exploring"],
+    releasedAs: ["Red Rocks: 7/8/78"],
+    headline: "Red Rocks, July '78, second set wide open.",
+    whyThisShow:
+      `This show is officially released as 'Red Rocks: 7/8/78' and sits at number 12 in Deadbase's ` +
+      `tape rankings. The second set is the engine — one reviewer described the stretch from ` +
+      `Estimated Prophet through Sugar Magnolia as "too good for words, honestly I can't even ` +
+      `describe it". Jerry's guitar gets specific praise across multiple reviews: one listener ` +
+      `noted that "Jerry's guitar lines dance in the Estimated> Other One> Eyes and soar during ` +
+      `Wharf Rat". Keith Godchaux also draws notice — one reviewer who was still getting into the ` +
+      `'78 period found him "sick on this show, really on fire". One dissenting voice points out ` +
+      `that other '78 dates — 4/12 and 1/22 — may edge this one out, but the weight of community ` +
+      `opinion puts this night firmly in the year's top tier.`,
+    listenFor:
+      `The Estimated Prophet into Other One into Eyes of the World sequence is the heart of the ` +
+      `show — one reviewer described how Jerry "alternately transitions from chopping to floating ` +
+      `in butterfly-like fashion during the lead jams" in the Eyes. The Wharf Rat is singled out ` +
+      `repeatedly: one reviewer called it "unlike any other version of Wharf Rat that exists" and ` +
+      `specifically flagged Jerry's quiet "Ssshhh" mid-song as "priceless". The Franklin's Tower ` +
+      `that follows is rare post-drums placement, and one listener called it "a raging jam ` +
+      `throughout". The encores go three deep — Terrapin into One More Saturday Night into ` +
+      `Werewolves of London — and one reviewer noted "you can tell they are having a good time ` +
+      `doing this tune" on the Zevon cover. The soundboard recording rewards the volume advice one ` +
+      `reviewer repeated twice: "it demands to be played loud".`,
+    context:
+      `This is a soundboard recording (identifier: gd78-07-08.sbd.unknown.294.sbeok.shnf) from the ` +
+      `era-77-peak classification, one of two consecutive Red Rocks nights that the community ` +
+      `treats as a single run. The show was officially released by the band's organization as 'Red ` +
+      `Rocks: 7/8/78,' confirming its canonical standing. Keith and Donna Godchaux were still in ` +
+      `the lineup; the Godchaux era would end the following year. One reviewer noted that "the guys ` +
+      `I hung around seemed to consist of quite a number of Dead Heads" who were circulating this ` +
+      `tape as early as 1979, suggesting it traveled the lot quickly.`,
+    funFact:
+      `One listener reported that after three days at Red Rocks in 1985, he "started going to a lot ` +
+      `of Rainbow Gatherings" because the venue itself had that kind of effect on him.`,
+    communityVoices: [
+      { quote: "starting with Estimated Prophet, the 2nd set of this show basically takes on a life of it's own. A high energy, rock & roll romp that really defies the senses.", attribution: "SkeetsHoo, on the second set", source: "Archive.org review" },
+      { quote: "Donna Jean some pretty augghs during Estimated.", attribution: "c-freedom, on Donna", source: "Archive.org review" },
+      { quote: "jerry is just redonkuluous this evening. His guitar just sings all night and even though his voice has sounded better on many a night, damn if he doesn't give it 110% on the vocals this night.", attribution: "gratefulvince, on Jerry", source: "Archive.org review" },
+      { quote: "This show ranks #12 in Deadbase's tape ranking, and with very good reason (I'd give it extra stars for this review if I could). Recording quality is terrific, the set list is phenomenal, and Jerry is ON in a big way for both vocals and lead.", attribution: "matrixport, on overall quality", source: "Archive.org review" },
+      { quote: "Though I can't say this show is my favorite of '78, that may be either be 4/12 or 1/22 and the Dick's Picks Vol. 18 pastiche of 2/03 and 2/05.", attribution: "Darrylizer, on ranking within '78", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
   // ── 9. Jerry's last show — emotional weight ───────────────────
   {
     id: "gd-1995-07-09",
@@ -614,6 +751,70 @@ export const CATALOG: ConciergeShow[] = [
     headyversionRanks: [],
   },
 
+  // ── 13. 4/29/71 Fillmore East — Pigpen's last peak ────────────
+  {
+    id: "gd-1971-04-29",
+    date: "1971-04-29",
+    venue: "Fillmore East",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "Bertha", "Me and Bobby McGee", "Next Time You See Me",
+      "Loser", "Playing in the Band", "Sugar Magnolia",
+      "Hard to Handle", "Big Railroad Blues", "Good Lovin'",
+      "Dark Star", "Wharf Rat", "Sugar Magnolia (reprise)",
+      "Johnny B. Goode",
+    ],
+    archiveUrl: "https://archive.org/details/gd1971-04-29.sbd.vernon.10436.sbeok.shnf",
+    era: "early-70s",
+    moods: ["high-energy", "joyful", "dark", "party"],
+    styles: ["rock", "blues", "jam"],
+    audioQuality: "good",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Ladies and Gentlemen... the Grateful Dead (4/25-29/71 run)"],
+    headline: "Closing night at the Fillmore East, Pigpen still in command.",
+    whyThisShow:
+      `This is the closing night of the April 1971 Fillmore East run, later officially released as ` +
+      `'Ladies and Gentlemen... the Grateful Dead,' which puts it squarely in the canonical ` +
+      `Pigpen-era record. One reviewer calls it "the final Fillmore East" and declares it ` +
+      `"essential listening material". Another listener, who has been living with this run since ` +
+      `the mid-eighties, holds the Alligator sequence and the Midnight Hour among "the best music I ` +
+      `have ever heard". One reviewer with nearly four decades of listening places 1971 as "the ` +
+      `peak of rock music as a 'genre'" and credits this recording with earning six stars. One ` +
+      `voice does add a partial caveat — loving roughly half the setlist deeply while skipping the ` +
+      `rest — so this is not a show everyone takes as a uniform peak from first note to last.`,
+    listenFor:
+      `The opening Truckin' is the first place to plant your ears: one listener hears Bobby's shout ` +
+      `of "Hey man, go back to 1959!" after it and wonders aloud whether that was a reaction to ` +
+      `Garcia's "throwback riffs throughout this Truckin'". The Hard to Handle draws specific ` +
+      `attention from at least one listener who calls it "awesome" while noting the commercial ` +
+      `release's choice to use this version over the April 22 performance. One listener points to ` +
+      `Phil's bass on Sugar Magnolia as a standout moment. The Alligator sequence, described by one ` +
+      `reviewer as a moment where the band was "clearly unwilling to play the tail end" and instead ` +
+      `carved "new space out enroute to GDTRFB," is singled out as one of the era's high points.`,
+    context:
+      `This is the final night of a five-show Fillmore East stand in late April 1971, recorded from ` +
+      `the soundboard and later officially released as 'Ladies and Gentlemen... the Grateful Dead.' ` +
+      `The SBD source (identifier gd71-04-29.sbd.frisco.16782.sbeok.shnf) gives it clean separation ` +
+      `across the full band. The era is the Pigpen-fronted early-70s lineup, and one reviewer ` +
+      `argues this represents "Pigpen and the rest of the Dead at their best". The run as a whole ` +
+      `was bookended each night by Truckin' as the opener, making the final night's version a ` +
+      `deliberate send-off for the venue.`,
+    funFact:
+      `One listener notes that hearing "Bill's talk btw encores about stop asking for more more ` +
+      `from the band, sounds a lot like record-bigwigs complaining about downloads" — a 1971 ` +
+      `between-set moment that aged into something stranger.`,
+    communityVoices: [
+      { quote: "the final Fillmore East is essential listening material.", attribution: "rollandfin", source: "Archive.org review" },
+      { quote: "This is just flat out great rock and roll at the peak of a bygone era.", attribution: "DREWFITZ", source: "Archive.org review" },
+      { quote: "It's definitely in my top 10 for about 50% of the songs (the other half I skip over).", attribution: "newpotato11", source: "Archive.org review" },
+      { quote: "You can feel the Earth crack open to expose the very roots of rock-'n-roll as Garcia settles into a celebration of old-school rock revue", attribution: "JonStorm716, on Truckin'", source: "Archive.org review" },
+      { quote: "the Alligator and the Midnight Hour, I knew that this band would take up a lot of my listening time.", attribution: "phleshy", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
   // ── 14. 4/8/72 Wembley — Europe '72 begins ────────────────────
   {
     id: "gd-1972-04-08",
@@ -727,6 +928,201 @@ export const CATALOG: ConciergeShow[] = [
       { quote: "Super 73' Soundboard! 5 stars for the mix, recording, performance & transfer.", attribution: "oh_uh_um_ah", source: "Archive.org review" },
       { quote: "i feel safe secured and whole for my land is a national park", attribution: "hunabkupakal", source: "Archive.org review" },
       { quote: "SHARE...SHARE...SHARE....that's what this is about...it's not about your hate for someone that is helping people enjoy life.", attribution: "back_from_the_DEAD", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 16. 7/28/73 Watkins Glen — largest concert ever ──────────
+  {
+    id: "gd-1973-07-28",
+    date: "1973-07-28",
+    venue: "Watkins Glen Grand Prix Raceway (Summer Jam)",
+    city: "Watkins Glen",
+    state: "NY",
+    setlist: [
+      "Bertha", "Promised Land", "Deal", "Looks Like Rain",
+      "Row Jimmy", "Beat It On Down the Line",
+      "China Cat Sunflower", "I Know You Rider",
+      "Playing in the Band", "Wharf Rat", "Sugar Magnolia",
+      "Eyes of the World", "Morning Dew", "Sugar Magnolia (reprise)",
+      "Around and Around",
+    ],
+    archiveUrl: "https://archive.org/details/gd1973-07-28.sbd.miller.30572.sbeok.shnf",
+    era: "wall-of-sound",
+    moods: ["joyful", "high-energy", "triumphant", "party"],
+    styles: ["rock", "jam"],
+    audioQuality: "good",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    headline: "Watkins Glen, summer '73, half a million people and a soundboard.",
+    whyThisShow:
+      `This is the Grateful Dead's soundboard set from Summer Jam at Watkins Glen, July 1973 — an ` +
+      `outdoor festival that drew an estimated 600,000 people, making it one of the largest ` +
+      `gatherings in American history at the time. The Dead shared the bill with the Allman ` +
+      `Brothers Band and The Band, and by multiple firsthand accounts the Dead played for close to ` +
+      `two hours during the soundcheck-turned-performance on Friday. One reviewer who was there ` +
+      `called it "one of the best concerts ever". The set remains officially unreleased, which the ` +
+      `community treats as its own kind of signal about what's sitting in the vault.`,
+    listenFor:
+      `The China Cat Sunflower into I Know You Rider and the Playing in the Band are the sequences ` +
+      `most cited by listeners as the heart of the set. Eyes of the World also draws specific ` +
+      `attention. The encore featured a cross-band Mountain Jam with the Allmans; one reviewer ` +
+      `strongly disagreed with Butch Trucks's own assessment that it was a disaster, calling it ` +
+      `"DOPE" and recommending it specifically to fans of both bands. The source is a soundboard ` +
+      `recording, so the mix is direct rather than a crowd capture.`,
+    context:
+      `July 1973 sits squarely in the Wall of Sound era, when the Dead were building toward the ` +
+      `massive PA system that would debut in 1974. The Archive identifier ` +
+      `(gd73-07-28.sbd.weiner.14196.sbeok.shnf) confirms a soundboard lineage. The show has never ` +
+      `received an official release, which is notable given its historical scale. One attendee ` +
+      `flagged that a commercially released album claiming to document Watkins Glen does not ` +
+      `actually capture what happened that day.`,
+    funFact:
+      `One reviewer who hitched to the show recalled that their last ride — about 35 miles out — ` +
+      `came from a girl who lived just a few blocks from them back in Oxford, Ohio.`,
+    communityVoices: [
+      { quote: "woke up the next morning to Jerry's soulful guitar. The next few hours were filled with the most amazing live music I've ever heard.", attribution: "irkulyen", source: "Archive.org review" },
+      { quote: "the China>Rider, Playin', and Eyes - as an ABB fan, the Mountain Jam is what caught my eye first, and I think that Trucks in crazy.", attribution: "mperez19, on the Mountain Jam and standout songs", source: "Archive.org review" },
+      { quote: "The Bad was drunk, Dead tripping, and Allman Bros. coked out.", attribution: "mperez19, quoting Butch Trucks on the encore", source: "Archive.org review" },
+      { quote: "we watched a river of brothers and sisters --as wide as the road , flow by us for 12 straight hours", attribution: "bobbypro", source: "Archive.org review" },
+      { quote: "It was an amazing experience and I honestly remember nearly every bit of the trip hitching TO the show, and not a bit of the trip back to Oxford.", attribution: "jazbeane", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 17. 11/11/73 Winterland — jazzy Keith-era peak ───────────
+  {
+    id: "gd-1973-11-11",
+    date: "1973-11-11",
+    venue: "Winterland Arena",
+    city: "San Francisco",
+    state: "CA",
+    setlist: [
+      "The Promised Land", "Bertha", "Greatest Story Ever Told",
+      "Sugaree", "Black-Throated Wind", "To Lay Me Down", "El Paso",
+      "Ramble On Rose", "Me and Bobby McGee", "China Cat Sunflower",
+      "I Know You Rider", "Me and My Uncle", "Loose Lucy",
+      "Weather Report Suite", "Let It Grow",
+      "Mississippi Half-Step", "Big River", "Dark Star",
+      "Mind Left Body Jam", "Eyes of the World", "China Doll",
+      "Sugar Magnolia", "Uncle John's Band", "Johnny B. Goode",
+      "And We Bid You Goodnight",
+    ],
+    archiveUrl: "https://archive.org/details/gd1973-11-11.sbd.mattman.10925.sbeok.shnf",
+    era: "wall-of-sound",
+    moods: ["mellow", "introspective", "meditative", "joyful"],
+    styles: ["jam", "jazz-space", "country-folk"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Winterland 1973: The Complete Recordings"],
+    headline: "Dark Star into Eyes, Winterland, November '73.",
+    whyThisShow:
+      `This is a canonically legendary Wall of Sound-era Winterland show, officially released as ` +
+      `part of 'Winterland 1973: The Complete Recordings.' The center of gravity is the second set, ` +
+      `where one reviewer called the Dark Star > Eyes sequence "55 minutes of extremely well spent ` +
+      `time". The Dark Star itself draws repeated attention: one listener called it "a tour de ` +
+      `force of psychedelic jazz" and dubbed it the "thinking man's Dark Star". One voice notes the ` +
+      `show is not without small flaws — there are recording dropouts in Eyes of the World and ` +
+      `Half-Step patched with an audience source — and one reviewer rates the Dark Star not as the ` +
+      `hottest version but as "really spacy and dreamy", placing this show slightly behind 12/2/73 ` +
+      `rather than above everything. The broad community weight, however, is strongly canonical.`,
+    listenFor:
+      `The Big River > Dark Star > Eyes of the World run is the centerpiece: one reviewer described ` +
+      `the Dark Star as ranging "from cacophonous, to trippy, to happy and all points inbetween, ` +
+      `right into a mesmerizing eyes". One listener singled out what makes this Eyes of the World ` +
+      `special: "its structure is brilliant, Keith and Bob both play major roles, its tight and ` +
+      `lose" and called the mix "perfect—perfect". There is also a notable Mountain Jam tease at ` +
+      `the top of Mississippi Half-Step worth catching — one reviewer heard it as "a glimpse into ` +
+      `the epic cow palace allman brothers show". The recording itself draws praise: one listener ` +
+      `noted it has "a very very good mix" with the drums not overpowering the rest of the band. ` +
+      `After the great second set run, one reviewer is direct that "the rest of the show is nothing ` +
+      `special" past that peak.`,
+    context:
+      `November 1973 sits squarely in the Wall of Sound era, when the Dead were running the massive ` +
+      `PA system that defined their mid-'70s live sound. This recording comes from a soundboard ` +
+      `source (identifier: gd73-11-11.sbd.schlissel.14105.sbeok.shnf) with brief audience patches ` +
+      `covering dropout sections in Eyes of the World and Half-Step. The show was officially ` +
+      `released as part of 'Winterland 1973: The Complete Recordings,' giving it the band ` +
+      `organization's stamp of endorsement. One reviewer placed it alongside "the legendary Harper ` +
+      `college show, the spring 77 shows, and the epic europe shows from 1972" as a must-have.`,
+    funFact:
+      `One attendee recalled that after the encore, the crowd refused to leave for 25 solid minutes ` +
+      `— clapping, screaming, and stomping in unison — until the house lights came back down and ` +
+      `the band returned for a double encore.`,
+    communityVoices: [
+      { quote: "the best segement of the show, imo, big river, dark star, eyes. the DS>eyes is 55 minutes of extremely well spent time.", attribution: "Monik, on the Dark Star > Eyes sequence", source: "Archive.org review" },
+      { quote: "This Dark Star has to be in the top 5 of all time in my book", attribution: "003phan, on the Dark Star", source: "Archive.org review" },
+      { quote: "The next hour of music ranks among the best the band ever played imo.", attribution: "direwolf600, on the second set run", source: "Archive.org review" },
+      { quote: "The Eyes utterly rips.", attribution: "gphishmon, on Eyes of the World", source: "Archive.org review" },
+      { quote: "we set ourselves to stomping on the floor. Then we clapped, screamed \"MORE\" and stomped the floor simultaneously, in unison and as one unified body for 25 solid, nonstop minutes.", attribution: "Evan S. Hunt, on the crowd after the show", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 18. 6/23/74 Miami — Wall of Sound ────────────────────────
+  {
+    id: "gd-1974-06-23",
+    date: "1974-06-23",
+    venue: "Miami Jai-Alai Fronton",
+    city: "Miami",
+    state: "FL",
+    setlist: [
+      "Ramble On Rose", "Black-Throated Wind", "Mississippi Half-Step",
+      "Beat It On Down the Line", "Row Jimmy", "Jack Straw",
+      "Let It Rock", "Cumberland Blues", "El Paso", "To Lay Me Down",
+      "Weather Report Suite", "Let It Grow", "China Doll",
+      "Seastones", "Ship of Fools", "Big River", "Black Peter",
+      "Around and Around", "Dark Star", "Spanish Jam", "U.S. Blues",
+      "Uncle John's Band", "One More Saturday Night", "Casey Jones",
+    ],
+    archiveUrl: "https://archive.org/details/gd1974-06-23.sbd.miller.32230.sbeok.shnf",
+    era: "wall-of-sound",
+    moods: ["high-energy", "mellow", "introspective"],
+    styles: ["rock", "jam"],
+    audioQuality: "pristine",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 34"],
+    headline: "Miami '74, with the one-time Let It Rock.",
+    whyThisShow:
+      `This show has canonical weight both for its music and its availability — it came out as ` +
+      `Dave's Picks Vol. 34, and the Jerry Moore AUD was, as one listener put it, "heavily traded ` +
+      `BitD of B&P, and often the lone representative from this tour on tape lists". The second-set ` +
+      `sequence is the reason heads keep coming back: one reviewer described the Spanish Jam > U.S. ` +
+      `Blues as the moment "the band emerges as one and the music feels like a big truck rolling ` +
+      `down a highway out of control, the epitome of '74, yet one-of-a-kind". One reviewer also ` +
+      `called out "Phil takes the lead on Spanish Jam and drives the band into the best? version of ` +
+      `1974". One well-sourced listener does caution that the SBD has issues — Bobby's guitar drops ` +
+      `out repeatedly — and recommends the matrix or AUD over the SBD/OFF for much of the show.`,
+    listenFor:
+      `The once-played "Let It Rock" is the rarity flag here — one reviewer couldn't get over why ` +
+      `it didn't get more play: "I will never understand. A perfect match for the bebob belooha ` +
+      `screech and scratchin that is the first half of the 70's". The "To Lay Me Down" drew ` +
+      `attention as "a best-ever candidate" for the solo. One reviewer zeroed in on a specific ` +
+      `moment in Cumberland Blues: "listen @5mins when Jer briefly quotes Hank Garland's Sugar Foot ` +
+      `Rag". On the source question, the matrix (122270_mtx_tobin) is flagged as "crucial" and the ` +
+      `upgraded SBD (122255_upg-sbd_smith-tobin) addresses pitch issues in the original cribbs ` +
+      `recording, which "ran 1% fast in many places".`,
+    context:
+      `June 1974 sits squarely in the Wall of Sound era, when the Dead were road-testing one of the ` +
+      `most elaborate live sound systems ever built. This show was played at the Miami Jai-Alai ` +
+      `Fronton — an unusual venue — and was officially released as Dave's Picks Vol. 34, making it ` +
+      `one of the few Wall of Sound shows to receive a full archival release. The best available ` +
+      `recording is a soundboard (gd74-06-23.sbd.cribbs.16780.sbeok.shnf), though the matrix and ` +
+      `AUD transfers are widely considered better options for much of the show. One reviewer notes ` +
+      `this was also "the first Phil & Ned Seastones" of the tour, a detail that places it as a ` +
+      `minor historical marker within the summer '74 run.`,
+    funFact:
+      `"Let it Rock" was only played once by the Dead, and one listener traces why the band even ` +
+      `knew it: "the original Berry single was a Brit hit (not stateside)" and Jerry had been ` +
+      `playing it in Garcia & Saunders sets.`,
+    communityVoices: [
+      { quote: "The jam into Ship of Fools is a masterpiece in miniature.", attribution: "dr. flashback, on Ship of Fools", source: "Archive.org review" },
+      { quote: "This is a missing link show Played before the year off 75 They came back 76 A polished act", attribution: "sailler, on context", source: "Archive.org review" },
+      { quote: "As the Spanish Jam evolves toward what turns out to be US Blues, there's a breaking point where the band emerges as one and the music feels like a big truck rolling down a highway out of control", attribution: "Quincy, on Spanish Jam > U.S. Blues", source: "Archive.org review" },
+      { quote: "Keith is all over this show... the real ivory jangler. How can you not love young Bobs voice?", attribution: "skullsnroses", source: "Archive.org review" },
+      { quote: "Tempos often bogged in '74 and The Wall of Sound tended to record in a flatter, less engaging way, with an undynamic image, but put that aside and there is much of note from this night.", attribution: "Mind Wondrin", source: "Archive.org review" },
     ],
     headyversionRanks: [],
   },
