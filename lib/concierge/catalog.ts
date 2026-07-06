@@ -2200,6 +2200,222 @@ export const CATALOG: ConciergeShow[] = [
     headyversionRanks: [],
   },
 
+  // ── 37. 8/6/74 Roosevelt Stadium — the Eyes of the World ────
+  {
+    id: "gd-1974-08-06",
+    date: "1974-08-06",
+    venue: "Roosevelt Stadium",
+    city: "Jersey City",
+    state: "NJ",
+    setlist: [
+      "Bertha", "Beat It On Down the Line", "Brown-Eyed Women",
+      "Big River", "Mississippi Half-Step", "Mexicali Blues",
+      "Tennessee Jed", "Jack Straw", "Loser",
+      "Black Throated Wind", "Eyes of the World",
+      "China Cat Sunflower", "I Know You Rider",
+      "Promised Land",
+      "Playing in the Band", "Scarlet Begonias", "Playing in the Band (reprise)",
+      "It Must Have Been the Roses",
+      "Truckin'", "Drums", "Not Fade Away",
+      "Goin' Down the Road Feeling Bad", "Not Fade Away (reprise)",
+      "U.S. Blues",
+    ],
+    archiveUrl: "https://archive.org/details/gd74-08-06.merin.weiner.gdADT.5914.sbefail.shnf",
+    era: "wall-of-sound",
+    moods: ["triumphant", "psychedelic", "high-energy", "joyful"],
+    styles: ["jam", "experimental", "jazz-space"],
+    audioQuality: "good",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dick's Picks Vol. 31 (8/4-6/74)"],
+    headline: "Wall of Sound, Jersey City, August '74 — all of it.",
+    whyThisShow:
+      `This is a Wall of Sound summer night in Jersey City, outdoors at a minor-league baseball ` +
+      `stadium two miles from the Statue of Liberty, and the band came in hot. One reviewer called ` +
+      `it a "Best of '74 contender" and noted that the first set had "hardly any pauses, the band ` +
+      `just wants to go go go". The centerpiece of the first set is a Playing in the Band > Scarlet ` +
+      `Begonias > Playing reprise that one listener described as "37 minutes of playing as amazing ` +
+      `as the Dead ever got in 1974". The second set closes out with a massive sequence — Sugar ` +
+      `Magnolia through He's Gone, Truckin', Spanish Jam, The Other One, Going Down the Road ` +
+      `Feeling Bad, and Sunshine Daydream — that one reviewer called "a solid hour of ` +
+      `improvisational magic from the heavens". One real caveat: the raw soundboard carries the ` +
+      `Wall of Sound's recording limitations, and at least one reviewer flagged "that persistant ` +
+      `flat and farty sound to the vocals and that tinny drum sound" — the Dick's Picks 31 release ` +
+      `mitigates this somewhat, but it's worth knowing going in.`,
+    listenFor:
+      `Start with the Eyes of the World — one listener heard "a Slipknot theme buried" in the outro ` +
+      `jam and called it "one of the best Eyes out there". In the Playing sandwich, watch for the ` +
+      `moment around the 16-minute mark where one reviewer noted "the jam is in a completely ` +
+      `different place" before Phil starts "laying down some powerful notes" and it pushes into ` +
+      `exploratory territory. In the second set, don't skip past the Spanish Jam — one reviewer ` +
+      `specifically flagged the "well developed Spanish Jam" as a highlight not to miss. Also worth ` +
+      `noting: Bobby flubs the Truckin' lyrics and "literally says 'Whoops!' into the microphone ` +
+      `before recovering". And if you want to hear what the Wall of Sound actually sounded like ` +
+      `from inside the room, at least one reviewer recommends cross-referencing the audience ` +
+      `recording alongside the soundboard.`,
+    context:
+      `August 6, 1974 fell between the two-night Philly run (August 4–5) and the band's departure ` +
+      `for the legendary Alexandra Palace shows in England that September. The recording here is a ` +
+      `soundboard (identifier: gd74-08-06.sbd.deadlists.1463.sbeok.shnf), and portions of the show ` +
+      `were released officially on Dick's Picks Vol. 31, though that release was not complete. One ` +
+      `reviewer noted the show "was a well-traded show long before a few lesser parts were released ` +
+      `on Dick's Picks #31" and that "because Dick's 31 wasn't complete, it misses the best stuff ` +
+      `and loses the sense of the purposeful development of the show". This was also one of the ` +
+      `last shows before Mickey Hart rejoined the band, with one reviewer observing that Billy's ` +
+      `"propulsion and extra fills" may be part of what drives the energy.`,
+    funFact:
+      `Bobby stopped the show mid-set to police the crowd, and his instruction — "Don't climb on ` +
+      `the fence, idiot" — caught on tape as what one reviewer called "a humorous bit of advice to ` +
+      `the fans that tried to scale the barbed wire topped barrier in front of the stage".`,
+    communityVoices: [
+      { quote: "Every single member is freaking spanking Eyes in a top 20 all-time version. This is where Jer was a genius - who else could come up with that many variations and themes?", attribution: "Mind Wondrin, on Eyes of the World", source: "Archive.org review" },
+      { quote: "Eyes blows my doors off! The first verse solo has a screeching Jerry solo. The 2nd verse jam finds yet more energy in this already energetic show.", attribution: "kochman, on Eyes of the World", source: "Archive.org review" },
+      { quote: "It's 37 minutes of playing as amazing as the Dead ever got in 1974.", attribution: "Darrylizer, on the Playing>Scarlet>Playing sandwich", source: "Archive.org review" },
+      { quote: "somewhere during the 1st set EYES this show just builds momentum but even before that Phil is up in the mix. Weir is pretty animated and Garcia is well Garcia!", attribution: "c-freedom, on the first set", source: "Archive.org review" },
+      { quote: "this is a solid hour of improvisational magic from the heavens. Great Jerry leads, a few Phil bombs and a great team effort all around.", attribution: "mgags, on the second set closing sequence", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 38. 2/24/74 Winterland — Dark Star > Morning Dew ────────
+  {
+    id: "gd-1974-02-24",
+    date: "1974-02-24",
+    venue: "Winterland Arena",
+    city: "San Francisco",
+    state: "CA",
+    setlist: [
+      "U.S. Blues", "Mexicali Blues", "Brown-Eyed Women",
+      "Beat It On Down the Line", "Loser",
+      "Jack Straw", "Sugaree", "Money Money",
+      "Row Jimmy", "El Paso", "China Cat Sunflower",
+      "I Know You Rider", "Around and Around",
+      "Weather Report Suite",
+      "He's Gone", "Truckin'",
+      "Dark Star", "Morning Dew",
+      "Sugar Magnolia", "It's All Over Now Baby Blue",
+    ],
+    archiveUrl: "https://archive.org/details/gd74-02-24.sbd.windsor.199.sbefail.shnf",
+    era: "wall-of-sound",
+    moods: ["psychedelic", "dark", "emotional", "meditative"],
+    styles: ["experimental", "jam", "jazz-space"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 13"],
+    headline: "Last night of the honey year, Winterland, February '74.",
+    whyThisShow:
+      `This is the last night of what one listener called "The Honey Year" — the run of shows from ` +
+      `late 1973 into early 1974 where Jerry's guitar ran clean and warm, barely touched by ` +
+      `distortion pedals. The Wall of Sound debuted at the very next show on March 23rd, so this ` +
+      `Winterland date sits at a genuine hinge point in the band's evolution. One reviewer did flag ` +
+      `that some listeners find the pace too restrained, so if you need the Dead at full throttle ` +
+      `this may not be your first stop. But for heads who love the laid-back, jazzy side of the ` +
+      `band, this whole February Winterland run is regarded as essential, and the 24th is one of ` +
+      `its peaks.`,
+    listenFor:
+      `The China Cat > Rider transition is a particular standout — the UJB-like segue jam drew one ` +
+      `reviewer to call it "the best ever UJB-like segue jam" of that entire era, noting that ` +
+      `"Jerry's tone is just crystal clear and in your face". The Jack Straw also drew specific ` +
+      `attention, described as one of the top five ever with licks that are "so f-ing smooth". Row ` +
+      `Jimmy stood out to one listener as "really slowed down and almost reggae like" with notable ` +
+      `slide guitar work from Jerry. The Morning Dew closes the main set and is the performance ` +
+      `that prompted one reviewer's most intense praise — they recommend listening with the volume ` +
+      `high to catch the moments where Jerry "fizzles the notes away" at the end.`,
+    context:
+      `Recorded at Winterland Arena in San Francisco on February 24, 1974, this show falls squarely ` +
+      `in the wall-of-sound era, though the Wall of Sound PA system itself had not yet been ` +
+      `deployed — that happened at the next show on March 23rd. The recording circulates as a ` +
+      `soundboard (identifier: gd74-02-24.sbd.windsor.199.sbefail.shnf) and was officially released ` +
+      `as Dave's Picks Vol. 13. One reviewer rated it "the best sound quality for any 1974 show on ` +
+      `this archive". The show is part of a celebrated Winterland run that included February 22nd ` +
+      `and 23rd, all of which reviewers recommend getting together.`,
+    funFact:
+      `One listener described a recurring out-of-body experience while playing the Morning Dew in ` +
+      `the dark with a candle lit, writing that their "spirit and soul is litterally transported ` +
+      `back to 1974" and that they can "feel the energy" of Winterland — and specifically notes ` +
+      `this happened "without LSD".`,
+    communityVoices: [
+      { quote: "The Morning Dew is the best ever!!!", attribution: "Wings A Mile Long, on Morning Dew", source: "Archive.org review" },
+      { quote: "of all the UJB-like segues from China>Rider from late 1973-1974, this is my favorite", attribution: "hyperboy, on China Cat > Rider", source: "Archive.org review" },
+      { quote: "this show is the last of \"The Honey Year,\" imo", attribution: "pulp79, on era", source: "Archive.org review" },
+      { quote: "loser just SPARKLES. and OMG...that row jimmy coming out of LIG is just amazing! really slowed down and almost reggae like", attribution: "clementinescaboose, on Loser and Row Jimmy", source: "Archive.org review" },
+      { quote: "I have noticed that some individuals have remarked that the pace is too restrained here.", attribution: "dreatimeland", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 39. 7/19/74 Selland Arena Fresno — Phil-forward ─────────
+  {
+    id: "gd-1974-07-19",
+    date: "1974-07-19",
+    venue: "Selland Arena",
+    city: "Fresno",
+    state: "CA",
+    setlist: [
+      "U.S. Blues", "Mexicali Blues", "Brown-Eyed Women",
+      "Beat It On Down the Line", "Tennessee Jed",
+      "Jack Straw", "Scarlet Begonias", "El Paso",
+      "Mississippi Half-Step", "Around and Around",
+      "Weather Report Suite", "Let It Grow",
+      "Spanish Jam", "Eyes of the World",
+      "China Doll",
+      "Playing in the Band",
+      "Wharf Rat", "Sugar Magnolia",
+      "U.S. Blues",
+    ],
+    archiveUrl: "https://archive.org/details/gd74-07-19.sbd.symons.12381.sbeok.shnf",
+    era: "wall-of-sound",
+    moods: ["psychedelic", "high-energy", "meditative"],
+    styles: ["jam", "experimental", "jazz-space"],
+    audioQuality: "pristine",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 17"],
+    headline: "Phil owns the second set, Fresno, July '74.",
+    whyThisShow:
+      `This is a Wall of Sound-era show with an officially released soundboard (Dave's Picks Vol. ` +
+      `17), and the community keeps returning to it for the second-set sequence that starts with ` +
+      `Weather Report Suite and runs through Spanish Jam, Eyes of the World, and China Doll. One ` +
+      `reviewer called it "one of the most powerful passages in the history or Western ` +
+      `civilization". The Weather Report Suite in particular draws outsized praise, with one ` +
+      `listener calling it "the hands down winner for best ever". The first set holds up on its own ` +
+      `terms too, with Scarlet Begonias drawing notice for Garcia deploying "some sick distortion ` +
+      `for the first part of the jam" — something one listener said they hadn't heard in another ` +
+      `version. There is one known tape flaw: a cut in Let It Grow and an audience-sourced "One ` +
+      `More Saturday Night" closer.`,
+    listenFor:
+      `Start with the Weather Report Suite into Let It Grow — reviewers describe the Let It Grow as ` +
+      `"furious" and "manic," with Garcia and Lesh intertwining "like lightning and thunder". The ` +
+      `Spanish Jam that follows is led by Lesh, and one listener warned it is "quite scary for the ` +
+      `uninitiated" and recommended that new fans "probably wait a bit before listening to ` +
+      `something this heavy, this thick". Phil's playing is a through-line worth tracking across ` +
+      `the whole show — one reviewer noted a "spectacular Playin' where phil really lets loose," ` +
+      `then added that the second set is "nothing compared to the ridiculous 2nd set, where he just ` +
+      `goes crazy". The first-set Scarlet Begonias is worth a separate listen for the unusual ` +
+      `Garcia distortion tone.`,
+    context:
+      `July 1974 falls squarely in the Wall of Sound touring period, when the Dead were running the ` +
+      `massive custom PA system built by Owsley and the crew. This show at Selland Arena in Fresno ` +
+      `was released officially as Dave's Picks Vol. 17, putting it in a small group of '74 dates ` +
+      `that received the band's direct endorsement. The best-circulating recording is a soundboard ` +
+      `(identifier: gd74-07-19.sbd.symons.12381.sbeok.shnf). One listener noted that by this point ` +
+      `in the summer, the material was sounding "completely different than what was happening on ` +
+      `tour in May-June".`,
+    funFact:
+      `One listener noted that on the China Doll, "jerry kinda toys with the mars hotel opening ` +
+      `notes" — a bit of in-show self-reference that makes this version worth comparing to the ` +
+      `studio recording.`,
+    communityVoices: [
+      { quote: "One of the most powerful passages in the history or Western civilization. The Let it Grow is furious. Manic. Perfect.", attribution: "Dstone5553, on WRS through China Doll", source: "Archive.org review" },
+      { quote: "the WRS is the hands down winner for best ever, and the Spanish is also easily the best of the many in '74", attribution: "clementinescaboose, on Weather Report Suite and Spanish Jam", source: "Archive.org review" },
+      { quote: "He's gone and china doll are favorites of mine that really standout, but the whole show is just absolutely fantastic.", attribution: "Let it Bleed, on China Doll and He's Gone", source: "Archive.org review" },
+      { quote: "This is simply, a REALLY GREAT SHOW!!!!! - PERIOD", attribution: "Garrick III", source: "Archive.org review" },
+      { quote: "My only complaint is there is a cut in LIG, and considering OMSN is Aud, there might be a patch out there for this hole?", attribution: "rollandfin, on tape issues", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
   // ── 40. 8/13/75 Great American Music Hall — One From the Vault ─
   {
     id: "gd-1975-08-13",
@@ -2273,6 +2489,212 @@ export const CATALOG: ConciergeShow[] = [
       { quote: "Oh Phil's bass on that EYES intro !!", attribution: "c-freedom, on Eyes of the World", source: "Archive.org review" },
       { quote: "If there was ever a Dead Show that I could go back in time & see in person, this is probably the one I would choose.", attribution: "Dean1067", source: "Archive.org review" },
       { quote: "Jerry tickles your spine with his fast finger work on King Solomon's Marbles", attribution: "Tie-Dyed Tom, on King Solomon's Marbles", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 41. 5/15/70 Fillmore East — acoustic and electric ──────
+  {
+    id: "gd-1970-05-15",
+    date: "1970-05-15",
+    venue: "Fillmore East",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "Don't Ease Me In", "Friend of the Devil",
+      "Dire Wolf", "Black Peter", "Cold Jordan",
+      "Candyman", "Cumberland Blues",
+      "Casey Jones", "Uncle John's Band",
+      "Cold Rain and Snow", "Hard to Handle",
+      "Big Boss Man", "China Cat Sunflower", "I Know You Rider",
+      "Good Lovin'", "Dark Star", "St. Stephen",
+      "Not Fade Away", "Turn On Your Lovelight",
+      "And We Bid You Goodnight",
+    ],
+    archiveUrl: "https://archive.org/details/gd70-05-15.early-late.sbd.97.sbeok.shnf",
+    era: "early-70s",
+    moods: ["mellow", "psychedelic", "joyful", "meditative"],
+    styles: ["acoustic", "country-folk", "jam", "experimental"],
+    audioQuality: "good",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Road Trips Vol. 3 No. 3"],
+    headline: "Fillmore East, May '70, four sets deep.",
+    whyThisShow:
+      `This is a four-set night at the Fillmore East that captures the Dead and the New Riders of ` +
+      `the Purple Sage sharing a stage, and the combination is what makes it canonical. One ` +
+      `reviewer called it the kind of show where "people talk about years afterward and say 'I was ` +
+      `there, best concert I ever saw'". The show landed the same month Workingman's Dead was ` +
+      `released, and one listener put it plainly: "It's like hearing the Workingman's album live!". ` +
+      `The NRPS material — "Last Lonely Eagle, All I Ever Wanted, Henry" — drew special praise even ` +
+      `from a self-described non-country listener. The show was eventually released officially as ` +
+      `Road Trips Vol. 3 No. 3, and reviewers were anticipating that outcome years before it ` +
+      `happened.`,
+    listenFor:
+      `The acoustic early set is the first thing multiple listeners reach for: one reviewer ` +
+      `described the first disc as something they found themselves "just playing the first disc ` +
+      `over and over and over". Pigpen is a specific draw, with one listener calling him ` +
+      `"absolutely on fire during the Rub and Lovelight". The Dark Star in the late show has a ` +
+      `structural curiosity worth noting — it includes "about 30 seconds of near silence after the ` +
+      `first verse". One reviewer singled out the Black Peter and Cumberland Blues as standouts. ` +
+      `The SBD recording draws consistent praise, described as "crystal clear, crisp and bright", ` +
+      `though a few cuts and edits in some numbers are noted.`,
+    context:
+      `May 15, 1970 at the Fillmore East was a double-bill evening with the New Riders of the ` +
+      `Purple Sage opening and sitting in, giving the night four sets total. The era is early-70s, ` +
+      `right at the hinge point when the Dead were moving into the acoustic/electric format that ` +
+      `produced Workingman's Dead. The recording circulates as a soundboard (identifier: ` +
+      `gd70-05-15.early-late.sbd.97.sbeok.shnf) and was eventually released officially on Road ` +
+      `Trips Vol. 3 No. 3. One reviewer noted the Archive has a habit of pulling full shows once a ` +
+      `portion goes commercial, and urged listeners to grab the NRPS material before it ` +
+      `disappeared.`,
+    funFact:
+      `The stage banter includes an introduction where someone promises to "evoke your collective ` +
+      `sense of piouty," to which Jerry adds "we're going to end this set, right here and now".`,
+    communityVoices: [
+      { quote: "What makes this show really special and something to treasure is the addition of the NRPS songs: Last Lonely Eagle, All I Ever Wanted, Henry. . . hauntingly beautiful", attribution: "cugel, on the NRPS sets", source: "Archive.org review" },
+      { quote: "It's like hearing the Workingman's album live! (It was released in May 1970). This show is the Dead on the verge of being the supergroup they became in the 70's.", attribution: "dr. flashback", source: "Archive.org review" },
+      { quote: "a nice Dark Star that includes about 30 seconds of near silence after the first verse", attribution: "Ianuaditis, on Dark Star", source: "Archive.org review" },
+      { quote: "it's like a timecapsule from 35 years ago. You need to experience it for yourself, get this show, right here and now.", attribution: "DeadHead5877", source: "Archive.org review" },
+      { quote: "The sound on this bootleg is crystal clear, crisp and bright - very well done.", attribution: "drew8, on recording quality", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 43. 3/26/72 Academy of Music NYC — Dave's Picks 14 ─────
+  {
+    id: "gd-1972-03-26",
+    date: "1972-03-26",
+    venue: "Academy of Music",
+    city: "New York",
+    state: "NY",
+    setlist: [
+      "Greatest Story Ever Told", "Sugaree", "Me and My Uncle",
+      "China Cat Sunflower", "I Know You Rider",
+      "Black Throated Wind", "Big Railroad Blues",
+      "The Stranger (Two Souls in Communion)",
+      "Loser", "Beat It On Down the Line",
+      "El Paso", "Tennessee Jed",
+      "Truckin'", "The Other One", "Me and My Uncle",
+      "The Other One", "Wharf Rat",
+      "Sugar Magnolia",
+    ],
+    archiveUrl: "https://archive.org/details/gd1972-03-26.133303.sbd.miller.flac16",
+    era: "europe-72",
+    moods: ["high-energy", "psychedelic", "joyful", "triumphant"],
+    styles: ["rock", "jam", "blues"],
+    audioQuality: "pristine",
+    significance: "classic",
+    bestFor: ["exploring", "head"],
+    releasedAs: ["Dave's Picks Vol. 14"],
+    headline: "That Other One at the Academy, days before Europe.",
+    whyThisShow:
+      `This is a pre-Europe '72 warmup at the Academy of Music, officially released as Dave's Picks ` +
+      `Vol. 14, and the community treats it as a genuine peer to the European run. One listener ` +
+      `said the show is "as good as any night in Europe later in the year" and found it "maybe even ` +
+      `worth mentioning in the same sentence as the Creamery gig". It's also a Keith Godchaux ` +
+      `introduction night — one reviewer noted that "Phil introduces Keith as the new piano ` +
+      `player". The second set, built around a Truckin' → The Other One → Me and My Uncle → The ` +
+      `Other One sequence, is where listeners feel the show earns its reputation, with one calling ` +
+      `it simply "MAGICAL". One listener does flag that "they kinda space at times but when they ` +
+      `jam it's blazin'"; that caveat is the minority read on a show the broader community regards ` +
+      `as a classic.`,
+    listenFor:
+      `The second-set Truckin' jam leading into The Other One sequence is the centerpiece — one ` +
+      `listener flagged "the jam at the end of Truckin', & then The Other One-> Me & My Uncle-> The ` +
+      `Other One" as the highlight. The Stranger (Two Souls in Communion) is a genuine rarity; one ` +
+      `reviewer noted being a long-time listener who had "never heard of this song" from the Dead ` +
+      `before encountering this show. On the Looks Like Rain, one listener heard Jerry sounding ` +
+      `"like he is playing the pedal steel" and called the result "perfectly magical". Weir is ` +
+      `notably prominent in the mix, something one listener specifically welcomed given the ` +
+      `Weir-heavy setlist character of this date.`,
+    context:
+      `March 26, 1972 at the Academy of Music in New York, just weeks before the band departed for ` +
+      `Europe. The recording is a soundboard (identifier: gd1972-03-26.133303.sbd.miller.flac16), ` +
+      `transferred by Charlie Miller, and was officially released as Dave's Picks Vol. 14. The ` +
+      `setlist includes the rarely-played The Stranger (Two Souls in Communion) alongside what ` +
+      `would become Europe '72 staples.`,
+    funFact:
+      `One reviewer, crediting the tape transfer, called Charlie Miller "Time magazine's Man of the ` +
+      `year!!!"`,
+    communityVoices: [
+      { quote: "the '2nd set' gets MAGICAL. That's the best way I know how to put it.", attribution: "Dean1067", source: "Archive.org review" },
+      { quote: "Phil introduces Keith as the new piano player. The sound quality is absolutely fantastic.", attribution: "jpos", source: "Archive.org review" },
+      { quote: "Five stars for the set list Five stars for the mix Five stars for no Donna", attribution: "Mlevy420", source: "Archive.org review" },
+      { quote: "Mr. Weir mixed right up front where he belongs (particularly on this date!)", attribution: "Chris U., on mix balance", source: "Archive.org review" },
+      { quote: "They kinda space at times but when they jam it's blazin'", attribution: "c-freedom", source: "Archive.org review" },
+    ],
+    headyversionRanks: [],
+  },
+
+  // ── 44. 2/9/73 Maples Pavilion Stanford — debut night ──────
+  {
+    id: "gd-1973-02-09",
+    date: "1973-02-09",
+    venue: "Maples Pavilion (Stanford University)",
+    city: "Stanford",
+    state: "CA",
+    setlist: [
+      "Bertha", "Mexicali Blues", "Wave That Flag",
+      "Black Throated Wind", "Loser", "Beat It On Down the Line",
+      "Brown-Eyed Women", "Box of Rain", "Sugaree",
+      "El Paso", "Don't Ease Me In",
+      "Here Comes Sunshine", "Around and Around",
+      "Playing in the Band", "China Cat Sunflower",
+      "I Know You Rider", "Big Railroad Blues",
+      "They Love Each Other", "Looks Like Rain",
+      "Truckin'", "Eyes of the World", "China Doll",
+      "Sugar Magnolia",
+      "Casey Jones",
+    ],
+    archiveUrl: "https://archive.org/details/gd73-02-09.sbd.allred.9888.sbeok.shnf",
+    era: "wall-of-sound",
+    moods: ["joyful", "high-energy", "mellow", "psychedelic"],
+    styles: ["rock", "jam", "country-folk"],
+    audioQuality: "pristine",
+    significance: "legendary",
+    bestFor: ["exploring", "head"],
+    headline: "Eyes of the World born at Stanford, February '73.",
+    whyThisShow:
+      `February 9, 1973 at Maples Pavilion is a landmark night simply because of what the band was ` +
+      `premiering: Eyes of the World, Here Comes Sunshine, China Doll, They Love Each Other, Row ` +
+      `Jimmy, and Wave That Flag all played live for the first time. One listener noted that "Here ` +
+      `Comes Sunshine comes off a lot smoother" than other debuts that night, adding "it sounds ` +
+      `like they've been playing this one for a while". The second-set run of Truckin' into Eyes ` +
+      `into China Doll is what the community consistently points to as the heart of the show, with ` +
+      `one reviewer still getting "goose bumps 25 years later" from that Eyes performance. One ` +
+      `reviewer summed up the band's operating level by reaching for the Bill Graham quote: ` +
+      `"they're not just the best at what they do, they're the ones who do what they do". The Casey ` +
+      `Jones encore is missing from the best-circulating recording, which one listener noted with ` +
+      `some personal relief given their view that it is "probably the most over rated dead song ` +
+      `ever".`,
+    listenFor:
+      `The Eyes of the World is the centerpiece — a first-ever performance that listeners ` +
+      `consistently describe as sounding seasoned and assured, with one reviewer noting it "sounds ` +
+      `like they been playing it for years". The Playing in the Band draws specific praise for ` +
+      `creativity, described as "very creative" with "nice jams". In the second set, China Cat into ` +
+      `I Know You Rider gets a direct endorsement: "China->Rider smokes!". The Sugaree from the ` +
+      `first set is the song one reviewer was blasting loud enough to convert a self-described ` +
+      `Dead-hater in a drive-through line. The soundboard tape has a character one listener called ` +
+      `"crunchy" — their best word for a texture they found distinct even among other '73 SBDs.`,
+    context:
+      `This show falls in the pre-Wall of Sound era of 1973, a period the community broadly regards ` +
+      `as one of the band's creative peaks. The recording circulates as a soundboard (identifier: ` +
+      `gd73-02-09.sbd.bertha-fink.14939.sbeok.shnf) and has never received an official release, ` +
+      `which makes its canonical standing among fans entirely community-driven. The night served as ` +
+      `the world premiere for at least six songs that would become staples — Eyes of the World, ` +
+      `Here Comes Sunshine, China Doll, They Love Each Other, Row Jimmy, and Wave That Flag — ` +
+      `making it one of the densest debut nights in the band's catalog.`,
+    funFact:
+      `One reviewer gave away their only low-generation copy of this tape to a stranger at a ` +
+      `drive-through who had just heard the Sugaree for the first time and immediately started ` +
+      `"rocking out to it".`,
+    communityVoices: [
+      { quote: "how exactly do you play a song for the first time and make it sound unbelievable? you dont... unless of course you are the dead.", attribution: "eyezoftheworld, on the debut performances", source: "Archive.org review" },
+      { quote: "The first Eyes sounds like they are having fun with it and sounds like they been playing it for years.", attribution: "WharfRatDude, on Eyes of the World", source: "Archive.org review" },
+      { quote: "the Eyes sounds as if they've been playing it for years, and it STILL gives me goose bumps 25 years later to hear how great this performance is.", attribution: "tree-ap03, on Eyes of the World", source: "Archive.org review" },
+      { quote: "You can convert anyone!", attribution: "Deren Ney, on the Sugaree", source: "Archive.org review" },
+      { quote: "when we get to Mexicali blues followed by brown eyed woman, I thought that this is a band at its peak.", attribution: "Joseph Zarzycki, on the first-set run", source: "Archive.org review" },
     ],
     headyversionRanks: [],
   },
